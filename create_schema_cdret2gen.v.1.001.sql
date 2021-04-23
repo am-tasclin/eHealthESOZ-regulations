@@ -46,14 +46,16 @@ CREATE TABLE cdret2gen.doc (
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (14, 'folder', NULL); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (17, 'doc', NULL); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (18, 'element', 17); 
+INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (20, 'UUID', 18); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (22, 'string', 18); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (23, 'integer', 18); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (24, 'double', 18); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (25, 'timestamp', 18); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (26, 'date', 18); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (27, 'object', 18); 
+-- array of objects
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (28, 'array', 18); 
-INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (29, 'boolean', 18); 
+-- array of simple types
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (30, 'UUID', 18); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (32, 'string', 28); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (33, 'integer', 28); 
@@ -127,6 +129,17 @@ CREATE TABLE cdret2gen.sort (
 	CONSTRAINT c2g_f__doc_sort FOREIGN KEY (sort_id) REFERENCES cdret2gen.doc(doc_id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
+-- DROP TABLE cdret2gen.string_u;
+CREATE TABLE cdret2gen.string_u (
+	string_u_id int4 NOT NULL,
+	group_id int4 NOT NULL,
+	value varchar(100),
+	CONSTRAINT c2g_p__string_u PRIMARY KEY (string_u_id),
+	CONSTRAINT c2g_unq__string_u UNIQUE (group_id, value),
+	CONSTRAINT c2g_f__doc_string_u FOREIGN KEY (string_u_id) REFERENCES cdret2gen.doc(doc_id) ON UPDATE CASCADE ON DELETE CASCADE,
+	CONSTRAINT c2g_f__doctype_string_u FOREIGN KEY (group_id) REFERENCES cdret2gen.doctype(doctype_id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
 -- END: Content --
 
 
@@ -148,6 +161,16 @@ CREATE TABLE cdret2gen.code (
 	code int4 NOT NULL DEFAULT nextval('codeid'::regclass),
 	CONSTRAINT c2g_p__code_id PRIMARY KEY (code_id),
 	CONSTRAINT c2g_f__doc_code FOREIGN KEY (code_id) REFERENCES cdret2gen.doc(doc_id) ON UPDATE CASCADE
+);
+
+
+-- DROP TABLE cdret2gen.uuid;
+CREATE TABLE cdret2gen.uuid (
+	uuid_id int4 NOT NULL,
+	value varchar(36),
+	CONSTRAINT c2g_p__uuid PRIMARY KEY (uuid_id),
+	CONSTRAINT c2g_unq__uuid UNIQUE (value),
+	CONSTRAINT c2g_f__doc_uuid FOREIGN KEY (uuid_id) REFERENCES cdret2gen.doc(doc_id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- END: Translate --
