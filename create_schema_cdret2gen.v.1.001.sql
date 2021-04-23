@@ -56,7 +56,7 @@ INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (27, 'obje
 -- array of objects
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (28, 'array', 18); 
 -- array of simple types
-INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (30, 'UUID', 18); 
+INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (30, 'UUID', 28); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (32, 'string', 28); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (33, 'integer', 28); 
 INSERT INTO cdret2gen.doctype (doctype_id, doctype, parent_id) VALUES (34, 'double', 28); 
