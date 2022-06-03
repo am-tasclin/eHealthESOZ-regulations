@@ -189,7 +189,6 @@
       <element xsi:type="archimate:TechnologyInterface" name="Interface" id="id-55bc9f9ed3884bef893109012a02fcb6"/>
       <element xsi:type="archimate:TechnologyService" name="Service" id="id-879e6874bdc84956b67c80981fadebf9"/>
     </folder>
-    <element xsi:type="archimate:SystemSoftware" name="System Software" id="id-b21353482dc64e969ef4188c4bcbd117"/>
   </folder>
   <folder name="Motivation" id="id-b603347b6aab4af582163516ce373b1a" type="motivation">
     <folder name="Zachman" id="id-6f777afd7e9d4b54a7e7d0bd47c14597">
@@ -637,9 +636,6 @@
           <sourceConnection xsi:type="archimate:Connection" id="id-459c38d34ed54d65b0fcf621c612a664" source="id-c10ae0e257f74417ba5330ebb997ec79" target="id-d5ff698089f84184b360be0197d771ce" archimateRelationship="id-3ad60091ca8c4071be0fa888e2a1dcd2">
             <bendpoint startX="-24" startY="54" endX="-24" endY="-54"/>
           </sourceConnection>
-          <child xsi:type="archimate:DiagramObject" id="id-7277585d5e624fbd9b19c0cf83c942ae" archimateElement="id-b21353482dc64e969ef4188c4bcbd117">
-            <bounds x="63" y="19" width="120" height="55"/>
-          </child>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="2.Services-eHealth" id="id-6523cfac860041e6851bd6b48b2fa40e">
