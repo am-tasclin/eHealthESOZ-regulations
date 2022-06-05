@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="dHealth-Telemedicine-2" id="id-28a7ea26d083412998be7ef69359560a" version="4.9.0">
   <folder name="Strategy" id="id-cc5d1cc1f12948d4b6d73074b1f3ffa6" type="strategy">
-    <folder name="s" id="id-3bc5ca4b38cb447f89b349fac7e33521"/>
     <folder name="all" id="id-75f9acec6d194d289134efd81d9e5783">
       <element xsi:type="archimate:Capability" name="Developer pool" id="id-3be4f7c925b1420bac746515f10b486f"/>
       <element xsi:type="archimate:Capability" name="Встановлення вимог по формату і прокотолу обміну даних" id="id-a69bed5c55e44381a9b2d00a543a0730"/>
