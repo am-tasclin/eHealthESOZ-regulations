@@ -7,16 +7,6 @@
       <element xsi:type="archimate:Capability" name="Встановлення вимог по формату і прокотолу обміну даних" id="id-207a7b735f8847c0b068107b481c0d00"/>
     </folder>
     <folder name="2-regulations-eHealthESOZ-Strategy" id="id-59023fd845e141cc9e82ffc42ec906bb">
-      <folder name="PDCA" id="id-072f0fb0a2de48648ce37a90794af26b">
-        <element xsi:type="archimate:ValueStream" name="Act" id="id-44509f31db604301bb5aacb7e1b11b2a"/>
-        <element xsi:type="archimate:Capability" name="Do" id="id-60a4faa7dc2c4bbbbedbae365271628f"/>
-        <element xsi:type="archimate:Resource" name="Check" id="id-23d05fce1c36406e9ab9cad7a6082cb6"/>
-        <element xsi:type="archimate:CourseOfAction" name="Plan" id="id-86dc836efb9949a3a3f096d5d67ac8be"/>
-        <element xsi:type="archimate:Capability" name="Capability" id="id-c27254a1141a40d89946a61213985f6c"/>
-        <element xsi:type="archimate:CourseOfAction" name="Course of Action" id="id-5b4b386b25bb44758a8d02bbf72c235c"/>
-        <element xsi:type="archimate:Resource" name="Resource" id="id-782c6030c77c457f9d86e488e2fe6df1"/>
-        <element xsi:type="archimate:ValueStream" name="Value Stream" id="id-a73d92b33d8443f28c3211fab472f91b"/>
-      </folder>
       <folder name="dte3H" id="id-be85a52aa23045e195974c7d7c734dba">
         <element xsi:type="archimate:ValueStream" name="EBM" id="id-52d7b9401a8546a8b3f1cce4251fd302"/>
         <element xsi:type="archimate:Capability" name="IT" id="id-ce230655e62d4bd6aef3ed3040bb307d"/>
@@ -122,6 +112,16 @@
       <element xsi:type="archimate:Capability" name="FHIR API implementation" id="id-ba4b7918e099477e9e16725e9a60c926"/>
       <element xsi:type="archimate:ValueStream" name="FHIR implementation I" id="id-6b4bd7bb27af4adbb58ee3f8b74b7ef3"/>
       <element xsi:type="archimate:ValueStream" name="FHIR implementation II" id="id-0f40359b2e49491cb1b55082af6d44c0"/>
+    </folder>
+    <folder name="PDCA" id="id-072f0fb0a2de48648ce37a90794af26b">
+      <element xsi:type="archimate:ValueStream" name="Act" id="id-44509f31db604301bb5aacb7e1b11b2a"/>
+      <element xsi:type="archimate:Capability" name="Do" id="id-60a4faa7dc2c4bbbbedbae365271628f"/>
+      <element xsi:type="archimate:Resource" name="Check" id="id-23d05fce1c36406e9ab9cad7a6082cb6"/>
+      <element xsi:type="archimate:CourseOfAction" name="Plan" id="id-86dc836efb9949a3a3f096d5d67ac8be"/>
+      <element xsi:type="archimate:Capability" name="Capability" id="id-c27254a1141a40d89946a61213985f6c"/>
+      <element xsi:type="archimate:CourseOfAction" name="Course of Action" id="id-5b4b386b25bb44758a8d02bbf72c235c"/>
+      <element xsi:type="archimate:Resource" name="Resource" id="id-782c6030c77c457f9d86e488e2fe6df1"/>
+      <element xsi:type="archimate:ValueStream" name="Value Stream" id="id-a73d92b33d8443f28c3211fab472f91b"/>
     </folder>
     <element xsi:type="archimate:Capability" name="Обмін кращої практики            МІС-ЦБД-МІС" id="id-5bbc2fb186304ee18c5b9ff4b6fc1615"/>
     <element xsi:type="archimate:Capability" name="Обмін кращої практики        МІС-ЦБД-МІС" id="id-a53ad1431c964a729fed2c2d575397c6"/>
@@ -408,15 +408,6 @@
     <folder name="all-influence" id="id-9761e9963695468b838918d051d8935f"/>
     <folder name="all-association" id="id-f3ab15bc2dda47b18a84bd165ad673d8"/>
     <folder name="2-regulations-eHealthESOZ-Strategy" id="id-64228aff93004ca5bd77a89ecefc0fdb">
-      <folder name="PDCA" id="id-3debc7fc306940e0a993abd6fabce11e">
-        <element xsi:type="archimate:ServingRelationship" name="data driven decision" id="id-7b2e64fc8c6248e5b7156c57c39a22ae" source="id-60a4faa7dc2c4bbbbedbae365271628f" target="id-44509f31db604301bb5aacb7e1b11b2a"/>
-        <element xsi:type="archimate:RealizationRelationship" name="plan plan" id="id-e5d5dffc770a45d9a7de9534062659e6" source="id-44509f31db604301bb5aacb7e1b11b2a" target="id-86dc836efb9949a3a3f096d5d67ac8be"/>
-        <element xsi:type="archimate:ServingRelationship" name="achieve process" id="id-edfd62b773e448a79f771fcfa8b14661" source="id-60a4faa7dc2c4bbbbedbae365271628f" target="id-86dc836efb9949a3a3f096d5d67ac8be"/>
-        <element xsi:type="archimate:AssignmentRelationship" id="id-5a86c070186c47e7870b0a38d686060c" source="id-23d05fce1c36406e9ab9cad7a6082cb6" target="id-60a4faa7dc2c4bbbbedbae365271628f"/>
-        <element xsi:type="archimate:AssignmentRelationship" id="id-646bc140210f4132867640a51c7ab05d" source="id-23d05fce1c36406e9ab9cad7a6082cb6" target="id-44509f31db604301bb5aacb7e1b11b2a"/>
-        <element xsi:type="archimate:AssociationRelationship" id="id-693661034a534ce389fdb65efb93a4ce" source="id-23d05fce1c36406e9ab9cad7a6082cb6" target="id-7b2e64fc8c6248e5b7156c57c39a22ae" directed="true"/>
-        <element xsi:type="archimate:RealizationRelationship" name="create plan" id="id-f559cea9f5a044bfb2f1a07fecbb6b50" source="id-60a4faa7dc2c4bbbbedbae365271628f" target="id-86dc836efb9949a3a3f096d5d67ac8be"/>
-      </folder>
       <folder name="CarePlan EBM route" id="id-6607ef77cd8245ae851b2bb05e1f7648">
         <element xsi:type="archimate:InfluenceRelationship" id="id-de500bed35984439a3530bdf46446ba6" source="id-37995c0b7aa44e93bde8cb1eddb61e76" target="id-df16a883dc584c3385cd422ebd16dc50"/>
         <element xsi:type="archimate:FlowRelationship" id="id-ec732e3906d54996810df6e3af329490" source="id-a754ea090c66468ead91c744fccbaca0" target="id-9ce1f5e399ed42e0bb8e8dc8f07babf5"/>
@@ -627,6 +618,15 @@
       <element xsi:type="archimate:TriggeringRelationship" id="id-561e2315e5364927873adeb377e46d62" source="id-af271eaea70f4fb2a39d9cd14dea9cd2" target="id-f05257f018b1428ea1fedfae85f94244"/>
       <element xsi:type="archimate:TriggeringRelationship" id="id-3ad60091ca8c4071be0fa888e2a1dcd2" source="id-9cc826f29def4560824c1c6eb0a4dc5d" target="id-af2f2b08625e4441b495b8643ce13144"/>
       <element xsi:type="archimate:TriggeringRelationship" id="id-ba3f2969a4e64fa49daf6e7520998f10" source="id-af2f2b08625e4441b495b8643ce13144" target="id-9cc826f29def4560824c1c6eb0a4dc5d"/>
+    </folder>
+    <folder name="PDCA" id="id-3debc7fc306940e0a993abd6fabce11e">
+      <element xsi:type="archimate:ServingRelationship" name="data driven decision" id="id-7b2e64fc8c6248e5b7156c57c39a22ae" source="id-60a4faa7dc2c4bbbbedbae365271628f" target="id-44509f31db604301bb5aacb7e1b11b2a"/>
+      <element xsi:type="archimate:RealizationRelationship" name="plan plan" id="id-e5d5dffc770a45d9a7de9534062659e6" source="id-44509f31db604301bb5aacb7e1b11b2a" target="id-86dc836efb9949a3a3f096d5d67ac8be"/>
+      <element xsi:type="archimate:ServingRelationship" name="achieve process" id="id-edfd62b773e448a79f771fcfa8b14661" source="id-60a4faa7dc2c4bbbbedbae365271628f" target="id-86dc836efb9949a3a3f096d5d67ac8be"/>
+      <element xsi:type="archimate:AssignmentRelationship" id="id-5a86c070186c47e7870b0a38d686060c" source="id-23d05fce1c36406e9ab9cad7a6082cb6" target="id-60a4faa7dc2c4bbbbedbae365271628f"/>
+      <element xsi:type="archimate:AssignmentRelationship" id="id-646bc140210f4132867640a51c7ab05d" source="id-23d05fce1c36406e9ab9cad7a6082cb6" target="id-44509f31db604301bb5aacb7e1b11b2a"/>
+      <element xsi:type="archimate:AssociationRelationship" id="id-693661034a534ce389fdb65efb93a4ce" source="id-23d05fce1c36406e9ab9cad7a6082cb6" target="id-7b2e64fc8c6248e5b7156c57c39a22ae" directed="true"/>
+      <element xsi:type="archimate:RealizationRelationship" name="create plan" id="id-f559cea9f5a044bfb2f1a07fecbb6b50" source="id-60a4faa7dc2c4bbbbedbae365271628f" target="id-86dc836efb9949a3a3f096d5d67ac8be"/>
     </folder>
     <element xsi:type="archimate:SpecializationRelationship" name="еволюція" id="id-6e5ff73040f1435a9a738c6ee577cfee" source="id-3b9f1965c8aa4efaab2eb8d03512ae4c" target="id-2985088bc02f42a8880b17adfb85fe87"/>
     <element xsi:type="archimate:FlowRelationship" name="дані ЕМЗ REST JSON FHIR" id="id-2c6973bce7ec46f693115cead3e47467" source="id-f74e38ca202048898d3ad09f9aaeb544" target="id-625312252ecf436cb0dbca5a9196c8de"/>
@@ -1111,7 +1111,7 @@
             </sourceConnection>
           </child>
         </element>
-        <element xsi:type="archimate:ArchimateDiagramModel" name="Deming circle | ISO 9000" id="id-888cf9dc77a04002bc68d47833b63eb2">
+        <element xsi:type="archimate:ArchimateDiagramModel" name="PDCA | Deming circle | ISO 9000" id="id-888cf9dc77a04002bc68d47833b63eb2">
           <child xsi:type="archimate:DiagramObject" id="id-3f2649b6a28345ffa3f6724978b6976e" targetConnections="id-55e4d128ab494db18b026d4a9f7656c6 id-3693685616254eb1885646f1a765cebb id-97f97aab020d4dbb9c2bbca0a4d5a7ec" textPosition="1" archimateElement="id-86dc836efb9949a3a3f096d5d67ac8be">
             <bounds x="12" y="24" width="96" height="37"/>
           </child>
@@ -2008,11 +2008,8 @@
           <bounds x="12" y="96" width="169" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-0db12a7e2aa14887a905b05522ee3003" font="1|Sans|9.0|1|GTK|1|" textPosition="2" archimateElement="id-711e547fa4014be3a783cb5499047ea6">
-          <bounds x="156" y="144" width="313" height="97"/>
+          <bounds x="600" y="132" width="313" height="97"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-52c60bbd39d4450bb51a96c1caa2f3db" source="id-0db12a7e2aa14887a905b05522ee3003" target="id-e00d96957f5c49ff96c61e50890db5eb" archimateRelationship="id-689f164df0ff413c8fceb42c7b46ba98"/>
-          <child xsi:type="archimate:DiagramObject" id="id-e00d96957f5c49ff96c61e50890db5eb" targetConnections="id-52c60bbd39d4450bb51a96c1caa2f3db" archimateElement="id-5543212b875e411cbee830218dc374a0">
-            <bounds x="24" y="24" width="265" height="37"/>
-          </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-7dc4b4c83b564b6a9836f8fda7711fa9" textAlignment="1" textPosition="1" archimateElement="id-1c18fc36ca8c4f4b8cfb6c733d408cce">
           <bounds x="12" y="313" width="97" height="49"/>
@@ -2077,6 +2074,9 @@
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-b766a2576da14d2e965ac23f048e3981" textPosition="1" archimateElement="id-21886e932eef49a99b5c88229d492814" type="1">
           <bounds x="12" y="240" width="457" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e00d96957f5c49ff96c61e50890db5eb" targetConnections="id-52c60bbd39d4450bb51a96c1caa2f3db" archimateElement="id-5543212b875e411cbee830218dc374a0">
+          <bounds x="156" y="156" width="313" height="73"/>
         </child>
       </element>
     </folder>
