@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="am-BusinesPlan" id="id-927dc151b30d47ba99f753d3492fa7fd" version="4.9.0">
+  <folder name="Strategy" id="id-c1b0673f47384445bb9b4833e9e67499" type="strategy"/>
+  <folder name="Business" id="id-1ea17abbc7fd4decb84adac927db2933" type="business">
+    <element xsi:type="archimate:Product" name="OfficeWorkStation" id="id-3b65b58af57746a08c29cbe6d0d1a518"/>
+    <element xsi:type="archimate:Product" name="Busines Code Studio" id="id-3b3255a3ea8a49a3af8ff69997c3a3c3"/>
+  </folder>
+  <folder name="Application" id="id-00e56563c03e43e68a1893822df971ca" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="edMeDtOntology" id="id-3669760c7e1b42569e643ab011020d60"/>
+    <element xsi:type="archimate:ApplicationInterface" name="MCrDB | МКрДБ" id="id-3bc9651f54714c5189c1a2eae57f181d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="onSQL" id="id-f324d8fb408d4d29a63699cbc15b9946"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="noSQL-onSQL" id="id-68a222fb6b654213a724d645d32f3c6f"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-ad8b23014c0c44dba788eef168430b3c" type="technology"/>
+  <folder name="Motivation" id="id-7aaa5f3b517b4af1a2756da9ac9a0a7c" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-1f63af7ec858415c83f1adf9a259143e" type="implementation_migration"/>
+  <folder name="Other" id="id-566efe18d1f2443286cdb2e230b9bc20" type="other"/>
+  <folder name="Relations" id="id-e6e15213daf9407786e8ed585f45266e" type="relations">
+    <element xsi:type="archimate:RealizationRelationship" id="id-ee9a3e3f4f424686bc0448dd4a98a442" source="id-3669760c7e1b42569e643ab011020d60" target="id-3bc9651f54714c5189c1a2eae57f181d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-6dd227ed435048c185cc3f48ee0734d6" source="id-f324d8fb408d4d29a63699cbc15b9946" target="id-3bc9651f54714c5189c1a2eae57f181d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-b127ad238d24429abfec5301779c007a" source="id-68a222fb6b654213a724d645d32f3c6f" target="id-3669760c7e1b42569e643ab011020d60"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-3e24ec41fcc54098860b2a8cd08fa7af" source="id-68a222fb6b654213a724d645d32f3c6f" target="id-f324d8fb408d4d29a63699cbc15b9946"/>
+  </folder>
+  <folder name="Views" id="id-b7a6449c508b40ed8691de50851bcc25" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-427b29405e81481ba53954b5d8527a13">
+      <child xsi:type="archimate:DiagramObject" id="id-b5022c4f684b47bf92d327aabcb22867" targetConnections="id-7097a4f7704243f589d8e69b54319066 id-e76b7dd2cd10495eabce71d4cc83bbfe" textPosition="1" archimateElement="id-3669760c7e1b42569e643ab011020d60">
+        <bounds x="12" y="72" width="145" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-67b93594a0ea450084726c7c09172dd2" source="id-b5022c4f684b47bf92d327aabcb22867" target="id-b704f21f307b407ea6f8af408ff403eb" archimateRelationship="id-ee9a3e3f4f424686bc0448dd4a98a442"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-e99f97102df44102bcca5682f28ea8a5" textAlignment="1" textPosition="1">
+        <bounds x="192" y="72" width="421" height="49"/>
+        <sourceConnection id="id-7097a4f7704243f589d8e69b54319066" source="id-e99f97102df44102bcca5682f28ea8a5" target="id-b5022c4f684b47bf92d327aabcb22867"/>
+        <content>Інструмент створення: Мета-дані, структур-даних, даних і онтології даних. Редактор даних в MCrDB низького рівня.</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b704f21f307b407ea6f8af408ff403eb" targetConnections="id-67b93594a0ea450084726c7c09172dd2 id-d82c771841e6401f8e4f51c56fb65733 id-8f025e009ab847e7a897461b668d635e" textPosition="1" archimateElement="id-3bc9651f54714c5189c1a2eae57f181d">
+        <bounds x="36" y="144" width="121" height="61"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-6e02c89e9ab847dea5932ae58ce09efd" textAlignment="1" textPosition="1">
+        <bounds x="192" y="138" width="421" height="73"/>
+        <sourceConnection id="id-d82c771841e6401f8e4f51c56fb65733" source="id-6e02c89e9ab847dea5932ae58ce09efd" target="id-b704f21f307b407ea6f8af408ff403eb"/>
+        <content>Кінцевий формат BigData. Ключ-значення в моделі реляційної БД. Ключ і його тип в одній таблиці. Значення в таблицях з одним простим типом даних. Відповідність вимог JSON та ISO11179</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4654099a29dd42bfbd2ffb35ff02e1dc" targetConnections="id-071b3e6ed2b946269a0937c48440abc0 id-e5f86467443547d299b98aa5a1fdd923" textPosition="1" archimateElement="id-f324d8fb408d4d29a63699cbc15b9946">
+        <bounds x="36" y="228" width="121" height="49"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-8f025e009ab847e7a897461b668d635e" source="id-4654099a29dd42bfbd2ffb35ff02e1dc" target="id-b704f21f307b407ea6f8af408ff403eb" archimateRelationship="id-6dd227ed435048c185cc3f48ee0734d6"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-411dafa19de744e9b40b9b6741160c48" textAlignment="1" textPosition="1">
+        <bounds x="192" y="222" width="421" height="61"/>
+        <sourceConnection id="id-071b3e6ed2b946269a0937c48440abc0" source="id-411dafa19de744e9b40b9b6741160c48" target="id-4654099a29dd42bfbd2ffb35ff02e1dc"/>
+        <content>Інструмент конкатенації простих SQL в складні та автоматичної генерації SQL з шаблонів даних в форматі MCrDB. БД SQL команд.</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bf09e78a4cc24abf87419bf648b6697b" targetConnections="id-5207a6b5ee8544beb6b132668aab83f9" textPosition="1" archimateElement="id-68a222fb6b654213a724d645d32f3c6f">
+        <bounds x="12" y="300" width="145" height="61"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e76b7dd2cd10495eabce71d4cc83bbfe" source="id-bf09e78a4cc24abf87419bf648b6697b" target="id-b5022c4f684b47bf92d327aabcb22867" archimateRelationship="id-b127ad238d24429abfec5301779c007a">
+          <bendpoint startX="-72" startY="-123" endX="-72" endY="108"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e5f86467443547d299b98aa5a1fdd923" source="id-bf09e78a4cc24abf87419bf648b6697b" target="id-4654099a29dd42bfbd2ffb35ff02e1dc" archimateRelationship="id-3e24ec41fcc54098860b2a8cd08fa7af"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-4fde0d86a092416c881a8b81180ba006" textAlignment="1" textPosition="1">
+        <bounds x="192" y="297" width="421" height="61"/>
+        <sourceConnection id="id-5207a6b5ee8544beb6b132668aab83f9" source="id-4fde0d86a092416c881a8b81180ba006" target="id-bf09e78a4cc24abf87419bf648b6697b"/>
+        <content>Реалізація noSQL БД для розробників аплікацій, через підготовлену БД SQL команд до універсальної моделі MCrDB, проміжного збереження агрегованих даних.</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="New ArchiMate View" id="id-3f3161e2533747d28289141724a492e5">
+      <child xsi:type="archimate:DiagramObject" id="id-cfd2e0ce0c8c4f12aa0ec5598f24c87a" targetConnections="id-89a3b64f4dfa46949fdcbe5b7108bbe3" textPosition="1" archimateElement="id-3b65b58af57746a08c29cbe6d0d1a518">
+        <bounds x="24" y="48" width="120" height="49"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-581d91279275462bb49d7738e70c7f27" targetConnections="id-d4878423b6e84ca6bf9be24359014b54" textPosition="1" archimateElement="id-3b3255a3ea8a49a3af8ff69997c3a3c3">
+        <bounds x="24" y="132" width="120" height="49"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-60751ead0c86445db490502585a42120" textAlignment="1" textPosition="1">
+        <bounds x="228" y="120" width="181" height="61"/>
+        <sourceConnection id="id-d4878423b6e84ca6bf9be24359014b54" source="id-60751ead0c86445db490502585a42120" target="id-581d91279275462bb49d7738e70c7f27"/>
+        <content>BCS - Busines Code Studio</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-90fb0327d03f437fa12198f0b1345c22" textAlignment="1" textPosition="1">
+        <bounds x="228" y="48" width="181" height="49"/>
+        <sourceConnection id="id-89a3b64f4dfa46949fdcbe5b7108bbe3" source="id-90fb0327d03f437fa12198f0b1345c22" target="id-cfd2e0ce0c8c4f12aa0ec5598f24c87a"/>
+        <content>Керування контентом на базі LibreOffice</content>
+      </child>
+    </element>
+  </folder>
+</archimate:model>

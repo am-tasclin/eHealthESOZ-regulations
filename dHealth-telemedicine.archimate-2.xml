@@ -2008,7 +2008,7 @@
           <bounds x="12" y="96" width="169" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-0db12a7e2aa14887a905b05522ee3003" font="1|Sans|9.0|1|GTK|1|" textPosition="2" archimateElement="id-711e547fa4014be3a783cb5499047ea6">
-          <bounds x="600" y="132" width="313" height="97"/>
+          <bounds x="324" y="156" width="145" height="73"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-52c60bbd39d4450bb51a96c1caa2f3db" source="id-0db12a7e2aa14887a905b05522ee3003" target="id-e00d96957f5c49ff96c61e50890db5eb" archimateRelationship="id-689f164df0ff413c8fceb42c7b46ba98"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-7dc4b4c83b564b6a9836f8fda7711fa9" textAlignment="1" textPosition="1" archimateElement="id-1c18fc36ca8c4f4b8cfb6c733d408cce">
@@ -2027,7 +2027,7 @@
           <bounds x="385" y="289" width="84" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f7f931fe47eb420c881b31cc95275f46" textPosition="1" archimateElement="id-5a5b5b0e08024618b2e52b9ed596bbbb">
-          <bounds x="12" y="144" width="133" height="97"/>
+          <bounds x="12" y="156" width="133" height="73"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-6b2091f8746e49a6af832f7afab32dc2" textAlignment="1" textPosition="1" archimateElement="id-60a4faa7dc2c4bbbbedbae365271628f">
           <bounds x="120" y="313" width="61" height="25"/>
@@ -2061,7 +2061,7 @@
           <bounds x="384" y="314" width="85" height="48"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-c94d0f9f2f5a40d5a2b01fd408b70916" textAlignment="1" archimateElement="id-943be88f5dee44fb91734471819b6a6c">
-          <bounds x="156" y="290" width="109" height="24"/>
+          <bounds x="156" y="288" width="109" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ff53aad0df0f4a10ab5ec2392beaa5da" textAlignment="1" archimateElement="id-f84738be935e4b118221d6bdbfe78313">
           <bounds x="264" y="288" width="109" height="26"/>
@@ -2076,7 +2076,7 @@
           <bounds x="12" y="240" width="457" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-e00d96957f5c49ff96c61e50890db5eb" targetConnections="id-52c60bbd39d4450bb51a96c1caa2f3db" archimateElement="id-5543212b875e411cbee830218dc374a0">
-          <bounds x="156" y="156" width="313" height="73"/>
+          <bounds x="156" y="156" width="145" height="73"/>
         </child>
       </element>
     </folder>
