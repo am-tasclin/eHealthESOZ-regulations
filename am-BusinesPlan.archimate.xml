@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="am-BusinesPlan" id="id-927dc151b30d47ba99f753d3492fa7fd" version="4.9.0">
   <folder name="Strategy" id="id-c1b0673f47384445bb9b4833e9e67499" type="strategy">
-    <folder name="PDCA-Strategy" id="id-7c446c39cd334c4ba42ad11b92a2bab4">
-      <folder name="Deming circle | ISO 9000" id="id-92edeb6f97794e0391f40ac65fa0777c">
-        <element xsi:type="archimate:CourseOfAction" name="Plan" id="94ea8c65-315c-40c5-80d2-5d73baca6039"/>
-        <element xsi:type="archimate:Capability" name="Do" id="id-eb904b56b71e435cb91ed1cc9401a2c7"/>
-        <element xsi:type="archimate:Resource" name="Check" id="id-1528439f3728473aafcb09381c4e72fd"/>
-        <element xsi:type="archimate:ValueStream" name="Act" id="id-fd2621b03b99463b98b851c6f4c87fb5"/>
+    <folder name="Strategy Model Information System (CODE)" id="id-5e57c4551c144543aa9a23decef680d5">
+      <folder name="PDCA-Strategy" id="id-7c446c39cd334c4ba42ad11b92a2bab4">
+        <folder name="Deming circle | ISO 9000" id="id-92edeb6f97794e0391f40ac65fa0777c">
+          <element xsi:type="archimate:CourseOfAction" name="Plan" id="94ea8c65-315c-40c5-80d2-5d73baca6039"/>
+          <element xsi:type="archimate:Capability" name="Do" id="id-eb904b56b71e435cb91ed1cc9401a2c7"/>
+          <element xsi:type="archimate:Resource" name="Check" id="id-1528439f3728473aafcb09381c4e72fd"/>
+          <element xsi:type="archimate:ValueStream" name="Act" id="id-fd2621b03b99463b98b851c6f4c87fb5"/>
+        </folder>
+        <folder name="Zachman" id="id-e13295ca073046c3bfdbd51b33025b4b">
+          <element xsi:type="archimate:Capability" name="Capability" id="id-1243de7b137a4235b338b8e9b2e93ff1"/>
+          <element xsi:type="archimate:CourseOfAction" name="Course of Action" id="id-811da0f088de456abd57a1c77b121082"/>
+          <element xsi:type="archimate:Resource" name="Resource" id="id-42fee1b2493045fba8508b77170916ef"/>
+          <element xsi:type="archimate:ValueStream" name="Value Stream" id="id-990713a9774f40e6b4069a98534a621a"/>
+        </folder>
       </folder>
-      <folder name="Zachman" id="id-e13295ca073046c3bfdbd51b33025b4b">
-        <element xsi:type="archimate:Capability" name="Capability" id="id-1243de7b137a4235b338b8e9b2e93ff1"/>
-        <element xsi:type="archimate:CourseOfAction" name="Course of Action" id="id-811da0f088de456abd57a1c77b121082"/>
-        <element xsi:type="archimate:Resource" name="Resource" id="id-42fee1b2493045fba8508b77170916ef"/>
-        <element xsi:type="archimate:ValueStream" name="Value Stream" id="id-990713a9774f40e6b4069a98534a621a"/>
-      </folder>
+      <element xsi:type="archimate:CourseOfAction" name="Architecture" id="id-e6f0cefc59f5433093a6bf60580a6db5"/>
+      <element xsi:type="archimate:Capability" name="Architecture Description" id="id-2f6e1c45f07e448f99f0934d2b85b560"/>
+      <element xsi:type="archimate:Capability" name="Architecture Model" id="id-bd26dc74ab9248ca93e08eff79eefcdb"/>
+      <element xsi:type="archimate:CourseOfAction" name="Architecture View" id="id-9427387353f44541863c4ad8d8210ee5"/>
+      <element xsi:type="archimate:ValueStream" name="Architecture Viewpoint" id="id-95f85e8126c244d5add7c089d28cef3d"/>
+      <element xsi:type="archimate:ValueStream" name="conceptual domain" id="id-32702c457c274e3ab27e3dc2657672d9"/>
+      <element xsi:type="archimate:ValueStream" name="Concern" id="id-b6db91842d934fa8a9e8b689416a952a"/>
+      <element xsi:type="archimate:Capability" name="D = data" id="id-b790a86975134f4890f8044d754cca7d"/>
+      <element xsi:type="archimate:Capability" name="data element" id="id-9b6cab88a5674181a18a87e01cf1e8e0"/>
+      <element xsi:type="archimate:CourseOfAction" name="data element concept" id="id-342195704cf3422e9fa03d606c28ab0f"/>
+      <element xsi:type="archimate:CourseOfAction" name="I = information" id="id-e1dca1f36012495693b526662950f5fb"/>
+      <element xsi:type="archimate:Resource" name="Model Kind" id="id-25723edd72f84c779d3884deb3bba85b"/>
+      <element xsi:type="archimate:Resource" name="S = pre-knowledge" id="id-3efdad1820c3454a89fe193fe6f6299e"/>
+      <element xsi:type="archimate:Resource" name="Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
+      <element xsi:type="archimate:ValueStream" name="System-of-Interest" id="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
+      <element xsi:type="archimate:ValueStream" name="t = time (location)" id="id-32706f6072254eb9a5af38c241c911f0"/>
+      <element xsi:type="archimate:Resource" name="value domain" id="id-e512042d35b54c58a2078fc5dae5e4b2"/>
     </folder>
     <element xsi:type="archimate:Resource" name="data element" id="id-2b0aaabdfc1240cea6879e2f8fe92c6f"/>
-    <element xsi:type="archimate:Resource" name="value domain" id="id-e512042d35b54c58a2078fc5dae5e4b2"/>
-    <element xsi:type="archimate:Capability" name="data element" id="id-9b6cab88a5674181a18a87e01cf1e8e0"/>
-    <element xsi:type="archimate:ValueStream" name="conceptual domain" id="id-32702c457c274e3ab27e3dc2657672d9"/>
-    <element xsi:type="archimate:CourseOfAction" name="data element concept" id="id-342195704cf3422e9fa03d606c28ab0f"/>
-    <element xsi:type="archimate:CourseOfAction" name="I = information" id="id-e1dca1f36012495693b526662950f5fb"/>
-    <element xsi:type="archimate:Resource" name="S = pre-knowledge" id="id-3efdad1820c3454a89fe193fe6f6299e"/>
-    <element xsi:type="archimate:Capability" name="D = data" id="id-b790a86975134f4890f8044d754cca7d"/>
-    <element xsi:type="archimate:ValueStream" name="t = time (location)" id="id-32706f6072254eb9a5af38c241c911f0"/>
-    <element xsi:type="archimate:CourseOfAction" name="Architecture View" id="id-9427387353f44541863c4ad8d8210ee5"/>
-    <element xsi:type="archimate:Resource" name="Model Kind" id="id-25723edd72f84c779d3884deb3bba85b"/>
-    <element xsi:type="archimate:Capability" name="Architecture Model" id="id-bd26dc74ab9248ca93e08eff79eefcdb"/>
-    <element xsi:type="archimate:ValueStream" name="Architecture Viewpoint" id="id-95f85e8126c244d5add7c089d28cef3d"/>
-    <element xsi:type="archimate:CourseOfAction" name="Architecture" id="id-e6f0cefc59f5433093a6bf60580a6db5"/>
-    <element xsi:type="archimate:Resource" name="Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
-    <element xsi:type="archimate:Capability" name="Architecture Description" id="id-2f6e1c45f07e448f99f0934d2b85b560"/>
-    <element xsi:type="archimate:ValueStream" name="System-of-Interest" id="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
-    <element xsi:type="archimate:ValueStream" name="Concern" id="id-b6db91842d934fa8a9e8b689416a952a"/>
   </folder>
   <folder name="Business" id="id-1ea17abbc7fd4decb84adac927db2933" type="business">
     <element xsi:type="archimate:Product" name="WeOWS" id="id-3b65b58af57746a08c29cbe6d0d1a518"/>
@@ -77,59 +79,59 @@
       <element xsi:type="archimate:Grouping" name="Behavior  Element" id="id-1877ac50cb004741b43037c47dfc9c47"/>
       <element xsi:type="archimate:Grouping" name="Structure Element" id="id-2404346df66a4408afe53b9e1171322a"/>
     </folder>
-    <element xsi:type="archimate:Grouping" name="&quot;Value&quot;" id="id-e03421ea655347318218b4c6cd61ae79"/>
-    <element xsi:type="archimate:Grouping" name="Variable:" id="id-a0756e295fe64f1f84fc97f447c5e292"/>
-    <element xsi:type="archimate:Grouping" name="Conceptual level" id="id-1ba11c18a1c84c5a82e7152ab0ee1c69"/>
-    <element xsi:type="archimate:Grouping" name="Representational level" id="id-646727acbc4b45b0ac0fe958a65f9c85"/>
-    <element xsi:type="archimate:Grouping" name="I" id="id-551b8f553103439ba2d85d4b93634308"/>
-    <element xsi:type="archimate:Grouping" name="S" id="id-512e7b3b76694da69455e08f0680d343"/>
-    <element xsi:type="archimate:Grouping" name="IP" id="id-a3ba2d7665fd4071be885c8689fdc5db"/>
-    <element xsi:type="archimate:Grouping" name="ID" id="id-1376a689e56f44f88c2aad65fc1644b5"/>
-    <element xsi:type="archimate:Grouping" name="IC" id="id-9504a126c43d4482ab301bc1ba3cbb76"/>
-    <element xsi:type="archimate:Grouping" name="IA" id="id-05aae3c764bf46c78428278ed523e4ea"/>
-    <element xsi:type="archimate:Grouping" name="SP" id="id-cff84a95f5dc4b508d92cd96f44c4514"/>
-    <element xsi:type="archimate:Grouping" name="SD" id="id-fa94c64010584887a33a448b84c84406"/>
-    <element xsi:type="archimate:Grouping" name="SC" id="id-0e3724171051447b8bf743776a7078bb"/>
-    <element xsi:type="archimate:Grouping" name="SA" id="id-907508e5c8fe48ada2b4316045f4d246"/>
-    <element xsi:type="archimate:Grouping" name="IP-DEC" id="id-efcf4fcb044e41bc9045210f03435dce"/>
-    <element xsi:type="archimate:Grouping" name="IP-DE" id="id-811fa43c01674694b2812fef87ef4811"/>
-    <element xsi:type="archimate:Grouping" name="IP-CD" id="id-8921c76a03714b218d527201f56403fd"/>
-    <element xsi:type="archimate:Grouping" name="IP-VD" id="id-9325b3db1ff04c93b95fe709ecb7a263"/>
-    <element xsi:type="archimate:Grouping" name="ID-DE" id="id-1b87be6d625f44dbaaf9f24f1244f2f7"/>
-    <element xsi:type="archimate:Grouping" name="ID-VD" id="id-1c16862000f74b28bc695d0c2c15fd06"/>
-    <element xsi:type="archimate:Grouping" name="ID-DEC" id="id-96189fe95de44057b34678e0a6cc1b81"/>
-    <element xsi:type="archimate:Grouping" name="ID-CD" id="id-92c5a792087c40668c6bc41a558df868"/>
-    <element xsi:type="archimate:Grouping" name="IA-CD" id="id-28bfd482bdef42fe89c43ddde3ff0abe"/>
-    <element xsi:type="archimate:Grouping" name="IA-VD" id="id-e7ea7d38818f4e7fb47c8aea05be1d1d"/>
-    <element xsi:type="archimate:Grouping" name="IC-VD" id="id-53754425e7c948c88d58d832ab68b4fe"/>
-    <element xsi:type="archimate:Grouping" name="IC-CD" id="id-d7355661f2a14283afb6f79e88c908bf"/>
-    <element xsi:type="archimate:Grouping" name="IA-DEC" id="id-3363f87de6c848c68300cf91ed00d616"/>
-    <element xsi:type="archimate:Grouping" name="IA-DE" id="id-0f2792b685e742d0adcf145d5061549d"/>
-    <element xsi:type="archimate:Grouping" name="IC-DE" id="id-062916cecf004be7a1edfb6db9f369a1"/>
-    <element xsi:type="archimate:Grouping" name="IC-DEC" id="id-89a8989fd0884a35855c6d57e7e19c82"/>
-    <element xsi:type="archimate:Grouping" name="SP-DEC" id="id-138114cc6c90499fb6253c5589be006d"/>
-    <element xsi:type="archimate:Grouping" name="SP-DE" id="id-d1b7a43f14a644d698171824008bfb55"/>
-    <element xsi:type="archimate:Grouping" name="SP-CD" id="id-c4bcb4194fde475cbde7e9055c806130"/>
-    <element xsi:type="archimate:Grouping" name="SP-VD" id="id-44efbf437bb2413d954468fce4536e1e"/>
-    <element xsi:type="archimate:Grouping" name="SD-DE" id="id-18b417778b9b4ff790e103998d4c6f35"/>
-    <element xsi:type="archimate:Grouping" name="SD-VD" id="id-63d764a5676a473b9a357ab0366f40af"/>
-    <element xsi:type="archimate:Grouping" name="SD-CD" id="id-baf05023675f4f7a8fd6c9fc3a485161"/>
-    <element xsi:type="archimate:Grouping" name="SD-DEC" id="id-f644ef8e568742e3bcbed978101a90a8"/>
-    <element xsi:type="archimate:Grouping" name="SA-CD" id="id-165cd27fa6fa4e2cbc1436711ff4af03"/>
-    <element xsi:type="archimate:Grouping" name="SA-VD" id="id-2e2dd16cfeca4a9e8da3a9effcdc8674"/>
-    <element xsi:type="archimate:Grouping" name="SC-VD" id="id-b67acda5a69e42ee8373fdcd5ca91ae7"/>
-    <element xsi:type="archimate:Grouping" name="SC-CD" id="id-23a45a7a3076463e82326109c0ae8a82"/>
-    <element xsi:type="archimate:Grouping" name="SA-DEC" id="id-0e974c3ee8a0499892af59a4fbeb6624"/>
-    <element xsi:type="archimate:Grouping" name="SA-DE" id="id-dff7138f3af9460db02c4f5d0a7e70c5"/>
-    <element xsi:type="archimate:Grouping" name="SC-DE" id="id-dc7ca33706cb4e1e93800f926b60f775"/>
-    <element xsi:type="archimate:Grouping" name="SC-DEC" id="id-cdb05c1e80a54b61a83168a271869950"/>
+    <folder name="Strategy Model Information System (CODE)" id="id-f6613c68565f4b64ae2d1dd95597e37b">
+      <element xsi:type="archimate:Grouping" name="&quot;Value&quot;" id="id-e03421ea655347318218b4c6cd61ae79"/>
+      <element xsi:type="archimate:Grouping" name="Conceptual level" id="id-1ba11c18a1c84c5a82e7152ab0ee1c69"/>
+      <element xsi:type="archimate:Grouping" name="I" id="id-551b8f553103439ba2d85d4b93634308"/>
+      <element xsi:type="archimate:Grouping" name="IA" id="id-05aae3c764bf46c78428278ed523e4ea"/>
+      <element xsi:type="archimate:Grouping" name="IA-CD" id="id-28bfd482bdef42fe89c43ddde3ff0abe"/>
+      <element xsi:type="archimate:Grouping" name="IA-DE" id="id-0f2792b685e742d0adcf145d5061549d"/>
+      <element xsi:type="archimate:Grouping" name="IA-DEC" id="id-3363f87de6c848c68300cf91ed00d616"/>
+      <element xsi:type="archimate:Grouping" name="IA-VD" id="id-e7ea7d38818f4e7fb47c8aea05be1d1d"/>
+      <element xsi:type="archimate:Grouping" name="IC" id="id-9504a126c43d4482ab301bc1ba3cbb76"/>
+      <element xsi:type="archimate:Grouping" name="IC-CD" id="id-d7355661f2a14283afb6f79e88c908bf"/>
+      <element xsi:type="archimate:Grouping" name="IC-DE" id="id-062916cecf004be7a1edfb6db9f369a1"/>
+      <element xsi:type="archimate:Grouping" name="IC-DEC" id="id-89a8989fd0884a35855c6d57e7e19c82"/>
+      <element xsi:type="archimate:Grouping" name="IC-VD" id="id-53754425e7c948c88d58d832ab68b4fe"/>
+      <element xsi:type="archimate:Grouping" name="ID" id="id-1376a689e56f44f88c2aad65fc1644b5"/>
+      <element xsi:type="archimate:Grouping" name="ID-CD" id="id-92c5a792087c40668c6bc41a558df868"/>
+      <element xsi:type="archimate:Grouping" name="ID-DE" id="id-1b87be6d625f44dbaaf9f24f1244f2f7"/>
+      <element xsi:type="archimate:Grouping" name="ID-DEC" id="id-96189fe95de44057b34678e0a6cc1b81"/>
+      <element xsi:type="archimate:Grouping" name="ID-VD" id="id-1c16862000f74b28bc695d0c2c15fd06"/>
+      <element xsi:type="archimate:Grouping" name="IP" id="id-a3ba2d7665fd4071be885c8689fdc5db"/>
+      <element xsi:type="archimate:Grouping" name="IP-CD" id="id-8921c76a03714b218d527201f56403fd"/>
+      <element xsi:type="archimate:Grouping" name="IP-DE" id="id-811fa43c01674694b2812fef87ef4811"/>
+      <element xsi:type="archimate:Grouping" name="IP-DEC" id="id-efcf4fcb044e41bc9045210f03435dce"/>
+      <element xsi:type="archimate:Grouping" name="IP-VD" id="id-9325b3db1ff04c93b95fe709ecb7a263"/>
+      <element xsi:type="archimate:Grouping" name="Representational level" id="id-646727acbc4b45b0ac0fe958a65f9c85"/>
+      <element xsi:type="archimate:Grouping" name="S" id="id-512e7b3b76694da69455e08f0680d343"/>
+      <element xsi:type="archimate:Grouping" name="SA" id="id-907508e5c8fe48ada2b4316045f4d246"/>
+      <element xsi:type="archimate:Grouping" name="SA-CD" id="id-165cd27fa6fa4e2cbc1436711ff4af03"/>
+      <element xsi:type="archimate:Grouping" name="SA-DE" id="id-dff7138f3af9460db02c4f5d0a7e70c5"/>
+      <element xsi:type="archimate:Grouping" name="SA-DEC" id="id-0e974c3ee8a0499892af59a4fbeb6624"/>
+      <element xsi:type="archimate:Grouping" name="SA-VD" id="id-2e2dd16cfeca4a9e8da3a9effcdc8674"/>
+      <element xsi:type="archimate:Grouping" name="SC" id="id-0e3724171051447b8bf743776a7078bb"/>
+      <element xsi:type="archimate:Grouping" name="SC-CD" id="id-23a45a7a3076463e82326109c0ae8a82"/>
+      <element xsi:type="archimate:Grouping" name="SC-DE" id="id-dc7ca33706cb4e1e93800f926b60f775"/>
+      <element xsi:type="archimate:Grouping" name="SC-DEC" id="id-cdb05c1e80a54b61a83168a271869950"/>
+      <element xsi:type="archimate:Grouping" name="SC-VD" id="id-b67acda5a69e42ee8373fdcd5ca91ae7"/>
+      <element xsi:type="archimate:Grouping" name="SD" id="id-fa94c64010584887a33a448b84c84406"/>
+      <element xsi:type="archimate:Grouping" name="SD-CD" id="id-baf05023675f4f7a8fd6c9fc3a485161"/>
+      <element xsi:type="archimate:Grouping" name="SD-DE" id="id-18b417778b9b4ff790e103998d4c6f35"/>
+      <element xsi:type="archimate:Grouping" name="SD-DEC" id="id-f644ef8e568742e3bcbed978101a90a8"/>
+      <element xsi:type="archimate:Grouping" name="SD-VD" id="id-63d764a5676a473b9a357ab0366f40af"/>
+      <element xsi:type="archimate:Grouping" name="SP" id="id-cff84a95f5dc4b508d92cd96f44c4514"/>
+      <element xsi:type="archimate:Grouping" name="SP-CD" id="id-c4bcb4194fde475cbde7e9055c806130"/>
+      <element xsi:type="archimate:Grouping" name="SP-DE" id="id-d1b7a43f14a644d698171824008bfb55"/>
+      <element xsi:type="archimate:Grouping" name="SP-DEC" id="id-138114cc6c90499fb6253c5589be006d"/>
+      <element xsi:type="archimate:Grouping" name="SP-VD" id="id-44efbf437bb2413d954468fce4536e1e"/>
+      <element xsi:type="archimate:Grouping" name="Variable:" id="id-a0756e295fe64f1f84fc97f447c5e292"/>
+    </folder>
   </folder>
   <folder name="Relations" id="id-e6e15213daf9407786e8ed585f45266e" type="relations">
     <folder name="PDCA-Strategy" id="id-4aa506b8a851438ea3e3693d1ce3d91b">
       <folder name="Deming circle | ISO 9000" id="id-f5745db841dd4d859fadb1dcad76d0e7">
-        <element xsi:type="archimate:AssignmentRelationship" id="id-951191446a0a45d387d474a9a6add415" source="id-1528439f3728473aafcb09381c4e72fd" target="id-fd2621b03b99463b98b851c6f4c87fb5"/>
         <element xsi:type="archimate:RealizationRelationship" name="plan plan" id="id-67ca265e854a417ca56b9e2964c24608" source="id-fd2621b03b99463b98b851c6f4c87fb5" target="94ea8c65-315c-40c5-80d2-5d73baca6039"/>
-        <element xsi:type="archimate:AssignmentRelationship" id="id-2d69be4d10e3493a98d27b060854ba54" source="id-1528439f3728473aafcb09381c4e72fd" target="id-eb904b56b71e435cb91ed1cc9401a2c7"/>
         <element xsi:type="archimate:RealizationRelationship" name="create plan" id="id-a6e5a39cb10541bfb91d5692f6e347d9" source="id-eb904b56b71e435cb91ed1cc9401a2c7" target="94ea8c65-315c-40c5-80d2-5d73baca6039"/>
         <element xsi:type="archimate:ServingRelationship" name="data driven decision" id="id-716e961926eb43d59a9fcbfcaf9dfeaf" source="id-eb904b56b71e435cb91ed1cc9401a2c7" target="id-fd2621b03b99463b98b851c6f4c87fb5"/>
         <element xsi:type="archimate:ServingRelationship" name="achieve process" id="id-97d8cb1e33e54784af4c58c46596a609" source="id-eb904b56b71e435cb91ed1cc9401a2c7" target="94ea8c65-315c-40c5-80d2-5d73baca6039"/>
@@ -156,6 +158,16 @@
         <element xsi:type="archimate:SpecializationRelationship" id="id-512408e4c14543429a197cad894f1817" source="id-eb904b56b71e435cb91ed1cc9401a2c7" target="id-1243de7b137a4235b338b8e9b2e93ff1"/>
       </folder>
     </folder>
+    <folder name="Strategy Model Information System (CODE)" id="id-0d11a515d3e54ea08a968db83f894a8a">
+      <folder name="Deming circle | ISO 9000" id="id-54d83b04c6b943719a0963af86dbb2ed">
+        <element xsi:type="archimate:AssignmentRelationship" id="id-951191446a0a45d387d474a9a6add415" source="id-1528439f3728473aafcb09381c4e72fd" target="id-fd2621b03b99463b98b851c6f4c87fb5"/>
+        <element xsi:type="archimate:AssignmentRelationship" id="id-2d69be4d10e3493a98d27b060854ba54" source="id-1528439f3728473aafcb09381c4e72fd" target="id-eb904b56b71e435cb91ed1cc9401a2c7"/>
+      </folder>
+      <element xsi:type="archimate:AssignmentRelationship" id="id-cb349f01a4fc44df9f85898489d212f9" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2f6e1c45f07e448f99f0934d2b85b560"/>
+      <element xsi:type="archimate:AssignmentRelationship" id="id-146ebef20d6947528a4a6f2250e390e5" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-df18193d985344d4b8b21e6e8fda143e" source="id-e03421ea655347318218b4c6cd61ae79" target="id-32702c457c274e3ab27e3dc2657672d9"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-9a90d20e12944d5ca49e729c80939108" source="id-a0756e295fe64f1f84fc97f447c5e292" target="id-342195704cf3422e9fa03d606c28ab0f"/>
+    </folder>
     <element xsi:type="archimate:RealizationRelationship" id="id-ee9a3e3f4f424686bc0448dd4a98a442" source="id-3669760c7e1b42569e643ab011020d60" target="id-3bc9651f54714c5189c1a2eae57f181d"/>
     <element xsi:type="archimate:ServingRelationship" id="id-6dd227ed435048c185cc3f48ee0734d6" source="id-f324d8fb408d4d29a63699cbc15b9946" target="id-3bc9651f54714c5189c1a2eae57f181d"/>
     <element xsi:type="archimate:ServingRelationship" id="id-b127ad238d24429abfec5301779c007a" source="id-68a222fb6b654213a724d645d32f3c6f" target="id-3669760c7e1b42569e643ab011020d60"/>
@@ -163,19 +175,15 @@
     <element xsi:type="archimate:RealizationRelationship" id="id-9ae56502fd1b44c78fc7670cf1378971" source="id-68a222fb6b654213a724d645d32f3c6f" target="id-18a027a8168a40599f5cf0bc4c198aa6"/>
     <element xsi:type="archimate:AccessRelationship" id="id-87455ca68fd644a9b7dfbc26b0347436" source="id-1cfadc57943744a290645d7255ce3ec9" target="id-c459c63fa7094c08bb59021e496a89af"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ecb7c1ab1e6f4ca6ad043cbaaac2a905" source="id-1cfadc57943744a290645d7255ce3ec9" target="id-413c0c6478494196b9ee6902702b820e"/>
-    <element xsi:type="archimate:AggregationRelationship" id="id-28b40945a9ad4c1484e44baab931a1df" source="id-413c0c6478494196b9ee6902702b820e" target="id-03912b577c874178ab8bc30e6221c9d6"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-81aba278ecb445bc8dba2782ceaeb96d" source="id-413c0c6478494196b9ee6902702b820e" target="id-072164841e714e2e820cbdcea4621f39"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-5643fa21f1044ef7a9f1e8ce9cfb355b" source="id-413c0c6478494196b9ee6902702b820e" target="id-f317acc45d00433a9aef3643769e8cd1"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-285355293506430396260576eb89f047" source="id-733f7e178d5d431aba768606428bf324" target="id-2b0aaabdfc1240cea6879e2f8fe92c6f"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-3a9fe1b3d2904a8a88a173cd6086cd89" source="id-42bfe075e93644b5a816ee1aa155baf9" target="id-2b0aaabdfc1240cea6879e2f8fe92c6f"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-5ebe008a5840478681781fa8a4bf63ea" source="id-c459c63fa7094c08bb59021e496a89af" target="id-42bfe075e93644b5a816ee1aa155baf9"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-adb1ce5109034783adf864d9286c5c57" source="id-c459c63fa7094c08bb59021e496a89af" target="id-733f7e178d5d431aba768606428bf324"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-cb349f01a4fc44df9f85898489d212f9" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2f6e1c45f07e448f99f0934d2b85b560"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-146ebef20d6947528a4a6f2250e390e5" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-bd1eae6c6f434ba7b2eaaf49cab9d305" source="id-e03421ea655347318218b4c6cd61ae79" target="id-e512042d35b54c58a2078fc5dae5e4b2"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-df18193d985344d4b8b21e6e8fda143e" source="id-e03421ea655347318218b4c6cd61ae79" target="id-32702c457c274e3ab27e3dc2657672d9"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-9a90d20e12944d5ca49e729c80939108" source="id-a0756e295fe64f1f84fc97f447c5e292" target="id-342195704cf3422e9fa03d606c28ab0f"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-28778f524100482abb9d324dbff359a4" source="id-a0756e295fe64f1f84fc97f447c5e292" target="id-9b6cab88a5674181a18a87e01cf1e8e0"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-28b40945a9ad4c1484e44baab931a1df" source="id-413c0c6478494196b9ee6902702b820e" target="id-03912b577c874178ab8bc30e6221c9d6"/>
   </folder>
   <folder name="Views" id="id-b7a6449c508b40ed8691de50851bcc25" type="diagrams">
     <folder name="ISO11179" id="id-3920af01016849bf84302d730ed1daad">

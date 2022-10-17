@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="AM-FHIR-VFSM" id="id-299da71ef5b04bd0983eebce42b59dac" version="4.9.0">
+  <folder name="Strategy" id="id-2b3d7a79f8a34fa1b6b46abe1ef30ee3" type="strategy"/>
+  <folder name="Business" id="id-fa0f0023263241a4b993bbad731608a0" type="business"/>
+  <folder name="Application" id="id-779aebace8d24193a8371075d5da561a" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-c10b81db55344ad28019ad6bd0cf0bab" type="technology"/>
+  <folder name="Motivation" id="id-675d8ae2da36490fa1676416b2cdb61b" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-aeaea04a020f4e5ba38b82dae873dc08" type="implementation_migration"/>
+  <folder name="Other" id="id-236342d67c8e4a34b265afea7522ca2c" type="other">
+    <element xsi:type="archimate:Grouping" name="VFSM" id="id-4ecf663a871f492085dc429d5e5c5aac"/>
+    <element xsi:type="archimate:Grouping" name="virtual input" id="id-55c1bad2f30241cebdf75cf11cca0c00"/>
+    <element xsi:type="archimate:Grouping" name="virtual output" id="id-02066454148e4843aebb4a50e60d0ac5"/>
+    <element xsi:type="archimate:Grouping" name="state" id="id-17625d0701ac4a378fbe4ecd73f0b53f"/>
+    <element xsi:type="archimate:Grouping" name="behaviour specification" id="id-79fe75ad8d124f00b6b93b0bedbf17bd"/>
+  </folder>
+  <folder name="Relations" id="id-322435dff87348bbb72d1330dc6fc889" type="relations">
+    <element xsi:type="archimate:AssignmentRelationship" id="id-4feca38c641540b5a902a12e28ebf79c" source="id-55c1bad2f30241cebdf75cf11cca0c00" target="id-4ecf663a871f492085dc429d5e5c5aac"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-dfa4c9944437436391312fc7134e3d4f" source="id-4ecf663a871f492085dc429d5e5c5aac" target="id-02066454148e4843aebb4a50e60d0ac5"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-b1c49b7424aa4218a415e4c43981765d" source="id-17625d0701ac4a378fbe4ecd73f0b53f" target="id-4ecf663a871f492085dc429d5e5c5aac" directed="true"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-a6bd40ccca554f2ebe2a24ece355fd70" source="id-4ecf663a871f492085dc429d5e5c5aac" target="id-17625d0701ac4a378fbe4ecd73f0b53f"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-d9db2865a68046199bfd84ef52b04deb" source="id-79fe75ad8d124f00b6b93b0bedbf17bd" target="id-4ecf663a871f492085dc429d5e5c5aac"/>
+  </folder>
+  <folder name="Views" id="id-503208089e8e454abc948e36566b2dfe" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Figure 1: VFSM in the Virtual Environment" id="id-9c02411f421b445589c7a0bdb463bd01">
+      <child xsi:type="archimate:DiagramObject" id="id-0e972632c20f47e89fe3485f60dd2d72" targetConnections="id-0da1ff91215b48bc91a93337b69916f9 id-d99d88bb3775417da1f1c3d5d575011f id-416eaa35d03f4797a9057fc477cb8236" textPosition="1" archimateElement="id-4ecf663a871f492085dc429d5e5c5aac" type="1">
+        <bounds x="156" y="108" width="109" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-148b2772eeb44c9c903d1571a71b65b2" source="id-0e972632c20f47e89fe3485f60dd2d72" target="id-29851704bd5b4c5286605d25ea5aa482" archimateRelationship="id-dfa4c9944437436391312fc7134e3d4f"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-9a586b2671d54ccf9883da352bf600c9" source="id-0e972632c20f47e89fe3485f60dd2d72" target="id-e97d9feaa2f8427396dfc07b92079e4a" archimateRelationship="id-a6bd40ccca554f2ebe2a24ece355fd70">
+          <bendpoint startX="18" startY="-30" endX="18" endY="30"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5e791285282c41d2a5a3eb7f659f7ea8" textPosition="1" archimateElement="id-55c1bad2f30241cebdf75cf11cca0c00" type="1">
+        <bounds x="12" y="108" width="109" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-0da1ff91215b48bc91a93337b69916f9" source="id-5e791285282c41d2a5a3eb7f659f7ea8" target="id-0e972632c20f47e89fe3485f60dd2d72" archimateRelationship="id-4feca38c641540b5a902a12e28ebf79c"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-29851704bd5b4c5286605d25ea5aa482" targetConnections="id-148b2772eeb44c9c903d1571a71b65b2" textPosition="1" archimateElement="id-02066454148e4843aebb4a50e60d0ac5" type="1">
+        <bounds x="300" y="108" width="109" height="37"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e97d9feaa2f8427396dfc07b92079e4a" targetConnections="id-9a586b2671d54ccf9883da352bf600c9" textPosition="1" archimateElement="id-17625d0701ac4a378fbe4ecd73f0b53f" type="1">
+        <bounds x="156" y="48" width="109" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-d99d88bb3775417da1f1c3d5d575011f" source="id-e97d9feaa2f8427396dfc07b92079e4a" target="id-0e972632c20f47e89fe3485f60dd2d72" archimateRelationship="id-b1c49b7424aa4218a415e4c43981765d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-78cb5bd0abeb4d839e1a23568df0f5e0" textPosition="1" archimateElement="id-79fe75ad8d124f00b6b93b0bedbf17bd" type="1">
+        <bounds x="156" y="168" width="109" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-416eaa35d03f4797a9057fc477cb8236" source="id-78cb5bd0abeb4d839e1a23568df0f5e0" target="id-0e972632c20f47e89fe3485f60dd2d72" archimateRelationship="id-d9db2865a68046199bfd84ef52b04deb"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-c157835f95574bdd8124151b943a6057" textAlignment="1">
+        <bounds x="12" y="12" width="397" height="25"/>
+        <content>Figure 1: VFSM in the Virtual Environment</content>
+      </child>
+    </element>
+  </folder>
+</archimate:model>

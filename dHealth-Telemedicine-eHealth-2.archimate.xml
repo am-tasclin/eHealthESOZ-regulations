@@ -2160,7 +2160,7 @@
           </sourceConnection>
         </child>
         <child xsi:type="archimate:Note" id="id-9e9ded0d385a4a0ab43840b288ef5719" textAlignment="1">
-          <bounds x="312" y="240" width="458" height="37"/>
+          <bounds x="312" y="240" width="444" height="37"/>
           <content>Оцінка курсу по методології SABSA відповідно до стандарту ISO-27001</content>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-577bd381c98349fb8a78629f8fc0ef45" textAlignment="1" archimateElement="id-817a0aa3dee44d5c8b2104b80d67443f">
@@ -5878,6 +5878,10 @@ https://en.wikipedia.org/wiki/IT_risk_management
             <bendpoint startX="18" startY="-24" endX="18" endY="-24"/>
             <bendpoint startX="-36" startY="-24" endX="-36" endY="-24"/>
           </sourceConnection>
+        </child>
+        <child xsi:type="archimate:Note" id="id-f3ef1bd97ba54204a3bf9c31e325cae7" fontColor="#babdb6" textAlignment="4" borderType="2">
+          <bounds x="313" y="60" width="144" height="25"/>
+          <content>©, 2022, Algoritmed</content>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="PlanDefinition" id="id-3ea2f56ca503448fafb69abb1ce83d61">
