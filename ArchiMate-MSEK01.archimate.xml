@@ -30,6 +30,8 @@
     <element xsi:type="archimate:BusinessRole" name="Group" id="id-4ca70a980e064e04a3437e32bfdaa684"/>
     <element xsi:type="archimate:BusinessEvent" name="Request" id="id-0c1b7e1af3f24a2f8e838af33acd6ca8"/>
     <element xsi:type="archimate:BusinessActor" name="Organisation" id="id-d4e583373b074bb1aec49d8eafce28b1"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="q0" id="id-79bfb6d76886454ca912b6c7803d8bbd"/>
+    <element xsi:type="archimate:BusinessObject" name="q0" id="id-c08457acb90044a0838a0353a9f90903"/>
   </folder>
   <folder name="Application" id="id-9c319eb7bd114d6daab0ed9dec1f30b1" type="application">
     <element xsi:type="archimate:ApplicationComponent" name="Group" id="id-dcb0d5d8c8ec461694c95cee15f1bae4"/>
@@ -74,6 +76,12 @@
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-649b16d25b3c47fc8ad80d3898e1e38b" archimateElement="id-d4e583373b074bb1aec49d8eafce28b1">
           <bounds x="12" y="144" width="121" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-507680a06647409dbd494f6b90252c86" textPosition="1" archimateElement="id-79bfb6d76886454ca912b6c7803d8bbd" type="1">
+          <bounds x="72" y="108" width="37" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d0ae6630bee444b8b98bc375325d97b9" textPosition="1" archimateElement="id-c08457acb90044a0838a0353a9f90903" type="1">
+          <bounds x="132" y="108" width="37" height="25"/>
         </child>
       </element>
     </folder>
