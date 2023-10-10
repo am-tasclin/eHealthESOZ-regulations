@@ -19,18 +19,10 @@
       <element xsi:type="archimate:Capability" name="Architecture View Component" id="id-bd26dc74ab9248ca93e08eff79eefcdb"/>
       <element xsi:type="archimate:CourseOfAction" name="Architecture View" id="id-9427387353f44541863c4ad8d8210ee5"/>
       <element xsi:type="archimate:ValueStream" name="A: architecture Viewpoint" id="id-95f85e8126c244d5add7c089d28cef3d"/>
-      <element xsi:type="archimate:ValueStream" name="conceptual domain" id="id-32702c457c274e3ab27e3dc2657672d9"/>
       <element xsi:type="archimate:ValueStream" name="Concern" id="id-b6db91842d934fa8a9e8b689416a952a"/>
-      <element xsi:type="archimate:Capability" name="D: data" id="id-b790a86975134f4890f8044d754cca7d"/>
-      <element xsi:type="archimate:Capability" name="data element" id="id-9b6cab88a5674181a18a87e01cf1e8e0"/>
-      <element xsi:type="archimate:CourseOfAction" name="data element concept" id="id-342195704cf3422e9fa03d606c28ab0f"/>
-      <element xsi:type="archimate:CourseOfAction" name="I: information" id="id-e1dca1f36012495693b526662950f5fb"/>
       <element xsi:type="archimate:Resource" name="Model Kind" id="id-25723edd72f84c779d3884deb3bba85b"/>
-      <element xsi:type="archimate:Resource" name="S: pre-knowledge" id="id-3efdad1820c3454a89fe193fe6f6299e"/>
       <element xsi:type="archimate:Resource" name="Sr: Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
       <element xsi:type="archimate:ValueStream" name="t(CIA): Concern-Interest of Action" id="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
-      <element xsi:type="archimate:ValueStream" name="t(l): time (location)" id="id-32706f6072254eb9a5af38c241c911f0"/>
-      <element xsi:type="archimate:Resource" name="value domain" id="id-e512042d35b54c58a2078fc5dae5e4b2"/>
     </folder>
     <folder name="Task-WorkFlow" id="id-60a19e09650b40419ccb5aa4c6272c28">
       <folder name="Zachman in WF" id="id-1cb6c98171fe401d9e9566a568503301">
@@ -55,6 +47,16 @@
       </folder>
       <element xsi:type="archimate:Resource" name="Interface" id="id-cdf9b471693c4f0a96b9d9029586c440"/>
       <element xsi:type="archimate:ValueStream" name="Event-2" id="id-781bd0205afa466390fd35b9c5c80265"/>
+    </folder>
+    <folder name="ISMG" id="id-d5e5d813b8f54c4698b5749de810b219">
+      <element xsi:type="archimate:Resource" name="value domain" id="id-e512042d35b54c58a2078fc5dae5e4b2"/>
+      <element xsi:type="archimate:ValueStream" name="conceptual domain" id="id-32702c457c274e3ab27e3dc2657672d9"/>
+      <element xsi:type="archimate:Capability" name="data element" id="id-9b6cab88a5674181a18a87e01cf1e8e0"/>
+      <element xsi:type="archimate:CourseOfAction" name="data element concept" id="id-342195704cf3422e9fa03d606c28ab0f"/>
+      <element xsi:type="archimate:ValueStream" name="t(l): time (location)" id="id-32706f6072254eb9a5af38c241c911f0"/>
+      <element xsi:type="archimate:Resource" name="S: pre-knowledge" id="id-3efdad1820c3454a89fe193fe6f6299e"/>
+      <element xsi:type="archimate:Capability" name="D: data" id="id-b790a86975134f4890f8044d754cca7d"/>
+      <element xsi:type="archimate:CourseOfAction" name="I: information" id="id-e1dca1f36012495693b526662950f5fb"/>
     </folder>
     <element xsi:type="archimate:ValueStream" name="Request" id="id-cd55c2078051428ea1d0ae7e79f25201">
       <documentation>Потік &quot;Запит&quot; є реалізацією необхідної події.</documentation>
