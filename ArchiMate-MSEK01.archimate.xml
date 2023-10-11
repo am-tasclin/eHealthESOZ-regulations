@@ -42,9 +42,14 @@
     <element xsi:type="archimate:BusinessProcess" name="Процес збору паціентом документів на МСЕК" id="id-87aa1d11bbae4c6ea18f936d2efe0d5f"/>
     <element xsi:type="archimate:BusinessProcess" name="Процес МСЕК обробки документів пацієнта" id="id-499e266e559446b894fb292e1c9c9b7f"/>
     <element xsi:type="archimate:BusinessProcess" name="Реєстрація паціента в системі ReIS МСЕК" id="id-8afd1ad0e86743f6af5284cae95c1f63"/>
+    <element xsi:type="archimate:BusinessProcess" name="Вибір стану, що потребує реабілітації" id="id-39035965cc46452b87a5f6770b50e6c3"/>
+    <element xsi:type="archimate:BusinessProcess" name="Збір документів по вказаному плану догляду (CarePlan)" id="id-280fa2340a014b6b8cf13b528c33b4ba"/>
   </folder>
   <folder name="Application" id="id-9c319eb7bd114d6daab0ed9dec1f30b1" type="application">
     <element xsi:type="archimate:ApplicationComponent" name="Group" id="id-dcb0d5d8c8ec461694c95cee15f1bae4"/>
+    <element xsi:type="archimate:ApplicationInterface" name="FHIR" id="id-a0ad38e13b1c46d3a350126152457074"/>
+    <element xsi:type="archimate:DataObject" name="Condition" id="id-f7cc28621ec5483da8cf84fe6234b4ca"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Робота з списком документів для збору" id="id-ea6f4bb0f76d4919b7a3f91879df8a03"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-d77682703b77439e9006acca91b02230" type="technology"/>
   <folder name="Motivation" id="id-418fc8dfd3bd41e1af0b214f866113a7" type="motivation"/>
@@ -62,12 +67,17 @@
     <element xsi:type="archimate:SpecializationRelationship" id="id-97635da600b440b38902122281483f62" source="id-499e266e559446b894fb292e1c9c9b7f" target="id-4eddadc57e4649b3ac6da7fd0b023699"/>
     <element xsi:type="archimate:FlowRelationship" id="id-ba5b860d686c4d04a40a50a061a3d0cd" source="id-87aa1d11bbae4c6ea18f936d2efe0d5f" target="id-499e266e559446b894fb292e1c9c9b7f"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-8842542baddc4137a2ea4b17b99b43d7" source="id-8afd1ad0e86743f6af5284cae95c1f63" target="id-4eddadc57e4649b3ac6da7fd0b023699"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-6ae124e368e9444d8cc60753ffcf5f98" source="id-8afd1ad0e86743f6af5284cae95c1f63" target="id-87aa1d11bbae4c6ea18f936d2efe0d5f"/>
+    <element xsi:type="archimate:AccessRelationship" id="id-75083b45e9eb447194e04934d1f87c59" source="id-dcb0d5d8c8ec461694c95cee15f1bae4" target="id-f7cc28621ec5483da8cf84fe6234b4ca"/>
+    <element xsi:type="archimate:AccessRelationship" id="id-4171342c2f834d56b13308b92bbfbc8f" source="id-3e3a68903b6340689057707c2428c01b" target="id-f7cc28621ec5483da8cf84fe6234b4ca"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-39f226e313c448a69c5663e697c6e663" source="id-39035965cc46452b87a5f6770b50e6c3" target="id-87aa1d11bbae4c6ea18f936d2efe0d5f"/>
   </folder>
   <folder name="Views" id="id-4307ef772838443f9be0cdcca6114f08" type="diagrams">
     <folder name="FSM-MSEK01" id="id-2ba1b45a159140338707158772240e3c">
       <element xsi:type="archimate:ArchimateDiagramModel" name="StateMsek0x" id="id-7cf62b1f508549e59165f2f1f479dff2">
-        <child xsi:type="archimate:DiagramObject" id="id-e25ed8b915ae492f9abc8c91569ba844" archimateElement="id-3e3a68903b6340689057707c2428c01b">
-          <bounds x="168" y="72" width="121" height="37"/>
+        <child xsi:type="archimate:DiagramObject" id="id-e25ed8b915ae492f9abc8c91569ba844" textAlignment="1" archimateElement="id-3e3a68903b6340689057707c2428c01b">
+          <bounds x="276" y="372" width="73" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0a422a476c5542e9ab37bbd706b77a6f" source="id-e25ed8b915ae492f9abc8c91569ba844" target="id-8570c79285f2440e8ff6826903ceb5cb" archimateRelationship="id-4171342c2f834d56b13308b92bbfbc8f"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-cc25052ed09e40879fe488f32233283f" archimateElement="id-f7e169ba0e234169868a729629930c78">
           <bounds x="312" y="72" width="120" height="37"/>
@@ -76,10 +86,11 @@
           <bounds x="168" y="132" width="121" height="37"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ed27b3d3658343d4ba74b6ec94c40895" archimateElement="id-4ca70a980e064e04a3437e32bfdaa684">
-          <bounds x="168" y="228" width="121" height="37"/>
+          <bounds x="540" y="168" width="121" height="37"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-61888d2c982b4c329d272f84ab62b8b1" archimateElement="id-dcb0d5d8c8ec461694c95cee15f1bae4">
-          <bounds x="168" y="180" width="121" height="37"/>
+        <child xsi:type="archimate:DiagramObject" id="id-61888d2c982b4c329d272f84ab62b8b1" textAlignment="1" archimateElement="id-dcb0d5d8c8ec461694c95cee15f1bae4">
+          <bounds x="396" y="336" width="73" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-968fef281acf4294a57e89f2725e560a" source="id-61888d2c982b4c329d272f84ab62b8b1" target="id-8570c79285f2440e8ff6826903ceb5cb" archimateRelationship="id-75083b45e9eb447194e04934d1f87c59"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-2b03d6565ec1467a8c05ea78483c190c" archimateElement="id-32702c457c274e3ab27e3dc2657672d9">
           <bounds x="312" y="132" width="121" height="37"/>
@@ -103,7 +114,7 @@
           <bounds x="132" y="108" width="37" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-1ec2568d6a4e495fabe7169ecdaf825b" textPosition="1" archimateElement="id-2681f2e0bc9f4f1db4c2e5e27ff4e9a3" type="1">
-          <bounds x="36" y="36" width="85" height="25"/>
+          <bounds x="12" y="228" width="85" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-221f9f2ecbd14e52af5568478f319c88" textAlignment="1" archimateElement="id-e651ecbe8cf64f1aacc100abee69731b">
           <bounds x="12" y="180" width="97" height="25"/>
@@ -114,8 +125,21 @@
         <child xsi:type="archimate:DiagramObject" id="id-e9ddffd0ca2341b3b0c7f7a31c2e9fe6" textAlignment="1" archimateElement="id-230190637e974bec8b60f0f2024c5cd6">
           <bounds x="456" y="132" width="97" height="25"/>
         </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ec85b753e875405eaa154a6abc741455" textAlignment="1" archimateElement="id-6c7c6e1cb2d74cd08cc11ad3e77b0ac6" type="1">
+          <bounds x="168" y="192" width="205" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-09477417a7884e69ab1bb20e4c0bcec0" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-a0ad38e13b1c46d3a350126152457074">
+          <bounds x="468" y="240" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8570c79285f2440e8ff6826903ceb5cb" targetConnections="id-968fef281acf4294a57e89f2725e560a id-0a422a476c5542e9ab37bbd706b77a6f" textAlignment="1" archimateElement="id-f7cc28621ec5483da8cf84fe6234b4ca">
+          <bounds x="228" y="288" width="97" height="25"/>
+        </child>
       </element>
-      <element xsi:type="archimate:ArchimateDiagramModel" name="StateMsek01" id="id-60e965d3a87d419091d950ed33174bfe">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="01: Registry➭Patient➭Msek" id="id-60e965d3a87d419091d950ed33174bfe">
+        <child xsi:type="archimate:Note" id="id-9aba1cc2c1c54db2abd6690e93d04d8e" font="1|Sans|7.0|0|GTK|1|" fontColor="#babdb6" textAlignment="4" borderType="2">
+          <bounds x="504" y="132" width="109" height="25"/>
+          <content>©, 2023 Algoritmed</content>
+        </child>
         <child xsi:type="archimate:DiagramObject" id="id-9b33ee1702404829b779e52d40dcdf81" archimateElement="id-3e3a68903b6340689057707c2428c01b">
           <bounds x="12" y="12" width="97" height="25"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-24446f797dcf4a9ca02c133eb1970016" source="id-9b33ee1702404829b779e52d40dcdf81" target="id-c0c3a578ff18426c862b07884d06fbe3" archimateRelationship="id-6d63205449a746e583d3abeab7bfad8c"/>
@@ -151,7 +175,7 @@
           <bounds x="132" y="12" width="313" height="61"/>
           <content>Отримання «Документ гарантія/права на проведення реабілітації» МСЕК пацієнту який має «Стан, що потребує реабілітації»</content>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-589c6c982030438fb247fd34086d43c8" textPosition="1" archimateElement="id-87aa1d11bbae4c6ea18f936d2efe0d5f">
+        <child xsi:type="archimate:DiagramObject" id="id-589c6c982030438fb247fd34086d43c8" targetConnections="id-0f88f4cd56b944758d7504093d34d891" textPosition="1" archimateElement="id-87aa1d11bbae4c6ea18f936d2efe0d5f">
           <bounds x="216" y="156" width="193" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-b951be1283ac4f2d9f13922b12decfc7" source="id-589c6c982030438fb247fd34086d43c8" target="id-579073bb507948d8bd289e71d199a9c1" archimateRelationship="id-1b9b4f046d2945f2a79ed111a713da00"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-3313370a651d4a67806f68b04c5aa7ac" source="id-589c6c982030438fb247fd34086d43c8" target="id-3dac67e7a1c241258abd656a3b7ccf3a" archimateRelationship="id-ba5b860d686c4d04a40a50a061a3d0cd"/>
@@ -163,6 +187,28 @@
         <child xsi:type="archimate:DiagramObject" id="id-dc79b55f55df4f19a8ec47ad2f87a8c3" textPosition="1" archimateElement="id-8afd1ad0e86743f6af5284cae95c1f63">
           <bounds x="12" y="156" width="181" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d84f0013975246cfa9fe3761754d76ec" source="id-dc79b55f55df4f19a8ec47ad2f87a8c3" target="id-579073bb507948d8bd289e71d199a9c1" archimateRelationship="id-8842542baddc4137a2ea4b17b99b43d7"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0f88f4cd56b944758d7504093d34d891" source="id-dc79b55f55df4f19a8ec47ad2f87a8c3" target="id-589c6c982030438fb247fd34086d43c8" archimateRelationship="id-6ae124e368e9444d8cc60753ffcf5f98"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="02: State Chart Patient - збір документів" id="id-ce874c47554a43b7b367ad04359aaa71">
+        <child xsi:type="archimate:DiagramObject" id="id-5b5bdbc57969412693eac28d9a130dbd" textAlignment="1" archimateElement="id-3e3a68903b6340689057707c2428c01b">
+          <bounds x="12" y="36" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-634744353fc84267bb67c1cbdf62871e" textPosition="1" archimateElement="id-f7e169ba0e234169868a729629930c78" type="1">
+          <bounds x="12" y="72" width="73" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-544f2e843494426082a5f533a0142435" targetConnections="id-db3f665c22f84f7eb1482496c6837bbc" textPosition="1" archimateElement="id-87aa1d11bbae4c6ea18f936d2efe0d5f">
+          <bounds x="108" y="72" width="193" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3aa85ce5788449169f8c24e0c21c86ca" textPosition="1" archimateElement="id-39035965cc46452b87a5f6770b50e6c3">
+          <bounds x="12" y="132" width="193" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-db3f665c22f84f7eb1482496c6837bbc" source="id-3aa85ce5788449169f8c24e0c21c86ca" target="id-544f2e843494426082a5f533a0142435" archimateRelationship="id-39f226e313c448a69c5663e697c6e663"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8c5e0cf61b6e49e6822b18c73637f0ba" textPosition="1" archimateElement="id-280fa2340a014b6b8cf13b528c33b4ba">
+          <bounds x="228" y="132" width="205" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-bb6d647b5bc74ae0890824af862b869c" textAlignment="1" archimateElement="id-ea6f4bb0f76d4919b7a3f91879df8a03">
+          <bounds x="228" y="192" width="205" height="37"/>
         </child>
       </element>
     </folder>
