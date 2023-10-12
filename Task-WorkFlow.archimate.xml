@@ -262,7 +262,7 @@
         <element xsi:type="archimate:Path" name="сanonical" id="id-e3274ec99b9741cda878324e9af2c9ac"/>
       </folder>
       <folder name="Event-2" id="id-6553696abc6d4d93bf54ee1cd7d47694">
-        <element xsi:type="archimate:Path" name="partOf" id="id-af0c4412bc9d43e0848566c72e31d792"/>
+        <element xsi:type="archimate:Path" name=".partOf" id="id-af0c4412bc9d43e0848566c72e31d792"/>
       </folder>
       <folder name="Request-2" id="id-84e82a72030c4b5c90201cca7e3a56cf">
         <element xsi:type="archimate:Path" name="replace" id="id-07466608e66746ff9b714440aa8b05ce"/>
