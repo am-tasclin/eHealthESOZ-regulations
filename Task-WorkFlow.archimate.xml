@@ -17,8 +17,8 @@
       <element xsi:type="archimate:CourseOfAction" name="A: Architecture" id="id-e6f0cefc59f5433093a6bf60580a6db5"/>
       <element xsi:type="archimate:Capability" name="AD: Architecture Description" id="id-2f6e1c45f07e448f99f0934d2b85b560"/>
       <element xsi:type="archimate:Capability" name="Architecture View Component" id="id-bd26dc74ab9248ca93e08eff79eefcdb"/>
-      <element xsi:type="archimate:CourseOfAction" name="Architecture View" id="id-9427387353f44541863c4ad8d8210ee5"/>
-      <element xsi:type="archimate:ValueStream" name="A: architecture Viewpoint" id="id-95f85e8126c244d5add7c089d28cef3d"/>
+      <element xsi:type="archimate:CourseOfAction" name="aw: Architecture View" id="id-9427387353f44541863c4ad8d8210ee5"/>
+      <element xsi:type="archimate:ValueStream" name="at: architecture Viewpoint" id="id-95f85e8126c244d5add7c089d28cef3d"/>
       <element xsi:type="archimate:ValueStream" name="Concern" id="id-b6db91842d934fa8a9e8b689416a952a"/>
       <element xsi:type="archimate:Resource" name="Model Kind" id="id-25723edd72f84c779d3884deb3bba85b"/>
       <element xsi:type="archimate:Resource" name="Sr: Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
@@ -15008,7 +15008,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
             <bounds x="288" y="72" width="108" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2358450b9b7f42c8b1ec47ce5fa500b2" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" archimateElement="id-e6f0cefc59f5433093a6bf60580a6db5">
-            <bounds x="11" y="264" width="109" height="37"/>
+            <bounds x="12" y="264" width="109" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-7dce73f233b649acb774a9c5c3239806" targetConnections="id-941c92a76d7f4b62a0320285a7a92a86" font="1|Sans|7.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-2bb7060b0a464931ad67f48cf70a8d0e">
             <bounds x="11" y="204" width="109" height="37"/>

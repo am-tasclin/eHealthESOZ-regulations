@@ -260,12 +260,12 @@ https://en.wikipedia.org/wiki/Design
     <folder name="ArchiMate-for-FHIR" id="id-a0850780991a450da4a143adf92d3fd0"/>
     <folder name="1-resume-ArchiMate" id="id-d8a655987a154f9e81788cf8a6e81b16">
       <folder name="Zachman" id="id-d2e3fba48baf4ab59054f5dbaee1807e">
-        <element xsi:type="archimate:ApplicationComponent" name="Component" id="id-65f0cdbe39f2407580b9a143367dc1c1"/>
+        <element xsi:type="archimate:ApplicationComponent" name="ct: Component" id="id-65f0cdbe39f2407580b9a143367dc1c1"/>
         <element xsi:type="archimate:DataObject" name="Data Object" id="id-4fc290cf1e8348f18e610870d055c1f3"/>
         <element xsi:type="archimate:ApplicationEvent" name="Event" id="id-1bbbe82833044a6bb27ff838bf669a4e"/>
         <element xsi:type="archimate:ApplicationFunction" name="Function" id="id-10dfc956b03443c4940256845ed31b24"/>
         <element xsi:type="archimate:ApplicationProcess" name="Process" id="id-ab7226a29e46405ebddfc5af79a442b0"/>
-        <element xsi:type="archimate:ApplicationService" name="Service" id="id-8417bc151ee1465b9b40ab77a1274863"/>
+        <element xsi:type="archimate:ApplicationService" name="sr: Service" id="id-8417bc151ee1465b9b40ab77a1274863"/>
       </folder>
       <element xsi:type="archimate:ApplicationCollaboration" name="Collaboration" id="id-25889deaf66644f8a98e75505488c3c0"/>
       <element xsi:type="archimate:ApplicationInterface" name="FHIR.Interface" id="id-75085f365f6a42c497e111ea218ef1ac"/>
@@ -385,7 +385,7 @@ https://en.wikipedia.org/wiki/Design
         <element xsi:type="archimate:TechnologyFunction" name="Function" id="id-cd4164e9f4c04863a8fd0385e1b4855f"/>
         <element xsi:type="archimate:TechnologyProcess" name="Process" id="id-ecf15b4da7f24c9e95a85edbbfee0d81"/>
         <element xsi:type="archimate:TechnologyService" name="Service" id="id-879e6874bdc84956b67c80981fadebf9"/>
-        <element xsi:type="archimate:SystemSoftware" name="System Software" id="id-63a2a433ae6f4362a0cb04f64d544e1d"/>
+        <element xsi:type="archimate:SystemSoftware" name="se:System Software" id="id-63a2a433ae6f4362a0cb04f64d544e1d"/>
         <element xsi:type="archimate:DistributionNetwork" name="Distribution Network" id="id-52f2717c605c46bf85e334ad789d2136"/>
         <element xsi:type="archimate:Equipment" name="Equipment" id="id-0f7139be96924339be3bd64d2430a032"/>
         <element xsi:type="archimate:Facility" name="Facility" id="id-7d6e9bf969e840f6927656bdd9428ccc"/>
@@ -13345,9 +13345,9 @@ ArchiMate elements to build system à la ISO-42010 standard ::Euclid::FSM::Matri
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c55e84a637664b3994c131bd43d5d96e" archimateElement="id-8417bc151ee1465b9b40ab77a1274863">
-            <bounds x="274" y="337" width="106" height="25"/>
+            <bounds x="264" y="337" width="116" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-779e2b28d05445b79aa7c2d11c35d73d" source="id-c55e84a637664b3994c131bd43d5d96e" target="id-7cfaf6f4a3f4451393eaee0624431931" archimateRelationship="id-f150acbc2d194b27b3063f8b8bc6c965">
-              <bendpoint startX="-63" startY="12" endX="-32" endY="30"/>
+              <bendpoint startX="-70" startY="11" endX="-42" endY="29"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-09fd374968f8425cbd68d1d76170d15b" archimateElement="id-879e6874bdc84956b67c80981fadebf9">
