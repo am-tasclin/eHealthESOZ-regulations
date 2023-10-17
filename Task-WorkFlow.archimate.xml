@@ -14592,7 +14592,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
             <content>Scientific method</content>
           </child>
         </element>
-        <element xsi:type="archimate:ArchimateDiagramModel" name="CIS (v.1.0.4)" id="id-699f14bc28a3406e857720c06e04a74d">
+        <element xsi:type="archimate:ArchimateDiagramModel" name="CIS-Kovalenko (v.1.0.4)" id="id-699f14bc28a3406e857720c06e04a74d">
           <child xsi:type="archimate:DiagramObject" id="id-510ed1a9865a4d378986a39db5941d17" textPosition="1" archimateElement="id-42fee1b2493045fba8508b77170916ef">
             <bounds x="252" y="336" width="109" height="37"/>
           </child>

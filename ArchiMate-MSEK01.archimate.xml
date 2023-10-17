@@ -134,7 +134,7 @@
     <element xsi:type="archimate:ServingRelationship" id="id-8fb4ed80feda4b33bbba1bf6ff6faf3d" source="id-39035965cc46452b87a5f6770b50e6c3" target="id-1393040e9a2544e19d50ee2152500ce9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-66fd11685773417c9a2213a70bdabb55" source="id-6dd9f2001712448392d5fb84b370741f" target="id-fb595edccae140ccb5655b136204b5bf"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2b3da7073fc54a8eb5ce47c8610c8115" source="id-57da955b71594b06b5135e96f9e8225c" target="id-6dd9f2001712448392d5fb84b370741f"/>
-    <element xsi:type="archimate:AggregationRelationship" id="id-e85aafad69514e6189f02b85367b79ab" source="id-57da955b71594b06b5135e96f9e8225c" target="id-1393040e9a2544e19d50ee2152500ce9"/>
+    <element xsi:type="archimate:AggregationRelationship" name="0..*" id="id-e85aafad69514e6189f02b85367b79ab" source="id-57da955b71594b06b5135e96f9e8225c" target="id-1393040e9a2544e19d50ee2152500ce9"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-b7805dae95c74a579b9d36b1599c5777" source="id-7c04c4594ee2484880b869516d8677e9" target="id-57da955b71594b06b5135e96f9e8225c"/>
     <element xsi:type="archimate:RealizationRelationship" name=".subject" id="id-21fdd73ef5b2482c8394cdab32b61dfe" source="id-dcb0d5d8c8ec461694c95cee15f1bae4" target="id-7c0c9504ac0949f6a307f83759af1da1"/>
     <element xsi:type="archimate:AssociationRelationship" name="a.i" id="id-06646e65f6a24a7db9f7b47bdfb25e5d" source="id-87d4e82f57ad4a5cb57eb4f7039b55bb" target="id-709dac3469fa4e00839e269d84736461" directed="true"/>
@@ -426,7 +426,7 @@
           <sourceConnection xsi:type="archimate:Connection" id="id-5da6dea2f8154844a293019fec2be523" source="id-bb6d647b5bc74ae0890824af862b869c" target="id-8d8b6187a8174adf9c282c0fd6823a72" archimateRelationship="id-4536ec41638f4d4a8f5bd314adf8415d"/>
         </child>
       </element>
-      <element xsi:type="archimate:ArchimateDiagramModel" name="04: Statechart" id="id-212932a778d641128773546f648a7b33">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="04:ReIS -- Statechart" id="id-212932a778d641128773546f648a7b33">
         <child xsi:type="archimate:DiagramObject" id="id-502fbb43b3b844e9a78094647e0ff697" textAlignment="1" textPosition="1" archimateElement="id-f6fa512fc2ee4c25b29c353d9d7c1d95">
           <bounds x="12" y="108" width="97" height="25"/>
         </child>
@@ -735,5 +735,6 @@
         <bounds x="168" y="84" width="120" height="37"/>
       </child>
     </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="osl-t-s-01" id="id-8c5b72e9c8da410988b9ae0aa098c184"/>
   </folder>
 </archimate:model>
