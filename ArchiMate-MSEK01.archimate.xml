@@ -33,7 +33,14 @@
     <element xsi:type="archimate:ValueStream" name="at.MeTaL: medical task language" id="id-1fe05a2665fa46848dbd90303dcd35d9"/>
     <element xsi:type="archimate:ValueStream" name="at.sql: Structured query language" id="id-fabf6189de044d8896477afec0ba5290"/>
     <element xsi:type="archimate:CourseOfAction" name="aw.CorGrIMS: Ядро гравітації і менеджменту інформаційної системи" id="id-fd63ae563a6b4171bfa11649028989b6"/>
-    <element xsi:type="archimate:ValueStream" name="at.cql: Clinical Quality Language" id="id-7ec413cb97014049be5d8d343a50f192"/>
+    <element xsi:type="archimate:ValueStream" name="at.cql: Clinical Quality Language" id="id-7ec413cb97014049be5d8d343a50f192">
+      <documentation>Clinical Quality Language (CQL)
+http://build.fhir.org/ig/HL7/cql/index.html
+
+The Clinical Quality Language Specification  defines a representation for the expression of clinical knowledge that can be used within both the Clinical Decision Support (CDS) and Clinical Quality Measurement (CQM) domains. 
+
+</documentation>
+    </element>
   </folder>
   <folder name="Business" id="id-fad8632cdbad40bf8c7c7b96c6c322b3" type="business">
     <element xsi:type="archimate:BusinessCollaboration" name="c" id="id-ce974676a7ef4ddcbb72aa9026d6d257"/>
