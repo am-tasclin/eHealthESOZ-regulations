@@ -14,7 +14,7 @@
       <element xsi:type="archimate:ValueStream" name="Act" id="id-fd2621b03b99463b98b851c6f4c87fb5"/>
     </folder>
     <folder name="ISMG" id="id-d5e5d813b8f54c4698b5749de810b219">
-      <element xsi:type="archimate:Resource" name="Sr: Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
+      <element xsi:type="archimate:Resource" name="sr:Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
       <element xsi:type="archimate:Resource" name="value domain" id="id-e512042d35b54c58a2078fc5dae5e4b2"/>
       <element xsi:type="archimate:ValueStream" name="conceptual domain" id="id-32702c457c274e3ab27e3dc2657672d9"/>
       <element xsi:type="archimate:Capability" name="data element" id="id-9b6cab88a5674181a18a87e01cf1e8e0"/>
@@ -48,16 +48,16 @@ The Clinical Quality Language Specification  defines a representation for the ex
     <element xsi:type="archimate:BusinessEvent" name="Event" id="id-f7e169ba0e234169868a729629930c78"/>
     <element xsi:type="archimate:BusinessRole" name="Group" id="id-4ca70a980e064e04a3437e32bfdaa684"/>
     <element xsi:type="archimate:BusinessEvent" name="Request" id="id-0c1b7e1af3f24a2f8e838af33acd6ca8"/>
-    <element xsi:type="archimate:BusinessActor" name="On: Organisation" id="id-d4e583373b074bb1aec49d8eafce28b1"/>
+    <element xsi:type="archimate:BusinessActor" name="on:Organisation" id="id-d4e583373b074bb1aec49d8eafce28b1"/>
     <element xsi:type="archimate:BusinessCollaboration" name="Collaboration" id="id-a27be91f450845328d3975b3a0a11522"/>
     <element xsi:type="archimate:BusinessCollaboration" name="q0" id="id-79bfb6d76886454ca912b6c7803d8bbd"/>
     <element xsi:type="archimate:BusinessObject" name="q0" id="id-c08457acb90044a0838a0353a9f90903"/>
-    <element xsi:type="archimate:BusinessActor" name="Pr: Practitioner" id="id-e651ecbe8cf64f1aacc100abee69731b"/>
+    <element xsi:type="archimate:BusinessActor" name="pr:Practitioner" id="id-e651ecbe8cf64f1aacc100abee69731b"/>
     <element xsi:type="archimate:BusinessObject" name="Condition" id="id-2681f2e0bc9f4f1db4c2e5e27ff4e9a3"/>
     <element xsi:type="archimate:BusinessObject" name="Стан, що потребує реабілітації" id="id-6c7c6e1cb2d74cd08cc11ad3e77b0ac6"/>
     <element xsi:type="archimate:Representation" name="Документ гарантія / права на проведення реабілітації" id="id-db1bc6d2ec334f83aeb850423b7ab49e"/>
     <element xsi:type="archimate:BusinessProcess" name="Процес взаємодії паціент — МСЕК" id="id-4eddadc57e4649b3ac6da7fd0b023699"/>
-    <element xsi:type="archimate:BusinessActor" name="On.МСЕК" id="id-c86fb032b8eb4dac915a428528dfdba0"/>
+    <element xsi:type="archimate:BusinessActor" name="on:МСЕК" id="id-c86fb032b8eb4dac915a428528dfdba0"/>
     <element xsi:type="archimate:Representation" name="Composition" id="id-230190637e974bec8b60f0f2024c5cd6"/>
     <element xsi:type="archimate:BusinessProcess" name="Процес збору паціентом документів на МСЕК" id="id-87aa1d11bbae4c6ea18f936d2efe0d5f"/>
     <element xsi:type="archimate:BusinessProcess" name="Процес МСЕК обробки документів пацієнта" id="id-499e266e559446b894fb292e1c9c9b7f"/>
@@ -72,8 +72,37 @@ The Clinical Quality Language Specification  defines a representation for the ex
     <element xsi:type="archimate:BusinessCollaboration" name="c2" id="id-db645683d2e14eae97d073e4f3b8af39"/>
     <element xsi:type="archimate:BusinessProcess" name="Відправка документів в МСЕК, для перевірки і постановки в чергу на прийом " id="id-21004757666e4602a06b97d182422afd"/>
     <element xsi:type="archimate:BusinessRole" name="Dev.ReIS: Розробник  ReIS" id="id-a2cb438007ff45b0bd7c676579ba4d41"/>
-    <element xsi:type="archimate:BusinessRole" name="Pr.МСЕК" id="id-7ef8513b246f41109388c7d2f5f7c609"/>
+    <element xsi:type="archimate:BusinessRole" name="pr.МСЕК" id="id-7ef8513b246f41109388c7d2f5f7c609"/>
     <element xsi:type="archimate:BusinessRole" name="Ph.МСЕК: Лікар" id="id-8dbe3cf83aaf4db789dd1b0c67dfc819"/>
+    <element xsi:type="archimate:Representation" name="osl.GPL" id="id-cece273ee4974af28235627336e99e02"/>
+    <element xsi:type="archimate:Representation" name="osl.MIT" id="id-eea204f760d34055ab116f8d0b3a01dd"/>
+    <element xsi:type="archimate:Representation" name="osl.EUPL" id="id-f5e485e78f5e44209587e15642255be7"/>
+    <element xsi:type="archimate:BusinessActor" name="am.R&amp;D" id="id-b1d78e7358eb4f288aba4df50d7ab631"/>
+    <element xsi:type="archimate:BusinessActor" name="dp.eZa" id="id-b211d299e5bf443ca143d146239d3399"/>
+    <element xsi:type="archimate:BusinessActor" name="nan.dMIS" id="id-9e9012c820304d0e9b63bd1d48870518"/>
+    <element xsi:type="archimate:BusinessActor" name="nan.KIMK" id="id-4435299a1a5a4d46ac81da3618bd5be6"/>
+    <element xsi:type="archimate:BusinessActor" name="Kovalenko.O" id="id-6729e03b886042a39afab5d8e6bf981c">
+      <documentation>Коваленко Олександр Сергійович
+https://www.nas.gov.ua/UA/PersonalSite/Pages/default.aspx?PersonID=0000005791
+
+Посади у НАН України
+Міжнародний науково-навчальний центр інформаційних технологій та систем НАН України та МОН України
+Відділ медичних інформаційних систем № 135
+
++38(044)503 95 62  	(Завідувач відділу, Відділ медичних інформаційних систем № 135, Міжнародний науково-навчальний центр інформаційних технологій та систем НАН України та МОН України)
+Kovalenko.O.S@nas.gov.ua (Національна академія наук України) </documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="Mishchenko.R" id="id-13ed731678e146a78279a9821a72935d">
+      <documentation>Міщенко Роман Федорович
+http://algoritmed.com/
+
+«Algoritmed»
+director
++38(097)6428677
+roman.mishchenko@gmail.com
+</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessActor" name="am.se: Service" id="id-dff7bee5b8744879af36a2ba07d2ed22"/>
   </folder>
   <folder name="Application" id="id-9c319eb7bd114d6daab0ed9dec1f30b1" type="application">
     <element xsi:type="archimate:DataObject" name="eira:Ontology" id="id-b663f0bc-902c-4b7e-842e-1fd43744646a"/>
@@ -91,7 +120,7 @@ The Clinical Quality Language Specification  defines a representation for the ex
     <element xsi:type="archimate:ApplicationCollaboration" name="a" id="id-709dac3469fa4e00839e269d84736461"/>
     <element xsi:type="archimate:ApplicationComponent" name="DomainResource" id="id-7c0c9504ac0949f6a307f83759af1da1"/>
     <element xsi:type="archimate:ApplicationService" name="sr.t: Terminology Service" id="id-43f51806ce5749f980591516b016e391"/>
-    <element xsi:type="archimate:ApplicationProcess" name="Фонові перевірки правильності збору документів" id="id-4dc9c019ae424c349308bc19f0d9d66e"/>
+    <element xsi:type="archimate:ApplicationProcess" name="Фонові перевірки і доповнення  правильності збору документів" id="id-4dc9c019ae424c349308bc19f0d9d66e"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-d77682703b77439e9006acca91b02230" type="technology">
     <folder name="tech:am.eira_5.0.0" id="id-3863b64713f3451c936c3de68c8b3d65">
@@ -154,7 +183,20 @@ The Clinical Quality Language Specification  defines a representation for the ex
     <element xsi:type="archimate:SystemSoftware" name="se.cis: Ядро гравітації і менеджменту інформаційної системи" id="id-fd5a4c311361497587c17e539ba3beb9"/>
     <element xsi:type="archimate:SystemSoftware" name="cis.Oyle: онтологічний редактор " id="id-e23ccf6f302840b0996fe837083ea8c5"/>
   </folder>
-  <folder name="Motivation" id="id-418fc8dfd3bd41e1af0b214f866113a7" type="motivation"/>
+  <folder name="Motivation" id="id-418fc8dfd3bd41e1af0b214f866113a7" type="motivation">
+    <folder name="m:am.lising.gravity" id="id-185934fc17cb4f35a7902f6029a80897">
+      <element xsi:type="archimate:Value" name="Value" id="id-5fec36b1b9aa46258710ce4371d76b09"/>
+      <element xsi:type="archimate:Principle" name="Principle" id="id-c12b43c2202a4496a4a8db96fb58a3d1"/>
+      <element xsi:type="archimate:Constraint" name="Constraint" id="id-969487ee55824ca6868ffd3a66c32c74"/>
+      <element xsi:type="archimate:Requirement" name="Requirement" id="id-347c5cd4ed884cc280c4a92bc7b28cc0"/>
+      <element xsi:type="archimate:Assessment" name="Assessment" id="id-19d7ac86caeb4037beb31424e3ef86b3"/>
+      <element xsi:type="archimate:Stakeholder" name="Stakeholder" id="id-958dae64c4a743f4a847acbb38beda19"/>
+      <element xsi:type="archimate:Outcome" name="Outcome" id="id-2292620d02dd4474a93780796dde73af"/>
+      <element xsi:type="archimate:Goal" name="Goal" id="id-01f7f1ad7a754478a8700fafeae56767"/>
+      <element xsi:type="archimate:Driver" name="Driver" id="id-15e8bb35976a4f9784a845589617a20d"/>
+      <element xsi:type="archimate:Meaning" name="Meaning" id="id-295ccf7dc5524a8fb6e87f26683adda5"/>
+    </folder>
+  </folder>
   <folder name="Implementation &amp; Migration" id="id-8076bb84e03b46b184d84bc05a9de815" type="implementation_migration"/>
   <folder name="Other" id="id-dca85491ddc446d1bb1122bf66de0f67" type="other">
     <folder name="other:am.eira_5.0.0" id="id-85cf002d7ff342dbae821fb0eb101054">
@@ -162,6 +204,11 @@ The Clinical Quality Language Specification  defines a representation for the ex
     </folder>
   </folder>
   <folder name="Relations" id="id-10f07434ebac475395f4aa285cf5b031" type="relations">
+    <folder name="rs:am.lising.gravity" id="id-0fa15fb11960479f945725d497363fdf">
+      <element xsi:type="archimate:AssociationRelationship" id="id-d6b3fb81cd0843f8b082aeb503df76d7" source="id-15e8bb35976a4f9784a845589617a20d" target="id-01f7f1ad7a754478a8700fafeae56767" directed="true"/>
+      <element xsi:type="archimate:RealizationRelationship" name="realize" id="id-2f5a7101bf1d467f99fa753d68d574b4" source="id-347c5cd4ed884cc280c4a92bc7b28cc0" target="id-2292620d02dd4474a93780796dde73af"/>
+      <element xsi:type="archimate:RealizationRelationship" name="realize" id="id-1319af3f9dac414e975ff85989f31c88" source="id-2292620d02dd4474a93780796dde73af" target="id-01f7f1ad7a754478a8700fafeae56767"/>
+    </folder>
     <folder name="rs:am.lising::eira.3aas" id="id-80ee5de6c5ea4c7b91424e5822e91cf2">
       <element xsi:type="archimate:CompositionRelationship" id="id-385af16e0bd54de2a70c78412097854f" source="id-eb01f7f1424448f3a9a3df382bf879b6" target="id-4cf900f3bb034a048cb5f88082ab67c3"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-4a288f86ad23427e87cc25e8d3df5dbf" source="id-4cf900f3bb034a048cb5f88082ab67c3" target="id-9a4ed6a9a64d4315b81e10320bd41ff1"/>
@@ -245,6 +292,16 @@ The Clinical Quality Language Specification  defines a representation for the ex
     <element xsi:type="archimate:RealizationRelationship" id="id-b3cff8aef583495191d333fd79eb2fd3" source="id-e23ccf6f302840b0996fe837083ea8c5" target="id-65f0cdbe39f2407580b9a143367dc1c1"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-8d447872a5ed4c06b16b7b1d331c3174" source="id-4dc9c019ae424c349308bc19f0d9d66e" target="id-4dc9c019ae424c349308bc19f0d9d66e"/>
     <element xsi:type="archimate:AccessRelationship" id="id-a0b3d9d05da94ab9b532b5f0c47bbff9" source="id-65f0cdbe39f2407580b9a143367dc1c1" target="id-b663f0bc-902c-4b7e-842e-1fd43744646a"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-5413730d91de43cda740ccf31674a7d5" source="id-1528439f3728473aafcb09381c4e72fd" target="id-f6fa512fc2ee4c25b29c353d9d7c1d95"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-f5ff9884c0114207aba0fbc449680996" source="id-1528439f3728473aafcb09381c4e72fd" target="id-2b8dab2cccce46d0a985f027ff3c986a"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-a0a1fcd48c22419cafec1a37e4c9a3f2" source="id-d4e583373b074bb1aec49d8eafce28b1" target="id-b1d78e7358eb4f288aba4df50d7ab631"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-b69d3d04600d480a82b2cfbfdf19b9fa" source="id-d4e583373b074bb1aec49d8eafce28b1" target="id-b211d299e5bf443ca143d146239d3399"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-5903f8e7cbfc4d1084fcba69e91e47a0" source="id-d4e583373b074bb1aec49d8eafce28b1" target="id-9e9012c820304d0e9b63bd1d48870518"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-102d8fd2afe2481fb2758afc6b06e657" source="id-9e9012c820304d0e9b63bd1d48870518" target="id-4435299a1a5a4d46ac81da3618bd5be6"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-76478b6900044f69969a7dc11b994513" source="id-b1d78e7358eb4f288aba4df50d7ab631" target="id-dff7bee5b8744879af36a2ba07d2ed22"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-73d491cc67634dc194532b7e9de98190" source="id-b211d299e5bf443ca143d146239d3399" target="id-dff7bee5b8744879af36a2ba07d2ed22"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-a1bb37eaedbf41c49a1cc3d08afd2350" source="id-e651ecbe8cf64f1aacc100abee69731b" target="id-6729e03b886042a39afab5d8e6bf981c"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-ee817f203a0d42439432f36cb72d7791" source="id-e651ecbe8cf64f1aacc100abee69731b" target="id-13ed731678e146a78279a9821a72935d"/>
   </folder>
   <folder name="Views" id="id-4307ef772838443f9be0cdcca6114f08" type="diagrams">
     <folder name="vs:am.eira_5.0.0" id="id-2aee444752f044f99266f8e87b66b050">
@@ -315,13 +372,28 @@ The Clinical Quality Language Specification  defines a representation for the ex
           <bounds x="72" y="240" width="85" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-221f9f2ecbd14e52af5568478f319c88" textAlignment="1" archimateElement="id-e651ecbe8cf64f1aacc100abee69731b">
-          <bounds x="12" y="180" width="97" height="25"/>
+          <bounds x="336" y="408" width="109" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0ba4d46c3e1f47d999e2ce2eac500f64" source="id-221f9f2ecbd14e52af5568478f319c88" target="id-86aae66a593b4b86bee5d19bf129d5a1" archimateRelationship="id-a1bb37eaedbf41c49a1cc3d08afd2350">
+            <bendpoint startX="-54" startY="36" endX="-90"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-b8bc8ef2481b411ea96bec41172e56be" source="id-221f9f2ecbd14e52af5568478f319c88" target="id-f851c900249d4f9abdd0b959e4f0ec90" archimateRelationship="id-ee817f203a0d42439432f36cb72d7791">
+            <bendpoint startX="-54" startY="60" endX="-90"/>
+          </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-9d73dc6b9bc64f46888474cb440b314d" textAlignment="1" archimateElement="id-d4e583373b074bb1aec49d8eafce28b1">
-          <bounds x="12" y="144" width="109" height="25"/>
+          <bounds x="12" y="408" width="109" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-17e5647a72bb49afab54920f642b1c61" source="id-9d73dc6b9bc64f46888474cb440b314d" target="id-1e252f0b1c75440a89b19b057f9d07cf" archimateRelationship="id-a0a1fcd48c22419cafec1a37e4c9a3f2">
+            <bendpoint startX="-54" startY="36" endX="-66"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-7b827f30eb104003aea45b4a638c0110" source="id-9d73dc6b9bc64f46888474cb440b314d" target="id-e4e2df992c364505946957fbaa0e4663" archimateRelationship="id-b69d3d04600d480a82b2cfbfdf19b9fa">
+            <bendpoint startX="-54" startY="60" endX="-66"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4d6fe8edfbec41dba4bf07b224116384" source="id-9d73dc6b9bc64f46888474cb440b314d" target="id-b42d2aee998641c8859b60a5e8d86e9f" archimateRelationship="id-5903f8e7cbfc4d1084fcba69e91e47a0">
+            <bendpoint startX="-54" startY="96" endX="-66"/>
+          </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-e9ddffd0ca2341b3b0c7f7a31c2e9fe6" textAlignment="1" archimateElement="id-230190637e974bec8b60f0f2024c5cd6">
-          <bounds x="456" y="132" width="97" height="25"/>
+          <bounds x="492" y="288" width="97" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ec85b753e875405eaa154a6abc741455" textAlignment="1" archimateElement="id-6c7c6e1cb2d74cd08cc11ad3e77b0ac6" type="1">
           <bounds x="168" y="192" width="205" height="37"/>
@@ -351,7 +423,7 @@ The Clinical Quality Language Specification  defines a representation for the ex
           <bounds x="516" y="216" width="37" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-e7045bdbed43479c865f3700a8180bd2" textAlignment="1" archimateElement="id-a2cb438007ff45b0bd7c676579ba4d41">
-          <bounds x="336" y="324" width="157" height="25"/>
+          <bounds x="324" y="312" width="157" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-2c1a65eae99f47a2a6b0d98594b146d3" textAlignment="1" archimateElement="id-072b8f41bf9b4421a9bd094bc46df2b4">
           <bounds x="12" y="348" width="120" height="25"/>
@@ -363,10 +435,10 @@ The Clinical Quality Language Specification  defines a representation for the ex
           <bounds x="240" y="288" width="73" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ca59258aea174d948353682e9e4312af" textAlignment="1" archimateElement="id-7ef8513b246f41109388c7d2f5f7c609">
-          <bounds x="336" y="288" width="85" height="25"/>
+          <bounds x="324" y="288" width="85" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-2b7c240f610d4697877236c981164cfd" textAlignment="1" archimateElement="id-8dbe3cf83aaf4db789dd1b0c67dfc819">
-          <bounds x="336" y="360" width="121" height="25"/>
+          <bounds x="324" y="336" width="121" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-86d5f3a26f2343e5922c8118254bf6dd" textAlignment="1" archimateElement="id-65f0cdbe39f2407580b9a143367dc1c1">
           <bounds x="408" y="180" width="121" height="25"/>
@@ -379,6 +451,45 @@ The Clinical Quality Language Specification  defines a representation for the ex
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-2439a413b1f4404f83b05deab49989b8" targetConnections="id-30642751417c46b5bc23fdb1bbd182b6" textAlignment="1" archimateElement="id-43f51806ce5749f980591516b016e391">
           <bounds x="36" y="60" width="121" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-54fd7f84cfbc4417a6d1f6f3593ae8e2" textAlignment="1" archimateElement="id-cece273ee4974af28235627336e99e02">
+          <bounds x="492" y="312" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e8dd31327bd448dcad3866084544d725" textAlignment="1" archimateElement="id-eea204f760d34055ab116f8d0b3a01dd">
+          <bounds x="492" y="336" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-04ee08559a1543e980752597fa05e3a7" textAlignment="1" archimateElement="id-f5e485e78f5e44209587e15642255be7">
+          <bounds x="492" y="360" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-1e252f0b1c75440a89b19b057f9d07cf" targetConnections="id-17e5647a72bb49afab54920f642b1c61" textAlignment="1" archimateElement="id-b1d78e7358eb4f288aba4df50d7ab631">
+          <bounds x="36" y="444" width="85" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d5ae165461dd4ad2ac365bdd2f301dda" source="id-1e252f0b1c75440a89b19b057f9d07cf" target="id-722bad6287c34ad6a78888958c9d765b" archimateRelationship="id-76478b6900044f69969a7dc11b994513">
+            <bendpoint startX="54" startY="-12" endX="-54" endY="-24"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e4e2df992c364505946957fbaa0e4663" targetConnections="id-7b827f30eb104003aea45b4a638c0110" textAlignment="1" archimateElement="id-b211d299e5bf443ca143d146239d3399">
+          <bounds x="36" y="468" width="85" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-50a64069a0f24d659e15a7bca0f1813b" source="id-e4e2df992c364505946957fbaa0e4663" target="id-722bad6287c34ad6a78888958c9d765b" archimateRelationship="id-73d491cc67634dc194532b7e9de98190">
+            <bendpoint startX="54" startY="12" endX="-54" endY="24"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b42d2aee998641c8859b60a5e8d86e9f" targetConnections="id-4d6fe8edfbec41dba4bf07b224116384" textAlignment="1" archimateElement="id-9e9012c820304d0e9b63bd1d48870518">
+          <bounds x="36" y="504" width="85" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-af74915f68304453ae38136b9bfbb3f0" source="id-b42d2aee998641c8859b60a5e8d86e9f" target="id-c380be46a320470983e5c167c61d3b47" archimateRelationship="id-102d8fd2afe2481fb2758afc6b06e657">
+            <bendpoint startX="-6" startY="36" endX="-114"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c380be46a320470983e5c167c61d3b47" targetConnections="id-af74915f68304453ae38136b9bfbb3f0" textAlignment="1" archimateElement="id-4435299a1a5a4d46ac81da3618bd5be6">
+          <bounds x="72" y="540" width="85" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-86aae66a593b4b86bee5d19bf129d5a1" targetConnections="id-0ba4d46c3e1f47d999e2ce2eac500f64" textAlignment="1" archimateElement="id-6729e03b886042a39afab5d8e6bf981c">
+          <bounds x="372" y="444" width="109" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f851c900249d4f9abdd0b959e4f0ec90" targetConnections="id-b8bc8ef2481b411ea96bec41172e56be" textAlignment="1" archimateElement="id-13ed731678e146a78279a9821a72935d">
+          <bounds x="372" y="468" width="109" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-722bad6287c34ad6a78888958c9d765b" targetConnections="id-d5ae165461dd4ad2ac365bdd2f301dda id-50a64069a0f24d659e15a7bca0f1813b" textAlignment="1" archimateElement="id-dff7bee5b8744879af36a2ba07d2ed22">
+          <bounds x="144" y="456" width="85" height="25"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="01: Registry➭Patient➭Msek" id="id-60e965d3a87d419091d950ed33174bfe">
@@ -544,10 +655,11 @@ The Clinical Quality Language Specification  defines a representation for the ex
           <sourceConnection xsi:type="archimate:Connection" id="id-d09402e142fc492da2b4940d5771d734" targetConnections="id-4dfddf4a60d342eabdcc3e4df3f750c1 id-637979dbf5a14389a621a2307f29c39a id-cf00b397c37945db89a977f06091e1e1" source="id-9e68c2232fae480aafdc514104eeb068" target="id-67b9ef27767e4f2b85ceb9a29d6006c7" archimateRelationship="id-21fdd73ef5b2482c8394cdab32b61dfe">
             <sourceConnection xsi:type="archimate:Connection" id="id-f2bf0694063147aa9be5fe8d7facce0d" source="id-d09402e142fc492da2b4940d5771d734" target="id-46bdbba6925d49ccbcbddb57afe71769" archimateRelationship="id-c1be47948b0c4b4a960b72035bd66058">
               <sourceConnection xsi:type="archimate:Connection" id="id-9856ff6e98e24170966b9e1a94fc30ac" source="id-f2bf0694063147aa9be5fe8d7facce0d" target="id-5552c77338454a77b63ef51fa76583f9" archimateRelationship="id-4f4159373d9146fdb2e9f2106e1e25e2">
-                <bendpoint startX="-54" startY="-162" endX="6" endY="36"/>
+                <bendpoint startX="-66" startY="-168" endX="-6" endY="36"/>
               </sourceConnection>
-              <bendpoint startX="-300" startY="-61" endX="-84" endY="-264"/>
-              <bendpoint startX="-300" startY="191" endX="-84" endY="-12"/>
+              <bendpoint startX="-300" startY="-61" endX="-96" endY="-264"/>
+              <bendpoint startX="-300" startY="47" endX="-96" endY="-156"/>
+              <bendpoint startX="-300" startY="203" endX="-96"/>
             </sourceConnection>
             <bendpoint startX="30" startY="48" endX="114" endY="-108"/>
           </sourceConnection>
@@ -620,10 +732,8 @@ The Clinical Quality Language Specification  defines a representation for the ex
         <child xsi:type="archimate:DiagramObject" id="id-ac1ab1bf4a474daba7f3c9f7874a9f0a" targetConnections="id-039ece3269ff4778bc39cde8df0f060a id-045fb7c7bed7482594e1145b7104966c" archimateElement="id-fb595edccae140ccb5655b136204b5bf" type="1">
           <bounds x="432" y="192" width="73" height="25"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-cf00b397c37945db89a977f06091e1e1" source="id-ac1ab1bf4a474daba7f3c9f7874a9f0a" target="id-d09402e142fc492da2b4940d5771d734" archimateRelationship="id-87d4e82f57ad4a5cb57eb4f7039b55bb">
-            <sourceConnection xsi:type="archimate:Connection" id="id-702756905b434d7eadc4d757170ac3c8" source="id-cf00b397c37945db89a977f06091e1e1" target="id-5552c77338454a77b63ef51fa76583f9" archimateRelationship="id-06646e65f6a24a7db9f7b47bdfb25e5d">
-              <bendpoint startX="-84" startY="-54" endX="66" endY="36"/>
-            </sourceConnection>
-            <bendpoint startX="36" startY="-96" endX="-120" endY="-85"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-702756905b434d7eadc4d757170ac3c8" source="id-cf00b397c37945db89a977f06091e1e1" target="id-5552c77338454a77b63ef51fa76583f9" archimateRelationship="id-06646e65f6a24a7db9f7b47bdfb25e5d"/>
+            <bendpoint startX="36" startY="-84" endX="-120" endY="-73"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-e39cfcc0ef074f9f922171b065e11489" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-fd2621b03b99463b98b851c6f4c87fb5" type="1">
@@ -653,21 +763,21 @@ The Clinical Quality Language Specification  defines a representation for the ex
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-7b35e7ff798c4bbc99ed792632aac6ae" targetConnections="id-e41209d34ef34224bc783591fdca2530 id-24061ef21165472b8e5eb10e6a8db8d4" font="1|Sans|8.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-280fa2340a014b6b8cf13b528c33b4ba">
-          <bounds x="336" y="324" width="157" height="49"/>
+          <bounds x="336" y="324" width="169" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e41209d34ef34224bc783591fdca2530" source="id-7b35e7ff798c4bbc99ed792632aac6ae" target="id-7b35e7ff798c4bbc99ed792632aac6ae" archimateRelationship="id-3d27c4a4864c461c903407be9129e755">
-            <bendpoint startX="102" startY="-12" endX="102" endY="-12"/>
-            <bendpoint startX="102" startY="-36" endX="102" endY="-36"/>
+            <bendpoint startX="108" startY="-12" endX="108" endY="-12"/>
+            <bendpoint startX="108" startY="-36" endX="108" endY="-36"/>
             <bendpoint startX="54" startY="-36" endX="54" endY="-36"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-4dfddf4a60d342eabdcc3e4df3f750c1" source="id-7b35e7ff798c4bbc99ed792632aac6ae" target="id-d09402e142fc492da2b4940d5771d734" archimateRelationship="id-91054fdac5dd42a3aa9c7087029c6ba5">
             <sourceConnection xsi:type="archimate:Connection" id="id-368df5dd06c5425b8859c0de229dd770" source="id-4dfddf4a60d342eabdcc3e4df3f750c1" target="id-70d154bff9c949529869ce46334e470d" archimateRelationship="id-5413e92257654e6c8c65a15fb7c7b3ac">
               <bendpoint startX="-120" startY="-138" endX="30" endY="24"/>
             </sourceConnection>
-            <bendpoint startX="-78" startY="-228" endX="-288" endY="-73"/>
+            <bendpoint startX="-84" startY="-228" endX="-288" endY="-73"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-fd71618dff8c4877b8dc4bd045f608dd" source="id-7b35e7ff798c4bbc99ed792632aac6ae" target="id-46bdbba6925d49ccbcbddb57afe71769" archimateRelationship="id-72f3fe55313040f3baaaa417be5a20bc">
-            <bendpoint startX="102" endX="108" endY="-48"/>
-            <bendpoint startX="108" startY="48" endX="108"/>
+            <bendpoint startX="120" endX="120" endY="-48"/>
+            <bendpoint startX="120" startY="48" endX="120"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-70d154bff9c949529869ce46334e470d" targetConnections="id-757d583adf8f4a34850edfb91a75e947 id-1ace82bad1c2400b9ce010a0ca2bd4ae id-0af44070c69d404ca84c03a3e761023c id-368df5dd06c5425b8859c0de229dd770 id-b63c86491d834576a6de35ac220f1c02" textPosition="1" archimateElement="id-ce974676a7ef4ddcbb72aa9026d6d257" type="1">
@@ -710,25 +820,25 @@ The Clinical Quality Language Specification  defines a representation for the ex
           <bounds x="12" y="432" width="97" height="37"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-42010685b88b48159852d78ea0b02144" textAlignment="1" archimateElement="id-3b7503e3777c4eb9a4f008e09d2e5b35">
-          <bounds x="528" y="324" width="109" height="85"/>
+          <bounds x="552" y="324" width="85" height="85"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-27566e6f19f84fe48055b424f2e50300" source="id-42010685b88b48159852d78ea0b02144" target="id-67b9ef27767e4f2b85ceb9a29d6006c7" archimateRelationship="id-32f1839a2c1546f4bb0eabafd87da4aa"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-cf31629e7a6a48a3ab6a9adecf77d8c0" textAlignment="1" archimateElement="id-e427770047ba4b2db1d6d5e8377782d7">
           <bounds x="60" y="192" width="73" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-46bdbba6925d49ccbcbddb57afe71769" targetConnections="id-2154b7ee0f6744849adac7fff177d0a0 id-fd71618dff8c4877b8dc4bd045f608dd id-f2bf0694063147aa9be5fe8d7facce0d" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" archimateElement="id-4dc9c019ae424c349308bc19f0d9d66e">
-          <bounds x="336" y="372" width="145" height="49"/>
+          <bounds x="336" y="372" width="169" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-2154b7ee0f6744849adac7fff177d0a0" source="id-46bdbba6925d49ccbcbddb57afe71769" target="id-46bdbba6925d49ccbcbddb57afe71769" archimateRelationship="id-8d447872a5ed4c06b16b7b1d331c3174">
-            <bendpoint startX="96" startY="-12" endX="96" endY="-12"/>
-            <bendpoint startX="96" startY="-36" endX="96" endY="-36"/>
+            <bendpoint startX="108" startY="-12" endX="108" endY="-12"/>
+            <bendpoint startX="108" startY="-36" endX="108" endY="-36"/>
             <bendpoint startX="48" startY="-36" endX="48" endY="-36"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-01f528cb1f074702b4c64c1a3bc5d02e" source="id-46bdbba6925d49ccbcbddb57afe71769" target="id-43da897967f74608bbccf56f72bcebd3" archimateRelationship="id-95e39ae1802e43a2bb23a32e5e03c5ad">
             <bendpoint startX="108" startY="12" endX="54" endY="-42"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-24061ef21165472b8e5eb10e6a8db8d4" source="id-46bdbba6925d49ccbcbddb57afe71769" target="id-7b35e7ff798c4bbc99ed792632aac6ae" archimateRelationship="id-073982e1e4dc46368e411698c6885815">
-            <bendpoint startX="-108" endX="-114" endY="48"/>
-            <bendpoint startX="-108" startY="-48" endX="-114"/>
+            <bendpoint startX="-120" endX="-120" endY="48"/>
+            <bendpoint startX="-120" startY="-48" endX="-120"/>
           </sourceConnection>
         </child>
       </element>
@@ -837,11 +947,8 @@ The Clinical Quality Language Specification  defines a representation for the ex
         <child xsi:type="archimate:DiagramObject" id="id-27b2578c2ffc47198034e38d795832af" targetConnections="id-fb4befbec39e48288b708351112bc56a" font="1|Sans|7.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-811da0f088de456abd57a1c77b121082">
           <bounds x="133" y="60" width="108" height="25"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-4848df81234945f89c21b777af8975e8" targetConnections="id-b9752d2db2074b21875e178af9545b64" textPosition="1" archimateElement="id-42fee1b2493045fba8508b77170916ef">
-          <bounds x="12" y="60" width="97" height="25"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-85d7b0fb088343c2ae7756fe79ae66b4" targetConnections="id-fa3313cb84ef405f9ae20d999d74af48" textPosition="1" archimateElement="id-42fee1b2493045fba8508b77170916ef">
-          <bounds x="396" y="60" width="97" height="25"/>
+        <child xsi:type="archimate:DiagramObject" id="id-85d7b0fb088343c2ae7756fe79ae66b4" targetConnections="id-fa3313cb84ef405f9ae20d999d74af48 id-b9752d2db2074b21875e178af9545b64" textPosition="1" archimateElement="id-42fee1b2493045fba8508b77170916ef">
+          <bounds x="216" y="24" width="97" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f1f64b6e7d5f4ba883c999f5f7919b2e" targetConnections="id-762587dc0a284a519a5b14f305df44a6" textAlignment="1" textPosition="1" archimateElement="id-990713a9774f40e6b4069a98534a621a">
           <bounds x="516" y="60" width="109" height="25"/>
@@ -854,14 +961,22 @@ The Clinical Quality Language Specification  defines a representation for the ex
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-af6a147f989f4592ba15085c8f8b6fa1" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
           <bounds x="36" y="84" width="73" height="25"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-b9752d2db2074b21875e178af9545b64" source="id-af6a147f989f4592ba15085c8f8b6fa1" target="id-4848df81234945f89c21b777af8975e8" archimateRelationship="id-dc38f556c6104aa683d4456d846e2016">
-            <bendpoint startX="-48" endX="-37" endY="24"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-b9752d2db2074b21875e178af9545b64" source="id-af6a147f989f4592ba15085c8f8b6fa1" target="id-85d7b0fb088343c2ae7756fe79ae66b4" archimateRelationship="id-dc38f556c6104aa683d4456d846e2016">
+            <bendpoint startX="48" endX="-144" endY="60"/>
+            <bendpoint startX="48" startY="-60" endX="-144"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f7dbb0c37cb5466e9ff3f93477beffbe" source="id-af6a147f989f4592ba15085c8f8b6fa1" target="id-4c1b3eef675140d5ad15abf312cc3cee" archimateRelationship="id-f5ff9884c0114207aba0fbc449680996">
+            <bendpoint startX="-60" endX="-48" endY="24"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-2de78557f20c494c888d594c2c7e9d17" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
           <bounds x="421" y="84" width="72" height="25"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-fa3313cb84ef405f9ae20d999d74af48" source="id-2de78557f20c494c888d594c2c7e9d17" target="id-85d7b0fb088343c2ae7756fe79ae66b4" archimateRelationship="id-dc38f556c6104aa683d4456d846e2016">
-            <bendpoint startX="-49" endX="-36" endY="24"/>
+            <bendpoint startX="-85" endX="108" endY="60"/>
+            <bendpoint startX="-85" startY="-60" endX="108"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-936dda4d0d4742199a72dd736c7cf686" source="id-2de78557f20c494c888d594c2c7e9d17" target="id-f6e8ee4cf68744a88b74c7ca468bff08" archimateRelationship="id-5413730d91de43cda740ccf31674a7d5">
+            <bendpoint startX="-61" endX="-48" endY="24"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-8b083310897f47169ecb9024d715f558" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-fd2621b03b99463b98b851c6f4c87fb5">
@@ -882,30 +997,128 @@ The Clinical Quality Language Specification  defines a representation for the ex
         <child xsi:type="archimate:DiagramObject" id="id-01404e9ab72d441d854524e6115afc96" archimateElement="id-32706f6072254eb9a5af38c241c911f0">
           <bounds x="516" y="120" width="109" height="37"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-2eb497c7dad8482e993fe7ed07399bab" textAlignment="1" archimateElement="id-eb01f7f1424448f3a9a3df382bf879b6" type="1">
-          <bounds x="252" y="120" width="121" height="37"/>
+        <child xsi:type="archimate:DiagramObject" id="id-2eb497c7dad8482e993fe7ed07399bab" font="1|Sans|8.0|0|GTK|1|" textPosition="1" archimateElement="id-eb01f7f1424448f3a9a3df382bf879b6">
+          <bounds x="264" y="120" width="109" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-215f12b0078644e5a636538da21db65f" source="id-2eb497c7dad8482e993fe7ed07399bab" target="id-27c82e6eba0642ccbfaef7cb25caa644" archimateRelationship="id-385af16e0bd54de2a70c78412097854f">
-            <bendpoint startX="-60" startY="42" endX="-66" endY="12"/>
+            <bendpoint startX="-54" startY="54" endX="-60" endY="24"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-75c56142ae5e4e709c71299307d2cb38" targetConnections="id-619d221547cf4644838b195c37f1f4b7" textAlignment="1" archimateElement="id-ab5f235833b74ed3ad6b14495b95fd31">
-          <bounds x="288" y="204" width="84" height="25"/>
+          <bounds x="300" y="204" width="72" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-3ae22dfd7b9f4d92a5c993017dc327ee" targetConnections="id-157dc8f3cab4467ba2f75f4306f4a0be" textAlignment="1" archimateElement="id-9a4ed6a9a64d4315b81e10320bd41ff1">
-          <bounds x="276" y="180" width="97" height="25"/>
+          <bounds x="288" y="180" width="85" height="25"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-619d221547cf4644838b195c37f1f4b7" source="id-3ae22dfd7b9f4d92a5c993017dc327ee" target="id-75c56142ae5e4e709c71299307d2cb38" archimateRelationship="id-803942accf8f4cf2b2e1e5ea7356e112">
-            <bendpoint startX="-48" startY="36" endX="-54" endY="12"/>
+            <bendpoint startX="-66" startY="36" endX="-72" endY="12"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-27c82e6eba0642ccbfaef7cb25caa644" targetConnections="id-215f12b0078644e5a636538da21db65f" textAlignment="1" archimateElement="id-4cf900f3bb034a048cb5f88082ab67c3">
-          <bounds x="264" y="156" width="109" height="25"/>
+          <bounds x="276" y="156" width="97" height="25"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-157dc8f3cab4467ba2f75f4306f4a0be" source="id-27c82e6eba0642ccbfaef7cb25caa644" target="id-3ae22dfd7b9f4d92a5c993017dc327ee" archimateRelationship="id-4a288f86ad23427e87cc25e8d3df5dbf">
-            <bendpoint startX="-54" startY="36" endX="-60" endY="12"/>
+            <bendpoint startX="-60" startY="36" endX="-66" endY="12"/>
           </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8b9b118b83864f78814185e10e11c265" textPosition="1" archimateElement="id-01f7f1ad7a754478a8700fafeae56767">
+          <bounds x="132" y="252" width="109" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6855950d4be545c0a22d4087271190f6" textPosition="1" archimateElement="id-c12b43c2202a4496a4a8db96fb58a3d1">
+          <bounds x="132" y="276" width="109" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-04ec6597dfc141cc8fcc699e70c4a5b5" textPosition="1" archimateElement="id-347c5cd4ed884cc280c4a92bc7b28cc0" type="1">
+          <bounds x="264" y="300" width="97" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c373791bd71e4df48d2666a5296e0299" textPosition="1" archimateElement="id-969487ee55824ca6868ffd3a66c32c74" type="1">
+          <bounds x="276" y="276" width="97" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f6e8ee4cf68744a88b74c7ca468bff08" targetConnections="id-936dda4d0d4742199a72dd736c7cf686" textAlignment="1" textPosition="1" archimateElement="id-f6fa512fc2ee4c25b29c353d9d7c1d95">
+          <bounds x="396" y="60" width="97" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4c1b3eef675140d5ad15abf312cc3cee" targetConnections="id-f7dbb0c37cb5466e9ff3f93477beffbe" textAlignment="1" textPosition="1" archimateElement="id-2b8dab2cccce46d0a985f027ff3c986a">
+          <bounds x="12" y="60" width="97" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-cd52517def554362b7aeaa657e58ce1e" textAlignment="1" archimateElement="id-cece273ee4974af28235627336e99e02">
+          <bounds x="12" y="120" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f51cf243301c4263a4d1a5eaf4ca73c8" textAlignment="1" archimateElement="id-eea204f760d34055ab116f8d0b3a01dd">
+          <bounds x="12" y="144" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-dba87953df6c4a53814f1b72404ef82a" textAlignment="1" archimateElement="id-f5e485e78f5e44209587e15642255be7">
+          <bounds x="12" y="168" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-cb2adc5971614e52b83cb38cbcc8633b" textAlignment="1" archimateElement="id-b1d78e7358eb4f288aba4df50d7ab631">
+          <bounds x="420" y="216" width="85" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ccd280fa48544274a5bbed051498ac20" source="id-cb2adc5971614e52b83cb38cbcc8633b" target="id-4748f47abd6747e9ae9def2e174c6039" archimateRelationship="id-76478b6900044f69969a7dc11b994513">
+            <bendpoint startX="54" startY="-12" endX="-54" endY="-24"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2df5fa669f4c47ab93a4363f94f25823" textAlignment="1" archimateElement="id-b211d299e5bf443ca143d146239d3399">
+          <bounds x="420" y="240" width="85" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-b1979ffb8f274cd396105cc473fb8ca0" source="id-2df5fa669f4c47ab93a4363f94f25823" target="id-4748f47abd6747e9ae9def2e174c6039" archimateRelationship="id-73d491cc67634dc194532b7e9de98190">
+            <bendpoint startX="54" startY="12" endX="-54" endY="24"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c3afd86d632848a6a5a0b5293cc78439" textAlignment="1" archimateElement="id-9e9012c820304d0e9b63bd1d48870518">
+          <bounds x="420" y="276" width="85" height="25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5f6b7a9b1d1c48a5b18a65bbdee3ea15" source="id-c3afd86d632848a6a5a0b5293cc78439" target="id-4550ec39e9064bdfb7e9a98db319f62f" archimateRelationship="id-102d8fd2afe2481fb2758afc6b06e657">
+            <bendpoint startX="-6" startY="36" endX="-114"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4550ec39e9064bdfb7e9a98db319f62f" targetConnections="id-5f6b7a9b1d1c48a5b18a65bbdee3ea15" textAlignment="1" archimateElement="id-4435299a1a5a4d46ac81da3618bd5be6">
+          <bounds x="456" y="312" width="85" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3e3ea0b0f7644c858b0ffdd0ba6caa6b" textAlignment="1" archimateElement="id-6729e03b886042a39afab5d8e6bf981c">
+          <bounds x="636" y="276" width="109" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-47ed420d9ffa408c9ace801657e50daa" textAlignment="1" archimateElement="id-13ed731678e146a78279a9821a72935d">
+          <bounds x="636" y="216" width="109" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4748f47abd6747e9ae9def2e174c6039" targetConnections="id-ccd280fa48544274a5bbed051498ac20 id-b1979ffb8f274cd396105cc473fb8ca0" textAlignment="1" archimateElement="id-dff7bee5b8744879af36a2ba07d2ed22">
+          <bounds x="528" y="228" width="85" height="25"/>
         </child>
       </element>
     </folder>
     <folder name="am.eira_5.0.0" id="id-06cadbfaa94c4347939d0e10a91cf063"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="am.lising.gravity" id="id-c9b3a835bc5b46a2bba070254f88afe5">
+      <child xsi:type="archimate:DiagramObject" id="id-a8977da57de645dab81cbd83878884f7" textPosition="1" archimateElement="id-295ccf7dc5524a8fb6e87f26683adda5" type="1">
+        <bounds x="288" y="96" width="109" height="37"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d3473dad5c944b16bfe18f88ebd3cbe3" textAlignment="1" textPosition="1" archimateElement="id-19d7ac86caeb4037beb31424e3ef86b3">
+        <bounds x="156" y="168" width="97" height="37"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-35e62166507f48dea9d496a76ea1c782" textAlignment="1" textPosition="1" archimateElement="id-c12b43c2202a4496a4a8db96fb58a3d1">
+        <bounds x="12" y="228" width="97" height="37"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-19c41692194d49e09ce4386ee3eefe51" textAlignment="1" textPosition="2" archimateElement="id-347c5cd4ed884cc280c4a92bc7b28cc0" type="1">
+        <bounds x="144" y="240" width="97" height="25"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-9bf8ce1830e446a29df3408b3e31b3f3" source="id-19c41692194d49e09ce4386ee3eefe51" target="id-a4b6d1c13a1a42519e04d65e216b0cc5" archimateRelationship="id-2f5a7101bf1d467f99fa753d68d574b4">
+          <bendpoint startX="96" startY="12" endX="-54" endY="210"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-9fc169f191d84cdc924d081c8b7eacb1" textAlignment="1" textPosition="2" archimateElement="id-5fec36b1b9aa46258710ce4371d76b09" type="1">
+        <bounds x="12" y="188" width="96" height="25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ca7b6a3699054acd986ca38acaecf1aa" textAlignment="4" archimateElement="id-969487ee55824ca6868ffd3a66c32c74" type="1">
+        <bounds x="155" y="219" width="97" height="25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-2e207bb9cfb74bf68f03d66a6bf4c356" archimateElement="id-15e8bb35976a4f9784a845589617a20d">
+        <bounds x="420" y="96" width="109" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-1811f5856c1c49d3a90aad3fd2860e01" source="id-2e207bb9cfb74bf68f03d66a6bf4c356" target="id-5921acde4fc240ed9d81729dc0441cd1" archimateRelationship="id-d6b3fb81cd0843f8b082aeb503df76d7">
+          <bendpoint startX="54" startY="-30" endX="54" endY="30"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-88037805cf8b496fbf688841f11f356b" textAlignment="4" archimateElement="id-958dae64c4a743f4a847acbb38beda19" type="1">
+        <bounds x="24" y="168" width="97" height="25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a4b6d1c13a1a42519e04d65e216b0cc5" targetConnections="id-9bf8ce1830e446a29df3408b3e31b3f3" textPosition="1" archimateElement="id-2292620d02dd4474a93780796dde73af">
+        <bounds x="288" y="36" width="109" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-766c7acacd894415be9340ff78474fb3" source="id-a4b6d1c13a1a42519e04d65e216b0cc5" target="id-5921acde4fc240ed9d81729dc0441cd1" archimateRelationship="id-1319af3f9dac414e975ff85989f31c88">
+          <bendpoint startX="66" startY="30" endX="-72" endY="30"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5921acde4fc240ed9d81729dc0441cd1" targetConnections="id-766c7acacd894415be9340ff78474fb3 id-1811f5856c1c49d3a90aad3fd2860e01" textPosition="1" archimateElement="id-01f7f1ad7a754478a8700fafeae56767">
+        <bounds x="420" y="36" width="109" height="37"/>
+      </child>
+    </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="test01" id="id-88742f1d7eec41f58f969d432e0cae50">
       <child xsi:type="archimate:DiagramObject" id="id-a6b5b477786d4e5482aa36892bf64eab" archimateElement="id-42fee1b2493045fba8508b77170916ef">
         <bounds x="96" y="36" width="120" height="37"/>

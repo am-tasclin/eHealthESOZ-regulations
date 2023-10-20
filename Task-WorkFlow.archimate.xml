@@ -550,7 +550,6 @@
       </folder>
       <folder name="Zachman in WF" id="id-6da1dcf483054701bfd83f6f63aa115e">
         <element xsi:type="archimate:RealizationRelationship" id="id-4d3c52ea8c514c828a5888fee7785f20" source="id-42fee1b2493045fba8508b77170916ef" target="id-347c5cd4ed884cc280c4a92bc7b28cc0"/>
-        <element xsi:type="archimate:AssociationRelationship" id="id-d6b3fb81cd0843f8b082aeb503df76d7" source="id-15e8bb35976a4f9784a845589617a20d" target="id-01f7f1ad7a754478a8700fafeae56767" directed="true"/>
         <element xsi:type="archimate:InfluenceRelationship" id="id-b295f8e06c6c4dba92b9effb9ab5bc73" source="id-5b4b386b25bb44758a8d02bbf72c235c" target="id-2292620d02dd4474a93780796dde73af"/>
         <element xsi:type="archimate:RealizationRelationship" id="id-8c4d9df73c8c4f70a7bb935d12439603" source="id-5b4b386b25bb44758a8d02bbf72c235c" target="id-2292620d02dd4474a93780796dde73af"/>
         <element xsi:type="archimate:SpecializationRelationship" id="id-d1e328eb38dd440fa2366fb7dee4e496" source="id-86dc836efb9949a3a3f096d5d67ac8be" target="id-5b4b386b25bb44758a8d02bbf72c235c"/>
@@ -570,6 +569,7 @@
     <folder name="rs:am.lising.gravity" id="id-0fa15fb11960479f945725d497363fdf">
       <element xsi:type="archimate:RealizationRelationship" name="realize" id="id-2f5a7101bf1d467f99fa753d68d574b4" source="id-347c5cd4ed884cc280c4a92bc7b28cc0" target="id-2292620d02dd4474a93780796dde73af"/>
       <element xsi:type="archimate:RealizationRelationship" name="realize" id="id-1319af3f9dac414e975ff85989f31c88" source="id-2292620d02dd4474a93780796dde73af" target="id-01f7f1ad7a754478a8700fafeae56767"/>
+      <element xsi:type="archimate:AssociationRelationship" id="id-d6b3fb81cd0843f8b082aeb503df76d7" source="id-15e8bb35976a4f9784a845589617a20d" target="id-01f7f1ad7a754478a8700fafeae56767" directed="true"/>
     </folder>
     <element xsi:type="archimate:AssignmentRelationship" id="id-b9de817a98ab4fc3a906227a42013c45" source="id-3efdad1820c3454a89fe193fe6f6299e" target="id-32706f6072254eb9a5af38c241c911f0"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-bc70f6ce95a34c868edcd99ef61d9ecd" source="id-3efdad1820c3454a89fe193fe6f6299e" target="id-b790a86975134f4890f8044d754cca7d"/>
