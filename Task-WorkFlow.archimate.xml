@@ -325,7 +325,7 @@
       <element xsi:type="archimate:Constraint" name="Constraint" id="id-969487ee55824ca6868ffd3a66c32c74"/>
       <element xsi:type="archimate:Requirement" name="Requirement" id="id-347c5cd4ed884cc280c4a92bc7b28cc0"/>
       <element xsi:type="archimate:Assessment" name="Assessment" id="id-19d7ac86caeb4037beb31424e3ef86b3"/>
-      <element xsi:type="archimate:Stakeholder" name="Stakeholder" id="id-958dae64c4a743f4a847acbb38beda19"/>
+      <element xsi:type="archimate:Stakeholder" name="sr: Stakeholder" id="id-958dae64c4a743f4a847acbb38beda19"/>
       <element xsi:type="archimate:Outcome" name="Outcome" id="id-2292620d02dd4474a93780796dde73af"/>
       <element xsi:type="archimate:Goal" name="Goal" id="id-01f7f1ad7a754478a8700fafeae56767"/>
       <element xsi:type="archimate:Driver" name="Driver" id="id-15e8bb35976a4f9784a845589617a20d"/>
@@ -15365,7 +15365,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-9b39ceb7d86d4d238b71f63495c7b619" font="1|Sans|8.0|0|GTK|1|" textAlignment="4" archimateElement="id-7cc4b76e044b4ae89ea4f28a65648911" type="1">
             <bounds x="12" y="168" width="241" height="25"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-79dff97359cc420882de76bf92603eef" textAlignment="4" archimateElement="id-958dae64c4a743f4a847acbb38beda19" type="1">
+          <child xsi:type="archimate:DiagramObject" id="id-79dff97359cc420882de76bf92603eef" font="1|Sans|8.0|0|GTK|1|" textAlignment="4" archimateElement="id-958dae64c4a743f4a847acbb38beda19" type="1">
             <bounds x="24" y="204" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-8314730070e441e9b1333ac37981d8e8" textAlignment="1" textPosition="2" archimateElement="id-045aec9d578a47b88fe83e726d9c0368" type="1">
