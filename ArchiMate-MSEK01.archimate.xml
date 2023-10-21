@@ -218,6 +218,8 @@ roman.mishchenko@gmail.com
     <folder name="other:am.eira_5.0.0" id="id-85cf002d7ff342dbae821fb0eb101054">
       <element xsi:type="archimate:Grouping" name="eira:Outsourcing Strategy Solution" id="id-eb01f7f1424448f3a9a3df382bf879b6"/>
     </folder>
+    <element xsi:type="archimate:Junction" name="Junction" id="id-c814c4fd34314ec8ac3c9ff1cb1d74e2"/>
+    <element xsi:type="archimate:Junction" name="Junction" id="id-6c1c693f50c74f6cbc78635274fdc042"/>
   </folder>
   <folder name="Relations" id="id-10f07434ebac475395f4aa285cf5b031" type="relations">
     <folder name="rs.am:Sy-Mn-01" id="id-1abf5d81c9a44a17ae1e923916a48bb3">
@@ -325,6 +327,10 @@ roman.mishchenko@gmail.com
     <element xsi:type="archimate:CompositionRelationship" id="id-a1bb37eaedbf41c49a1cc3d08afd2350" source="id-e651ecbe8cf64f1aacc100abee69731b" target="id-6729e03b886042a39afab5d8e6bf981c"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-ee817f203a0d42439432f36cb72d7791" source="id-e651ecbe8cf64f1aacc100abee69731b" target="id-13ed731678e146a78279a9821a72935d"/>
     <element xsi:type="archimate:InfluenceRelationship" name="+" id="id-d532d8967e80490e98487773bd426d33" source="id-65f0cdbe39f2407580b9a143367dc1c1" target="id-958dae64c4a743f4a847acbb38beda19"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-38f6fd65ae9148ca911c0ccd7d0bddd8" source="id-f5e485e78f5e44209587e15642255be7" target="id-c814c4fd34314ec8ac3c9ff1cb1d74e2"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-735ec538fd914e28bc0bfcede57bd9fc" source="id-cece273ee4974af28235627336e99e02" target="id-c814c4fd34314ec8ac3c9ff1cb1d74e2"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-aaf5b82a6eb0460b91cda3547abac810" source="id-f5e485e78f5e44209587e15642255be7" target="id-6c1c693f50c74f6cbc78635274fdc042"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-65baaf75602b45b5b6bbd12004adbdbe" source="id-eea204f760d34055ab116f8d0b3a01dd" target="id-6c1c693f50c74f6cbc78635274fdc042"/>
   </folder>
   <folder name="Views" id="id-4307ef772838443f9be0cdcca6114f08" type="diagrams">
     <folder name="vs:am.eira_5.0.0" id="id-2aee444752f044f99266f8e87b66b050">
@@ -1170,14 +1176,14 @@ roman.mishchenko@gmail.com
         <sourceConnection xsi:type="archimate:Connection" id="id-8981c8bc06634b7781d6881b836326d5" source="id-c4e0de7d93c7488dbd0b8b824f45b809" target="id-11b4bd5ca0d44dd7bf55f661128b0672" archimateRelationship="id-9ccee98fd70340ca9fe0bf25b87a2cdc"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-38f94e9383ee4af996996df4ce18c992" textAlignment="1" textPosition="1" archimateElement="id-65f0cdbe39f2407580b9a143367dc1c1">
-        <bounds x="276" y="252" width="121" height="25"/>
+        <bounds x="156" y="144" width="109" height="37"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-834bd472f8ee488d89c15b7ebd919404" source="id-38f94e9383ee4af996996df4ce18c992" target="id-4d6260c07edc4462aad682213c38a51d" archimateRelationship="id-e7f50cd38a514fe0a6c0b703c6e1932f"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2b481364587b442ead432607f3eaa7ee" source="id-38f94e9383ee4af996996df4ce18c992" target="id-160a6dcc20ba4445bbd4a12f437ea74b" archimateRelationship="id-d532d8967e80490e98487773bd426d33">
           <bendpoint startX="-132" startY="-72" endX="-6" endY="84"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-4d6260c07edc4462aad682213c38a51d" targetConnections="id-834bd472f8ee488d89c15b7ebd919404" textAlignment="1" textPosition="1" archimateElement="id-10dfc956b03443c4940256845ed31b24">
-        <bounds x="48" y="252" width="85" height="25"/>
+        <bounds x="156" y="216" width="85" height="25"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a0f85dfe880542b5b83ffe7845bf4c96" targetConnections="id-b8a75966e3ea4bf69cd05ae0f2d77bc1" textAlignment="1" archimateElement="id-1dfc31b0bf75405d97ae4628655bc91b">
         <bounds x="48" y="216" width="85" height="25"/>
@@ -1272,6 +1278,39 @@ roman.mishchenko@gmail.com
         <bounds x="12" y="12" width="541" height="49"/>
         <content>Принципи ліцензії відкритого коду і договорів лізінгу для досягнення мети якості
           технологічних, медичних і аплікаційних сервісів</content>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="jr.eira" id="id-da9e5ab640e94385bd8ed141cb290f58">
+      <child xsi:type="archimate:DiagramObject" id="id-5f3ce95320874241ba94fb9dc63e8b69" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
+        <bounds x="36" y="72" width="73" height="25"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e13a08d15fff4351b25cb02261910b84" source="id-5f3ce95320874241ba94fb9dc63e8b69" target="id-3e8b147dcd8b46f4a02f64e8693c90ed" archimateRelationship="id-f5ff9884c0114207aba0fbc449680996">
+          <bendpoint startX="-60" endX="-48" endY="24"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-3e8b147dcd8b46f4a02f64e8693c90ed" targetConnections="id-e13a08d15fff4351b25cb02261910b84" textAlignment="1" textPosition="1" archimateElement="id-2b8dab2cccce46d0a985f027ff3c986a">
+        <bounds x="12" y="48" width="97" height="25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5764ae6d8ae74af4943a9916b672d370" textAlignment="1" textPosition="1" archimateElement="id-cece273ee4974af28235627336e99e02">
+        <bounds x="12" y="120" width="73" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-7caa9a862d8044c687d30edb3fcb4c83" source="id-5764ae6d8ae74af4943a9916b672d370" target="id-e885656aeb7c40cf8b05b349460315b4" archimateRelationship="id-735ec538fd914e28bc0bfcede57bd9fc"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-debd9d41943e47439b793bd2c0a9fd15" textAlignment="1" textPosition="1" archimateElement="id-eea204f760d34055ab116f8d0b3a01dd">
+        <bounds x="12" y="168" width="73" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e490e2a1539a4a09877a7d2bf0e99049" source="id-debd9d41943e47439b793bd2c0a9fd15" target="id-278cd7cb78ec4b6db53b65a2c9609a6e" archimateRelationship="id-65baaf75602b45b5b6bbd12004adbdbe"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-febd06e02a444d37b4441de0e493cdfa" textAlignment="1" textPosition="1" archimateElement="id-f5e485e78f5e44209587e15642255be7">
+        <bounds x="192" y="120" width="73" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ac99350b5dfa4854b415aa5c40925deb" source="id-febd06e02a444d37b4441de0e493cdfa" target="id-e885656aeb7c40cf8b05b349460315b4" archimateRelationship="id-38f6fd65ae9148ca911c0ccd7d0bddd8"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e885656aeb7c40cf8b05b349460315b4" targetConnections="id-ac99350b5dfa4854b415aa5c40925deb id-7caa9a862d8044c687d30edb3fcb4c83" archimateElement="id-c814c4fd34314ec8ac3c9ff1cb1d74e2">
+        <bounds x="132" y="132" width="15" height="15"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-874a10503b5043b28b6fae5ffce2edf1" textAlignment="1" textPosition="1" archimateElement="id-f5e485e78f5e44209587e15642255be7">
+        <bounds x="192" y="168" width="73" height="37"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c90c9d6e26fe4f8d9b130849ef407420" source="id-874a10503b5043b28b6fae5ffce2edf1" target="id-278cd7cb78ec4b6db53b65a2c9609a6e" archimateRelationship="id-aaf5b82a6eb0460b91cda3547abac810"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-278cd7cb78ec4b6db53b65a2c9609a6e" targetConnections="id-c90c9d6e26fe4f8d9b130849ef407420 id-e490e2a1539a4a09877a7d2bf0e99049" archimateElement="id-6c1c693f50c74f6cbc78635274fdc042">
+        <bounds x="132" y="180" width="15" height="15"/>
       </child>
     </element>
   </folder>
