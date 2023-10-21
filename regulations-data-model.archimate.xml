@@ -40,7 +40,7 @@
         <element xsi:type="archimate:Capability" name="Шина ЕСОЗ" id="id-38d57f061b424dfc870b7ca768781be8"/>
       </folder>
       <folder name="Через стратегію" id="id-451bf936bde842f4bd9c06cab050bd72">
-        <element xsi:type="archimate:Resource" name="Object" id="id-2b8dab2cccce46d0a985f027ff3c986a"/>
+        <element xsi:type="archimate:Resource" name="rs:Object" id="id-2b8dab2cccce46d0a985f027ff3c986a"/>
         <element xsi:type="archimate:Resource" name="Subject" id="id-a133c1b5ce9e46939dd4cfb257465bc4"/>
         <element xsi:type="archimate:Resource" name="Pasive Structure Element (Core)" id="id-a30e9ab85767484ca60b89f7194ff736"/>
         <element xsi:type="archimate:CourseOfAction" name="Behavior" id="id-38aaad6633014297aa3e95c283d5e79b"/>
@@ -190,7 +190,7 @@ https://en.wikipedia.org/wiki/Design
       <element xsi:type="archimate:Contract" name="Contract" id="id-554ce8286fa2421297aadb3d2f5f02eb"/>
       <element xsi:type="archimate:BusinessInteraction" name="Interaction" id="id-241b37227b5d44f28688021032978d18"/>
       <element xsi:type="archimate:BusinessInterface" name="Interface" id="id-8f46bb5d55ff4f67aeb7401021fbc7d1"/>
-      <element xsi:type="archimate:Product" name="Product" id="id-49a18a46ad89404c82cb546216e9560b"/>
+      <element xsi:type="archimate:Product" name="pt:Product" id="id-49a18a46ad89404c82cb546216e9560b"/>
       <element xsi:type="archimate:Representation" name="Representation" id="id-f6f93e9764c34d519d326fa7b2d3a2eb"/>
     </folder>
     <element xsi:type="archimate:BusinessInterface" name="B. Business Architecture" id="id-2a043292002d485faaba41943a9f0719"/>
@@ -8548,7 +8548,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           <child xsi:type="archimate:DiagramObject" id="id-1ec1e39093cb4f0ba6e196b83cf5ff71" textAlignment="1" archimateElement="id-2c49e6b45438409bbb198290d6c72484">
             <bounds x="120" y="312" width="85" height="25"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-665cf72f467b46eb8900cb17f2026b8c" textAlignment="4" textPosition="1" archimateElement="id-49a18a46ad89404c82cb546216e9560b" type="1">
+          <child xsi:type="archimate:DiagramObject" id="id-665cf72f467b46eb8900cb17f2026b8c" textAlignment="1" textPosition="1" archimateElement="id-49a18a46ad89404c82cb546216e9560b" type="1">
             <bounds x="120" y="336" width="85" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-0b5c97b0103f43778d2903bd0db03303" textAlignment="1" archimateElement="id-1dfc31b0bf75405d97ae4628655bc91b">
