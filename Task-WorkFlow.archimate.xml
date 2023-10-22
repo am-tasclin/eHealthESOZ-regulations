@@ -479,7 +479,7 @@
       <element xsi:type="archimate:CompositionRelationship" id="id-bd1eae6c6f434ba7b2eaaf49cab9d305" source="id-e03421ea655347318218b4c6cd61ae79" target="id-e512042d35b54c58a2078fc5dae5e4b2"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-28778f524100482abb9d324dbff359a4" source="id-a0756e295fe64f1f84fc97f447c5e292" target="id-9b6cab88a5674181a18a87e01cf1e8e0"/>
       <element xsi:type="archimate:AssignmentRelationship" id="id-cb349f01a4fc44df9f85898489d212f9" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2f6e1c45f07e448f99f0934d2b85b560"/>
-      <element xsi:type="archimate:AssignmentRelationship" id="id-146ebef20d6947528a4a6f2250e390e5" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
+      <element xsi:type="archimate:AssignmentRelationship"  id="id-146ebef20d6947528a4a6f2250e390e5" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-df18193d985344d4b8b21e6e8fda143e" source="id-e03421ea655347318218b4c6cd61ae79" target="id-32702c457c274e3ab27e3dc2657672d9"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-9a90d20e12944d5ca49e729c80939108" source="id-a0756e295fe64f1f84fc97f447c5e292" target="id-342195704cf3422e9fa03d606c28ab0f"/>
     </folder>
