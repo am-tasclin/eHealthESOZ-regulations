@@ -478,8 +478,8 @@
       </folder>
       <element xsi:type="archimate:CompositionRelationship" id="id-bd1eae6c6f434ba7b2eaaf49cab9d305" source="id-e03421ea655347318218b4c6cd61ae79" target="id-e512042d35b54c58a2078fc5dae5e4b2"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-28778f524100482abb9d324dbff359a4" source="id-a0756e295fe64f1f84fc97f447c5e292" target="id-9b6cab88a5674181a18a87e01cf1e8e0"/>
-      <element xsi:type="archimate:AssignmentRelationship"  id="id-cb349f01a4fc44df9f85898489d212f9" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2f6e1c45f07e448f99f0934d2b85b560"/>
-      <element xsi:type="archimate:AssignmentRelationship"  id="id-146ebef20d6947528a4a6f2250e390e5" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
+      <element xsi:type="archimate:AssignmentRelationship" id="id-cb349f01a4fc44df9f85898489d212f9" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2f6e1c45f07e448f99f0934d2b85b560"/>
+      <element xsi:type="archimate:AssignmentRelationship" id="id-146ebef20d6947528a4a6f2250e390e5" source="id-072b8f41bf9b4421a9bd094bc46df2b4" target="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-df18193d985344d4b8b21e6e8fda143e" source="id-e03421ea655347318218b4c6cd61ae79" target="id-32702c457c274e3ab27e3dc2657672d9"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-9a90d20e12944d5ca49e729c80939108" source="id-a0756e295fe64f1f84fc97f447c5e292" target="id-342195704cf3422e9fa03d606c28ab0f"/>
     </folder>
@@ -11117,7 +11117,7 @@ Forcada, 2002</content>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="NSM02 Moore (v.1.0.4)" id="id-9ab13c09e173447ea6ec5966d0c30539">
-          <child xsi:type="archimate:DiagramObject" id="id-7936ec2a1be2461483e2853f0cf09a1a" targetConnections="id-7e2b3625b2df4ce3898040c1c7ee246b" textAlignment="1" archimateElement="id-ecb245c892ce43abb10a19df50e0f95f">
+          <child xsi:type="archimate:DiagramObject" id="id-7936ec2a1be2461483e2853f0cf09a1a" textAlignment="1" archimateElement="id-ecb245c892ce43abb10a19df50e0f95f">
             <bounds x="12" y="300" width="133" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-e3f39bebef384a26bcab34171055f730" targetConnections="id-bef47c86f3ec4d40a79522cfd8e7ae3b id-02f0443a39f3414fa807dd59573f9e4c id-b6520a27275b495d9a16e56aecbbfe3f" textAlignment="1" textPosition="2" archimateElement="id-e1b44eb36017465e8e750d8909dd68b1">
@@ -11128,9 +11128,6 @@ Forcada, 2002</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-eb4c118397fa4817b575cdbade419834" textAlignment="1" archimateElement="id-9bbcd6949324428db638c2bfc2cbcdb7">
             <bounds x="12" y="180" width="133" height="25"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-7e2b3625b2df4ce3898040c1c7ee246b" source="id-eb4c118397fa4817b575cdbade419834" target="id-7936ec2a1be2461483e2853f0cf09a1a" archimateRelationship="id-ed1ff066ed8f460bac8e8da0a07f9a7f">
-              <bendpoint startX="-66" startY="48" endX="-66" endY="-72"/>
-            </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c27612af12134e3a893f5c995fe0d660" textPosition="1" archimateElement="id-41184cb9299446a7ba9e733f7cddf8eb">
             <bounds x="168" y="48" width="133" height="25"/>
@@ -14623,7 +14620,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-a33361b1759f496c8acf2c6751913a0b" targetConnections="id-92c93dd7bd024de6a590d29e0ac91c84" textPosition="1" archimateElement="id-fd2621b03b99463b98b851c6f4c87fb5">
             <bounds x="372" y="144" width="109" height="37"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-8ec8e25ff77e426ab4ebc457f912ea75" textPosition="1" archimateElement="id-e1dca1f36012495693b526662950f5fb">
+          <child xsi:type="archimate:DiagramObject" id="id-8ec8e25ff77e426ab4ebc457f912ea75" font="1|Sans|9.0|3|GTK|1|" textPosition="1" archimateElement="id-e1dca1f36012495693b526662950f5fb">
             <bounds x="12" y="240" width="109" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-42024ed15d074feab2c31fe3f2fac0f4" textPosition="1" archimateElement="id-811da0f088de456abd57a1c77b121082">
@@ -14641,13 +14638,13 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-ce29495e5d294b3e954007562002ab04" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-99b6c16b198d4a088c930237346b237d">
             <bounds x="12" y="96" width="109" height="37"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-64a6a71a9913434da92c27ba986cf30b" textPosition="1" archimateElement="id-01a57e76c9fe4affb61736481e5382fe">
+          <child xsi:type="archimate:DiagramObject" id="id-64a6a71a9913434da92c27ba986cf30b" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-01a57e76c9fe4affb61736481e5382fe">
             <bounds x="132" y="240" width="110" height="37"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-28bb4cd930964ca7b947b66021122c4e" textPosition="1" archimateElement="id-8f8db20478714336926a48eb4547a4e2">
+          <child xsi:type="archimate:DiagramObject" id="id-28bb4cd930964ca7b947b66021122c4e" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-8f8db20478714336926a48eb4547a4e2">
             <bounds x="252" y="240" width="109" height="37"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-dc74afe44e2e484887350d7a09de5fe4" textAlignment="1" textPosition="1" archimateElement="id-95f85e8126c244d5add7c089d28cef3d">
+          <child xsi:type="archimate:DiagramObject" id="id-dc74afe44e2e484887350d7a09de5fe4" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-95f85e8126c244d5add7c089d28cef3d">
             <bounds x="372" y="240" width="109" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-f43411c1cdb14ed3a1428be1caff0bc5" textPosition="1" archimateElement="id-b554e3e73ef44c8aa347b89e3099f3c0">
@@ -14664,7 +14661,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           </child>
           <child xsi:type="archimate:Note" id="id-07102554144b44d7be662d464d1dbc88" textAlignment="1">
             <bounds x="492" y="96" width="181" height="37"/>
-            <content>Irrational number</content>
+            <content>Irrational number in Euclidean space</content>
           </child>
           <child xsi:type="archimate:Note" id="id-68c853242e104bc098e92bbd6f8b9ab2" textAlignment="1">
             <bounds x="492" y="144" width="181" height="37"/>
@@ -14672,9 +14669,9 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           </child>
           <child xsi:type="archimate:Note" id="id-c309fed68cb04658a2456df049362363" textAlignment="1">
             <bounds x="492" y="288" width="181" height="37"/>
-            <content>Fundamental interaction, allegory</content>
+            <content>Fundamental interaction, Algoritmed allegory</content>
           </child>
-          <child xsi:type="archimate:Note" id="id-879193211eaa4306909723d3e8a1f307" textAlignment="1">
+          <child xsi:type="archimate:Note" id="id-879193211eaa4306909723d3e8a1f307" font="1|Sans|9.0|1|GTK|1|" textAlignment="1">
             <bounds x="492" y="240" width="181" height="37"/>
             <content>Core of Information System</content>
           </child>
@@ -15219,7 +15216,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           </child>
           <child xsi:type="archimate:Note" id="id-ce28f384e2be4e22a7e81843c02c3948" textPosition="1">
             <bounds x="12" y="12" width="517" height="25"/>
-            <content>M: Managment ::EIRA::eSENS::TOGAF</content>
+            <content>M: Managment ::EIRA, ::eSENS, ::TOGAF</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-7d3dfb1c0352428da22726391838ad9c" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-bd26dc74ab9248ca93e08eff79eefcdb">
             <bounds x="144" y="264" width="109" height="37"/>

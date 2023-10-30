@@ -171,6 +171,7 @@ https://en.wikipedia.org/wiki/Design
     <element xsi:type="archimate:ValueStream" name="Act" id="id-7ca1499f91e745f186b7637bdd5e3185"/>
     <element xsi:type="archimate:CourseOfAction" name="Course of Action" id="id-3033e3cc003c474a81ed18853b1b18eb"/>
     <element xsi:type="archimate:CourseOfAction" name="I: information" id="id-f2ca28571b0f432984fc372d89ec8f17"/>
+    <element xsi:type="archimate:CourseOfAction" name="WorkFlow" id="id-5a90a48ca1224b7cbf7d2e1f7ebaaac9"/>
   </folder>
   <folder name="Business" id="id-f41e93cf3ca54c3d82acd8c87364f3b1" type="business">
     <folder name="ArchiMate-for-FHIR" id="id-54dd4198fc9d4ab782fd552cebf805fe"/>
@@ -373,6 +374,7 @@ https://en.wikipedia.org/wiki/Design
     <element xsi:type="archimate:ApplicationCollaboration" name="q1" id="id-15818d4a60b04c2aab6326d0b8a74488"/>
     <element xsi:type="archimate:ApplicationCollaboration" name="a" id="id-3326a8a2d28f40b580d669357af22d18"/>
     <element xsi:type="archimate:ApplicationFunction" name="Semantic" id="id-f78cb165343f4bad96f0360d7eda557c"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="AiColL" id="id-4f315f40c13c401aa0056e1290547583"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-2092aa681d734c1e9a4ba89d339a8503" type="technology">
     <folder name="ArchiMate-for-FHIR" id="id-a20cc6c386fb442980d4eab739b06f73"/>
@@ -9114,7 +9116,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             </sourceConnection>
           </child>
         </element>
-        <element xsi:type="archimate:ArchimateDiagramModel" name="1.Value Stream ESOZ-eHealth" id="id-aa35518f19704102a8c5afa0ac40a678">
+        <element xsi:type="archimate:ArchimateDiagramModel" name="1.Value Stream eHealth-ESOZ" id="id-aa35518f19704102a8c5afa0ac40a678">
           <child xsi:type="archimate:DiagramObject" id="id-d5a1eecb92f04c949e79f3261cb1c262" targetConnections="id-3c3866971c0c48f5b829e2131b3436c1" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-90529ff0862d410b824e4021655df153" type="1">
             <bounds x="373" y="84" width="289" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-590759fc8b1e4dbdbf312e57dd296341" source="id-d5a1eecb92f04c949e79f3261cb1c262" target="id-5e14b739406d4996b39c90e30ade2017" archimateRelationship="id-b6c0e556b20d4e23a8c7634c1e174c9a">
@@ -9127,7 +9129,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
               <bendpoint startX="-120" startY="42" endX="-73" endY="-6"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-f474be7ae30b469697860d7034d2cc52" source="id-d5a1eecb92f04c949e79f3261cb1c262" target="id-1368c5d1874f4338be3b0f6ab2f4ead8" archimateRelationship="id-58756c3297524c55858d75a6eb914a1a">
-              <bendpoint startX="251" startY="-6" endX="370" endY="72"/>
+              <bendpoint startX="251" startY="6" endX="370" endY="84"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-97bb3a88e6b741acb5dc7ed4750ae3f3" source="id-d5a1eecb92f04c949e79f3261cb1c262" target="id-7a8d64f5cae54756bf237657395ee8cc" archimateRelationship="id-70f5af51b0394ab69376a064f07e84dd">
               <bendpoint startX="239" startY="-6" endX="378" endY="48"/>
@@ -9152,7 +9154,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           <child xsi:type="archimate:DiagramObject" id="id-b2dfa2caafd04a5084e4d5ea447f601e" textPosition="1" archimateElement="id-cb41c329ba1e419a9ab1deb5c970bcd9">
             <bounds x="25" y="348" width="745" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-3c3866971c0c48f5b829e2131b3436c1" source="id-b2dfa2caafd04a5084e4d5ea447f601e" target="id-d5a1eecb92f04c949e79f3261cb1c262" archimateRelationship="id-50282a6f36e34b96963ea099ca50449f">
-              <bendpoint startX="359" startY="-252" endX="239" endY="6"/>
+              <bendpoint startX="359" startY="-240" endX="239" endY="18"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-6f9f510760b840a3a98e4a375ca3786e" source="id-b2dfa2caafd04a5084e4d5ea447f601e" target="id-70f120cbe9a44448b76bd37c2bae78da" archimateRelationship="id-c471e5c9bdc0441298b985c2e68b98f1">
               <bendpoint startX="26" startY="-84" endX="-38" endY="126"/>
@@ -9232,10 +9234,10 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-eba6c5583a1d4bb686cebf4df94a431c" targetConnections="id-e1b16798291942bf859aeb7da81978a6" font="1|Sans|7.0|0|GTK|1|" textPosition="1" archimateElement="id-1243de7b137a4235b338b8e9b2e93ff1">
-            <bounds x="565" y="384" width="99" height="25"/>
+            <bounds x="564" y="384" width="99" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1eeeaff788d44ec6b3645e36d4350732" targetConnections="id-dce5089c680d4bae84a92a056b384236" font="1|Sans|7.0|0|GTK|1|" textPosition="1" archimateElement="id-990713a9774f40e6b4069a98534a621a" type="1">
-            <bounds x="675" y="384" width="95" height="25"/>
+            <bounds x="672" y="384" width="95" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-f312e9abc3724f328f1b9ff563980ea7" targetConnections="id-af595d947dd6492782f0c9e078670135 id-66ae94244d8a4f5e884b2132bef0004e id-501f99decfe845b49594e85ba5b4a89c" textAlignment="1" textPosition="1" archimateElement="id-93bbfd66d83c49a5a256eed69fe099bc" type="1">
             <bounds x="25" y="120" width="109" height="61"/>
@@ -9281,7 +9283,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-73ed0c50135946c4acc0985430a7b2a0" textAlignment="1" textPosition="2" archimateElement="id-eb904b56b71e435cb91ed1cc9401a2c7">
-            <bounds x="423" y="384" width="61" height="25"/>
+            <bounds x="420" y="384" width="61" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-e1b16798291942bf859aeb7da81978a6" source="id-73ed0c50135946c4acc0985430a7b2a0" target="id-eba6c5583a1d4bb686cebf4df94a431c" archimateRelationship="id-512408e4c14543429a197cad894f1817">
               <bendpoint startX="98" startY="-12" endX="-121" endY="-12"/>
             </sourceConnection>
@@ -9290,16 +9292,13 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-5d8d1ea1f5db4f8ebb59490ed52aeea5" targetConnections="id-da99e35e9743410aaae22cd42ade1401" textAlignment="1" archimateElement="id-fd2621b03b99463b98b851c6f4c87fb5">
-            <bounds x="495" y="384" width="59" height="25"/>
+            <bounds x="492" y="384" width="61" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-dce5089c680d4bae84a92a056b384236" source="id-5d8d1ea1f5db4f8ebb59490ed52aeea5" target="id-1eeeaff788d44ec6b3645e36d4350732" archimateRelationship="id-90a3b9ba4191479a92573feb3b40c349">
               <bendpoint startX="98" startY="12" endX="-119" endY="12"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1ee10e6f4ab843bcb3cc2bd1fd63f562" archimateElement="id-d67bd3146d7e4bc1a11122e334095f5e" type="1">
-            <bounds x="351" y="384" width="61" height="25"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-2da130824ecf4e699ac3fde39607f6de" font="1|Sans|9.0|1|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-503213b0b7014f1cb44dca241c44028c" type="1">
-            <bounds x="707" y="36" width="62" height="145"/>
+            <bounds x="276" y="384" width="61" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-639fc1c8a9eb4c9ba711b8d3cc6a3ac0" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-f6392263892544edbf7d71cfaaf03a22" type="1">
             <bounds x="24" y="84" width="362" height="37"/>
@@ -9333,6 +9332,12 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-79873f6f8cc2459e800b68134c18d838" font="1|Sans|9.0|2|GTK|1|" archimateElement="id-a2b1eda7e5f5424bbc4fc92e31fa9b47" type="1">
             <bounds x="589" y="60" width="96" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b49f43887a5f427cae2629470d4be671" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="94ea8c65-315c-40c5-80d2-5d73baca6039">
+            <bounds x="348" y="384" width="61" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-9f3048d4609547be8cc67db9bed4e02f" font="1|Sans|12.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-5a90a48ca1224b7cbf7d2e1f7ebaaac9" type="1">
+            <bounds x="708" y="36" width="61" height="145"/>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="3.todo-B2G  — бізнес-модель на мотиваційному рівні" id="id-8c10463a93624174ba42e40d8975c430">
@@ -9631,14 +9636,20 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="4.AiColL" id="id-64396a114daa44e792c8eae024ed927b">
+          <child xsi:type="archimate:DiagramObject" id="id-98ea52dfafd642ffb2d2ccf083b0f141" textAlignment="1" archimateElement="id-ed0f426b34074c19b1b63845fea5a893" type="1">
+            <bounds y="132" width="73" height="193"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-51c2387e4b0c45eba8d500873246f5ad" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-4f315f40c13c401aa0056e1290547583">
+            <bounds x="48" y="228" width="193" height="37"/>
+          </child>
           <child xsi:type="archimate:DiagramObject" id="id-c2b6152b7b0b4510a829627e90863342" textPosition="1" archimateElement="id-27592f8a82764f20a6234525a51182ca">
-            <bounds x="265" y="192" width="169" height="61"/>
+            <bounds x="265" y="180" width="169" height="61"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2708d5a1e0124057ae869e3070403477" textPosition="1" archimateElement="id-c5f138d9aabc48ffb726526cf20e57cc">
-            <bounds x="97" y="192" width="145" height="37"/>
+            <bounds x="97" y="180" width="145" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a43570a1786347c398fba76d212bfd48" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
-            <bounds y="348" width="73" height="37"/>
+            <bounds y="336" width="73" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-39a6cd8fc14347c0a1a7e5ff27998269" source="id-a43570a1786347c398fba76d212bfd48" target="id-a611b44eb72949eebf6d61710df32ccd" archimateRelationship="id-951191446a0a45d387d474a9a6add415">
               <bendpoint startX="-36" startY="-42" endX="-36" endY="42"/>
             </sourceConnection>
@@ -9647,7 +9658,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a611b44eb72949eebf6d61710df32ccd" targetConnections="id-39a6cd8fc14347c0a1a7e5ff27998269 id-15dba4c779a6411c887044cc05cbe120" font="1|Sans|9.0|2|GTK|1|" textPosition="1" archimateElement="id-fd2621b03b99463b98b851c6f4c87fb5">
-            <bounds y="96" width="73" height="37"/>
+            <bounds y="84" width="73" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-74c74eb87afd408f89e59d4ac161b02a" font="1|Sans|9.0|1|GTK|1|" source="id-a611b44eb72949eebf6d61710df32ccd" target="id-0a9d80b0110748639c0e7dfd01ec0ae4" archimateRelationship="id-67ca265e854a417ca56b9e2964c24608">
               <bendpoint startX="24" startY="30" endX="-312" endY="-222"/>
               <bendpoint startX="156" startY="30" endX="-72" endY="-222"/>
@@ -9655,47 +9666,37 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-3fe713a4a4c14260a4d4bc2ff4215700" targetConnections="id-c4f08c69b3474b368ed52798ae2be599" textPosition="1" archimateElement="id-6daf263f1e894b9e81c941091105a292" type="1">
-            <bounds x="96" y="96" width="145" height="37"/>
+            <bounds x="96" y="84" width="145" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9917d36b028b46d2a73673945e3c955d" textPosition="1" archimateElement="id-b333735ee5b74895a2af6f3a4caee1b7">
-            <bounds x="96" y="348" width="121" height="37"/>
+            <bounds x="96" y="336" width="121" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-c4f08c69b3474b368ed52798ae2be599" source="id-9917d36b028b46d2a73673945e3c955d" target="id-3fe713a4a4c14260a4d4bc2ff4215700" archimateRelationship="id-a331db01af5b409aa6b7b1d02c42706b">
               <bendpoint startX="-60" startY="-114" endX="-72" endY="138"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9bd03f078d2843c0bda9d30e0419847e" archimateElement="id-64a738ed89d848d896fd2427887fb854">
-            <bounds x="265" y="287" width="169" height="40"/>
+            <bounds x="265" y="275" width="169" height="40"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-d22757745a024fde88d7d2f1f7c8fb72" archimateElement="id-ecbaa3c03d5b4393a017ec8508f0acb6">
-            <bounds x="97" y="288" width="144" height="37"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-98ea52dfafd642ffb2d2ccf083b0f141" textAlignment="1" archimateElement="id-ed0f426b34074c19b1b63845fea5a893" type="1">
-            <bounds y="144" width="73" height="193"/>
+            <bounds x="97" y="276" width="144" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-b1470882e48a4a1498a2243393c47200" textAlignment="1" archimateElement="id-13024029ddb6436381856e71828e7b82">
-            <bounds x="264" y="96" width="169" height="37"/>
+            <bounds x="264" y="84" width="169" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-d631d5e5c43d4a70a773f70056896e7a" textAlignment="1" archimateElement="id-8e2b88a09c224d789fa6a09d15bd7a99">
-            <bounds x="97" y="144" width="145" height="37"/>
+            <bounds x="97" y="132" width="145" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-4aa5c47bca0d4031be63762c84fae71c" textAlignment="1" archimateElement="id-588cf66d8f1f45a7b8377336619cf121">
-            <bounds x="265" y="144" width="169" height="37"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-7d16fab780a84f3f9d88f72bb3d8bc59" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-6616b5b18cfb4a329b3af202f0ead087">
-            <bounds x="49" y="240" width="193" height="37"/>
+            <bounds x="265" y="132" width="169" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-960959a835fe4948a7719517cf8fd595" font="1|Sans|9.0|1|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-3d58a32984d6458e9e34e31998b6cb36">
-            <bounds x="156" y="258" width="266" height="30"/>
+            <bounds x="156" y="246" width="266" height="30"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c1bc4fd60f684847b9685b7149ca2cc6" font="1|Sans|9.0|2|GTK|1|" archimateElement="id-75085f365f6a42c497e111ea218ef1ac">
-            <bounds x="132" y="264" width="229" height="24"/>
-          </child>
-          <child xsi:type="archimate:Note" id="id-d8380137199143a7991d0b079d67a027" fontColor="#babdb6" textAlignment="1" borderType="2">
-            <bounds x="289" y="72" width="144" height="25"/>
-            <content>©, 2022, Algoritmed</content>
+            <bounds x="132" y="252" width="229" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-5526787a92094c8ea63ecabd9d4421db" targetConnections="id-2562dafdfbc24e13bc8943f619697863" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-eb904b56b71e435cb91ed1cc9401a2c7">
-            <bounds x="348" y="348" width="85" height="37"/>
+            <bounds x="348" y="336" width="85" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-b6f5c03f918a4d8e8f25813e599b75d8" font="1|Sans|9.0|1|GTK|1|" source="id-5526787a92094c8ea63ecabd9d4421db" target="id-0a9d80b0110748639c0e7dfd01ec0ae4" archimateRelationship="id-a6e5a39cb10541bfb91d5692f6e347d9">
               <bendpoint startX="-84" startY="-42" endY="-42"/>
             </sourceConnection>
@@ -9708,11 +9709,15 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-0a9d80b0110748639c0e7dfd01ec0ae4" targetConnections="id-74c74eb87afd408f89e59d4ac161b02a id-b6f5c03f918a4d8e8f25813e599b75d8 id-f1ba03961d904632ac47ebb23371ae4e" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="94ea8c65-315c-40c5-80d2-5d73baca6039">
-            <bounds x="228" y="348" width="109" height="37"/>
+            <bounds x="228" y="336" width="109" height="37"/>
           </child>
           <child xsi:type="archimate:Note" id="id-c2b7c43f9ddb4388997c23076ac4f42f" textAlignment="1">
             <bounds width="433" height="73"/>
             <content>Виділення моделювання процесами на бізнес рівні в окрему мову програмування AIColl і аналізу ефективності їх використання. Повний PDCA цикл через модуль статистичного аналізу. Взаємодія з мовою завдань MeTaL</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-d8380137199143a7991d0b079d67a027" fontColor="#babdb6" textAlignment="1" borderType="2">
+            <bounds x="264" y="60" width="144" height="25"/>
+            <content>©, 2022, Algoritmed</content>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="Процес менеджменту якості" id="id-3ae93e15e11a4b93a2551413d093e5e9">
@@ -9739,9 +9744,6 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           <child xsi:type="archimate:DiagramObject" id="id-59b755604b174a9b955ee0bd5e292a6b" archimateElement="id-3d58a32984d6458e9e34e31998b6cb36">
             <bounds x="120" y="12" width="97" height="25"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-e97087daac754765a651306c8f8141fa" archimateElement="id-6616b5b18cfb4a329b3af202f0ead087">
-            <bounds x="12" y="12" width="97" height="25"/>
-          </child>
           <child xsi:type="archimate:DiagramObject" id="id-eb8ef1c0adbf4e0ea3f31d9a9c49eb9a" archimateElement="id-67af4ad2a82d46a49a1b21427b05cc40">
             <bounds x="12" y="48" width="313" height="25"/>
           </child>
@@ -9751,10 +9753,13 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           <child xsi:type="archimate:DiagramObject" id="id-4354f8ca85114640867bde657a8cd7c2" textAlignment="1" archimateElement="id-82c22992ef8448f98482bee8080c3d94">
             <bounds x="12" y="96" width="181" height="37"/>
           </child>
+          <child xsi:type="archimate:DiagramObject" id="id-86fb49b49ce24fdf9a6afeff658ea667" archimateElement="id-4f315f40c13c401aa0056e1290547583">
+            <bounds x="12" y="12" width="97" height="25"/>
+          </child>
         </element>
       </folder>
       <folder name="AICol" id="id-7bc70c34ebb8400284ce381b7b854b2f">
-        <element xsi:type="archimate:ArchimateDiagramModel" name="New ArchiMate View" id="id-a77217ab260a4a8fbdc44bddfdd579a9">
+        <element xsi:type="archimate:ArchimateDiagramModel" name="Stop-New ArchiMate View" id="id-a77217ab260a4a8fbdc44bddfdd579a9">
           <child xsi:type="archimate:DiagramObject" id="id-25ffdbaa51f745f1b2a83f1f75c2a9b0" textPosition="1" archimateElement="id-27592f8a82764f20a6234525a51182ca">
             <bounds x="277" y="204" width="169" height="61"/>
           </child>
