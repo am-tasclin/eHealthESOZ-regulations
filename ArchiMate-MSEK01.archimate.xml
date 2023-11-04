@@ -525,20 +525,20 @@ https://www.accantec.de/portfolio/technische-implementation
           <bounds x="108" y="60" width="337" height="25"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-3aa85ce5788449169f8c24e0c21c86ca" textAlignment="1" textPosition="1" archimateElement="id-39035965cc46452b87a5f6770b50e6c3">
-          <bounds x="12" y="108" width="169" height="37"/>
+          <bounds x="12" y="108" width="169" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-db3f665c22f84f7eb1482496c6837bbc" source="id-3aa85ce5788449169f8c24e0c21c86ca" target="id-544f2e843494426082a5f533a0142435" archimateRelationship="id-39f226e313c448a69c5663e697c6e663"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d475e0e96a1c494e9d27dc1f1553a860" source="id-3aa85ce5788449169f8c24e0c21c86ca" target="id-8c5e0cf61b6e49e6822b18c73637f0ba" archimateRelationship="id-56dc1e27854e4a41994fbff0da540538"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-8c5e0cf61b6e49e6822b18c73637f0ba" targetConnections="id-95be479e413c4f7d86d0f5561cef8116 id-42d275804ca24c65b73749683e2883fe id-d475e0e96a1c494e9d27dc1f1553a860 id-48e88a9c3ffc45a4b98efea214926cd9" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-280fa2340a014b6b8cf13b528c33b4ba">
-          <bounds x="204" y="108" width="217" height="37"/>
+          <bounds x="204" y="108" width="217" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-42d275804ca24c65b73749683e2883fe" source="id-8c5e0cf61b6e49e6822b18c73637f0ba" target="id-8c5e0cf61b6e49e6822b18c73637f0ba" archimateRelationship="id-3d27c4a4864c461c903407be9129e755">
             <bendpoint startX="132" startY="-6" endX="132" endY="-6"/>
-            <bendpoint startX="132" startY="-30" endX="132" endY="-30"/>
-            <bendpoint startX="60" startY="-30" endX="60" endY="-30"/>
+            <bendpoint startX="132" startY="-36" endX="132" endY="-36"/>
+            <bendpoint startX="60" startY="-36" endX="60" endY="-36"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-29d344b153864f6e93c6ee50d76c6e6c" source="id-8c5e0cf61b6e49e6822b18c73637f0ba" target="id-544f2e843494426082a5f533a0142435" archimateRelationship="id-7b0d3d444b0e471abc3a915e1513d347"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-b0287886cb354b528f0da606be467f0d" source="id-8c5e0cf61b6e49e6822b18c73637f0ba" target="id-2c44f8d535c543da887d42f658f524f3" archimateRelationship="id-72f3fe55313040f3baaaa417be5a20bc">
-            <bendpoint startX="132" startY="18" endX="234" endY="-192"/>
+            <bendpoint startX="132" startY="12" endX="234" endY="-192"/>
             <bendpoint startX="132" startY="210" endX="234"/>
           </sourceConnection>
         </child>
@@ -551,7 +551,7 @@ https://www.accantec.de/portfolio/technische-implementation
           <bounds x="180" y="228" width="109" height="61"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-83c02bcb9d9f47ad8165739aeacb0851" source="id-156696d37b304b519f7bdb66184dc2a4" target="id-54f78b4989f24506a481f5aa5597ae14" archimateRelationship="id-897270556ccf4be2999fd04c7b926a9e"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-8d8b6187a8174adf9c282c0fd6823a72" targetConnections="id-5da6dea2f8154844a293019fec2be523" textAlignment="1" archimateElement="id-5c97058d7af44f98b9c541e27474f6cb">
+        <child xsi:type="archimate:DiagramObject" id="id-8d8b6187a8174adf9c282c0fd6823a72" targetConnections="id-5da6dea2f8154844a293019fec2be523" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" archimateElement="id-5c97058d7af44f98b9c541e27474f6cb">
           <bounds x="12" y="168" width="145" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a395ae9f0fe2419eb8e4eecf0fced9ca" source="id-8d8b6187a8174adf9c282c0fd6823a72" target="id-1db27d866ea846cfbcba43a6977af9de" archimateRelationship="id-cddf1be5a24e4c1cb66d749d66a4f9c4"/>
         </child>
@@ -559,11 +559,11 @@ https://www.accantec.de/portfolio/technische-implementation
           <bounds x="312" y="228" width="133" height="61"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-bd7c38f07f8e4a40b63b6fe51dddf1b6" targetConnections="id-3b8e492afbfc48e4a3e7670006310b51 id-eaf88eac1798467aaeb571f86a869808" textPosition="1" archimateElement="id-21004757666e4602a06b97d182422afd">
-          <bounds x="12" y="372" width="409" height="37"/>
+          <bounds x="12" y="372" width="409" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-3b8e492afbfc48e4a3e7670006310b51" source="id-bd7c38f07f8e4a40b63b6fe51dddf1b6" target="id-bd7c38f07f8e4a40b63b6fe51dddf1b6" archimateRelationship="id-48da5a2479014654a83e519429f4529a">
-            <bendpoint startX="228" startY="6" endX="228" endY="6"/>
-            <bendpoint startX="228" startY="-30" endX="228" endY="-30"/>
-            <bendpoint startX="180" startY="-30" endX="180" endY="-30"/>
+            <bendpoint startX="228" endX="228"/>
+            <bendpoint startX="228" startY="-36" endX="228" endY="-36"/>
+            <bendpoint startX="180" startY="-36" endX="180" endY="-36"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:Note" id="id-9a32a9f02cf5406194600473ea208fe1" font="1|Sans|8.0|0|GTK|1|" fontColor="#babdb6" textAlignment="4" borderType="2">
@@ -571,7 +571,7 @@ https://www.accantec.de/portfolio/technische-implementation
           <content>©, 2023 Algoritmed</content>
         </child>
         <child xsi:type="archimate:Note" id="id-f7d4ec8bd626462489f0d044e1aeb7d0" textPosition="1">
-          <bounds x="96" y="12" width="349" height="37"/>
+          <bounds x="96" y="12" width="349" height="43"/>
           <content>Процес &quot;Збір документів по вказаному плану (CarePlan)&quot; -- Бізнес і аплікаційни рівень.</content>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-bb6d647b5bc74ae0890824af862b869c" targetConnections="id-0153d5c5afc2424291332e5cee512ec4" textPosition="1" archimateElement="id-ea6f4bb0f76d4919b7a3f91879df8a03">
@@ -582,11 +582,10 @@ https://www.accantec.de/portfolio/technische-implementation
         <child xsi:type="archimate:DiagramObject" id="id-2c44f8d535c543da887d42f658f524f3" targetConnections="id-b0287886cb354b528f0da606be467f0d id-8344b8977660446e8caca3b4e88dd81e" textPosition="1" archimateElement="id-4dc9c019ae424c349308bc19f0d9d66e">
           <bounds x="12" y="312" width="397" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-eaf88eac1798467aaeb571f86a869808" source="id-2c44f8d535c543da887d42f658f524f3" target="id-bd7c38f07f8e4a40b63b6fe51dddf1b6" archimateRelationship="id-95e39ae1802e43a2bb23a32e5e03c5ad">
-            <bendpoint startX="210" startY="12" endX="204" endY="-42"/>
+            <bendpoint startX="210" startY="12" endX="204" endY="-48"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-48e88a9c3ffc45a4b98efea214926cd9" source="id-2c44f8d535c543da887d42f658f524f3" target="id-8c5e0cf61b6e49e6822b18c73637f0ba" archimateRelationship="id-073982e1e4dc46368e411698c6885815">
-            <bendpoint startX="-198" startY="-180" endX="-300" endY="30"/>
-            <bendpoint startX="-6" startY="-180" endX="-108" endY="30"/>
+            <bendpoint startX="-198" startY="-180" endX="-300" endY="24"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-8344b8977660446e8caca3b4e88dd81e" source="id-2c44f8d535c543da887d42f658f524f3" target="id-2c44f8d535c543da887d42f658f524f3" archimateRelationship="id-8d447872a5ed4c06b16b7b1d331c3174">
             <bendpoint startX="222" startY="-12" endX="222" endY="-12"/>
