@@ -824,7 +824,7 @@ https://www.accantec.de/portfolio/technische-implementation
             <bounds x="36" y="84" width="73" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-b9752d2db2074b21875e178af9545b64" source="id-af6a147f989f4592ba15085c8f8b6fa1" target="id-85d7b0fb088343c2ae7756fe79ae66b4" archimateRelationship="id-dc38f556c6104aa683d4456d846e2016">
               <bendpoint startX="60" endX="-120" endY="60"/>
-              <bendpoint startX="60" startY="-60" endX="-120"/>
+              <bendpoint startX="48" startY="-60" endX="-132"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-f7dbb0c37cb5466e9ff3f93477beffbe" source="id-af6a147f989f4592ba15085c8f8b6fa1" target="id-4c1b3eef675140d5ad15abf312cc3cee" archimateRelationship="id-f5ff9884c0114207aba0fbc449680996">
               <bendpoint startX="-60" endX="-48" endY="24"/>
@@ -834,7 +834,7 @@ https://www.accantec.de/portfolio/technische-implementation
             <bounds x="421" y="84" width="72" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-fa3313cb84ef405f9ae20d999d74af48" source="id-2de78557f20c494c888d594c2c7e9d17" target="id-85d7b0fb088343c2ae7756fe79ae66b4" archimateRelationship="id-dc38f556c6104aa683d4456d846e2016">
               <bendpoint startX="-85" endX="120" endY="60"/>
-              <bendpoint startX="-85" startY="-60" endX="120"/>
+              <bendpoint startX="-73" startY="-60" endX="132"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-936dda4d0d4742199a72dd736c7cf686" source="id-2de78557f20c494c888d594c2c7e9d17" target="id-f6e8ee4cf68744a88b74c7ca468bff08" archimateRelationship="id-5413730d91de43cda740ccf31674a7d5">
               <bendpoint startX="-61" endX="-48" endY="24"/>
