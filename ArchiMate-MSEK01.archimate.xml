@@ -2240,6 +2240,12 @@ https://www.accantec.de/portfolio/technische-implementation
         <child xsi:type="archimate:DiagramObject" id="id-0d1c7c5257d54aa88aa82bd39d418da7" font="1|Sans|14.0|0|GTK|1|" textPosition="1" archimateElement="id-0e2d8c721d61448ba4acd3847b0ef204">
           <bounds x="72" y="48" width="49" height="37"/>
         </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6f3dd7d8e11b482db5310854f084c44e" font="1|Sans|12.0|0|GTK|1|" textAlignment="1" archimateElement="id-152622c9007c4487980755f4dea5d0b3" type="1">
+          <bounds x="300" y="96" width="25" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-93ff6d28a5674341a1b88861475050a3" font="1|Sans|15.0|0|GTK|1|" textPosition="1" archimateElement="id-40a1d1880a31419b8b48e5517d9141ed" type="1">
+          <bounds x="204" y="636" width="24" height="25"/>
+        </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="on.bm: R&amp;D ↔ Service" id="id-c775a2e1043648c289c2c36ab8cd2084">
         <child xsi:type="archimate:DiagramObject" id="id-8d84668bfcaa45ee9b962f2149f2a772" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-ba8ca358fb6e402f9a24446318f1d2da" type="1">

@@ -13970,7 +13970,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-bb50719b8a7d437fb8bc74460f2473ef" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-95f85e8126c244d5add7c089d28cef3d">
             <bounds x="420" y="132" width="109" height="37"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-f0637da36e7f4cf3968276028fd55243" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-9427387353f44541863c4ad8d8210ee5">
+          <child xsi:type="archimate:DiagramObject" id="id-f0637da36e7f4cf3968276028fd55243" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-9427387353f44541863c4ad8d8210ee5">
             <bounds x="420" y="72" width="109" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-928a83681e9e4b49a81ae592f49355fd" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-342195704cf3422e9fa03d606c28ab0f">
@@ -14985,9 +14985,9 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-1dc0118172b94b009f72e9cefc427bd4" font="1|Sans|13.0|0|GTK|1|" textPosition="1" archimateElement="id-d0aa8d78945247bf9286b5447a28ea78" type="1">
             <bounds x="228" y="168" width="37" height="37"/>
           </child>
-          <child xsi:type="archimate:Note" id="id-dcf0d0f7de4c42db9648a9a07ef08346">
+          <child xsi:type="archimate:Note" id="id-dcf0d0f7de4c42db9648a9a07ef08346" font="1|Sans|8.0|0|GTK|1|" textPosition="1">
             <bounds x="12" y="12" width="517" height="49"/>
-            <content>S: System development: Concern of Interest separation and composition: MDR, ISO/IEC/IEEE 42010:2022 Software, systems and enterprise — Architecture description</content>
+            <content>S: System development: Concern of Interest separation and composition: MDR, ISO/IEC/IEEE 42010:2022 Software, systems and enterprise Architecture description</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-b5be9ab98e8b4aea888ff0ecee28406e" textPosition="1" archimateElement="id-fa94c64010584887a33a448b84c84406" type="1">
             <bounds x="402" y="108" width="25" height="25"/>
@@ -15037,7 +15037,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-2b41f6b1f8a146deac3ec6668653756e" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-95f85e8126c244d5add7c089d28cef3d">
             <bounds x="420" y="132" width="109" height="37"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-0e3f90baf7bc4922bf4d539bee80cf87" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-9427387353f44541863c4ad8d8210ee5">
+          <child xsi:type="archimate:DiagramObject" id="id-0e3f90baf7bc4922bf4d539bee80cf87" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-9427387353f44541863c4ad8d8210ee5">
             <bounds x="420" y="72" width="109" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2200a2e1e0a94af496388b87ce536559" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-342195704cf3422e9fa03d606c28ab0f">
@@ -15095,20 +15095,20 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
             <bounds x="287" y="336" width="242" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-3c49020eb1534955a91df1ed51bb1492" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-dee3c92f6af24147b7074f1c8558c8c6" type="1">
-            <bounds x="480" y="48" width="49" height="25"/>
+            <bounds x="468" y="48" width="61" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-55fe7f631be94bec953b9aed449a6fff" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-b321bf0b8ffb4451845e091b934c65a2" type="1">
-            <bounds x="12" y="300" width="49" height="25"/>
+            <bounds x="12" y="300" width="73" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c8dc7f0e221e4d1087d15803e1c4396f" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-e6961df67918491ca92b8f1cd39d6c3f" type="1">
-            <bounds x="480" y="312" width="49" height="25"/>
+            <bounds x="456" y="300" width="73" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c3b66db1cd854665832a908cbc609384" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-99b6c16b198d4a088c930237346b237d" type="1">
-            <bounds x="12" y="48" width="49" height="25"/>
+            <bounds x="12" y="48" width="73" height="25"/>
           </child>
           <child xsi:type="archimate:Note" id="id-3b12c2fb801040ebbdf96c885603e09f" fontColor="#babdb6" textAlignment="1" borderType="2">
             <bounds x="324" y="48" width="145" height="25"/>
-            <content>©, 2022, Algoritmed</content>
+            <content>©, 2023, Algoritmed</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-77ed738a4ea14361ae1f954add851d13" font="1|Sans|8.0|0|GTK|1|" textPosition="1" archimateElement="id-9705bc2e1d6b42c98e76b051343c3cdb" type="1">
             <bounds x="227" y="312" width="86" height="25"/>
@@ -15128,11 +15128,8 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-3cafa6b6012f43daad2682a304060446" textPosition="1" archimateElement="id-cff84a95f5dc4b508d92cd96f44c4514" type="1">
             <bounds x="119" y="108" width="25" height="25"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-a652c628cf71463c84cfee7cc0d8603d" textPosition="1" archimateElement="id-01f7f1ad7a754478a8700fafeae56767">
-            <bounds x="312" y="312" width="109" height="25"/>
-          </child>
           <child xsi:type="archimate:DiagramObject" id="id-f0fde2be0b9140b7978a6c691126e7de" font="1|Sans|7.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-cdb05c1e80a54b61a83168a271869950" type="1">
-            <bounds x="426" y="300" width="49" height="25"/>
+            <bounds x="408" y="300" width="49" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-5586d78c92bf48f59eda8eb17dc111ad" textAlignment="1" textPosition="1" archimateElement="id-b6a4bb66d8a3422db9752ea5a76ae648" type="1">
             <bounds x="396" y="84" width="25" height="25"/>
@@ -15163,6 +15160,9 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-7d47033e4ba9456c8f4f1a32ea0c97ba" font="1|Sans|14.0|0|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-1e053382f8d6457faf785cbe4f70cb79" type="1">
             <bounds x="120" y="216" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-a652c628cf71463c84cfee7cc0d8603d" textPosition="1" archimateElement="id-01f7f1ad7a754478a8700fafeae56767">
+            <bounds x="312" y="312" width="109" height="25"/>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="M::z::C (am:v.1.0.3)" id="id-a9ca8aa64db84ac2b669718674b19c5b">
