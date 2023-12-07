@@ -9783,7 +9783,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             <bounds x="216" y="348" width="73" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-71999f0c27044bfbbedada750ef5d261" font="1|Sans|9.0|1|GTK|1|" source="id-4e619cc0c71d4e64a34b0b44457b41e9" target="id-f0e54c71325c432b9fed31e428f332b3" archimateRelationship="id-67ca265e854a417ca56b9e2964c24608">
               <bendpoint startX="132" startY="18" endX="-18" endY="270"/>
-              <bendpoint startX="192" startY="-66" endX="42" endY="186"/>
+              <bendpoint startX="192" startY="-54" endX="42" endY="198"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-0ec7676f48034fa6b40c1b715397ccac" targetConnections="id-a9b486c15ba64ba6bfc4b49c99e9bf04" textPosition="1" archimateElement="id-6daf263f1e894b9e81c941091105a292">
@@ -9823,7 +9823,8 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
               <bendpoint startX="186" startY="-18" endX="-168" endY="-18"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-66e7e818ce5c438cb7dc835e1d32d4b3" font="1|Sans|9.0|1|GTK|1|" source="id-8cdf14dda721475d94a1308319778edc" target="id-4e619cc0c71d4e64a34b0b44457b41e9" archimateRelationship="id-716e961926eb43d59a9fcbfcaf9dfeaf">
-              <bendpoint startX="234" startY="174" endX="36" endY="-78"/>
+              <bendpoint startX="54" startY="78" endX="-144" endY="-174"/>
+              <bendpoint startX="234" startY="78" endX="36" endY="-174"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-f0e54c71325c432b9fed31e428f332b3" targetConnections="id-e8fbb9c1a83e45be997a48c9457128f5 id-71999f0c27044bfbbedada750ef5d261 id-3e4113cbfa514fcaa7df34c736ffa8fc" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="94ea8c65-315c-40c5-80d2-5d73baca6039">
