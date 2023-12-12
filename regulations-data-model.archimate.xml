@@ -550,7 +550,7 @@ https://en.wikipedia.org/wiki/Design
     <element xsi:type="archimate:Requirement" name="запит" id="id-8a98c9ade71b4b9a92136a737c68a604"/>
     <element xsi:type="archimate:Requirement" name="вимога" id="id-ec2fa2e38c6a4f599f08fcb2a2d62b2e"/>
     <element xsi:type="archimate:Requirement" name="потреба" id="id-70a271cb634c474e9ff6f39188ecf5c8"/>
-    <element xsi:type="archimate:Driver" name="addresses" id="id-962c3b53c5224c03b1287c3787de566c"/>
+    <element xsi:type="archimate:Driver" name="adresses" id="id-962c3b53c5224c03b1287c3787de566c"/>
     <element xsi:type="archimate:Driver" name="FHIR" id="id-b9d9319f56ee44e5aa070ca931444559"/>
     <element xsi:type="archimate:Driver" name="RDF" id="id-ea11953959f44437a20b67a4223fbe46"/>
     <element xsi:type="archimate:Value" name="New Value" id="id-d5acb6ac1c0144f0b0aa723758d587a2"/>

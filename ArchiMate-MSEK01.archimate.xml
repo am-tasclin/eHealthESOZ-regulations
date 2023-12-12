@@ -49,7 +49,7 @@ The Clinical Quality Language Specification  defines a representation for the ex
     <element xsi:type="archimate:Resource" name="Model Kind" id="id-25723edd72f84c779d3884deb3bba85b"/>
     <element xsi:type="archimate:Resource" name="Sr: Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
     <element xsi:type="archimate:Resource" name="SAT: Solution Archit-re Template" id="id-26b62c6d536a4204b5a3654ec807286b"/>
-    <element xsi:type="archimate:ValueStream" name="at.METaL: Management Business Task Language" id="id-1d1e50958d564cf8b7762718e7585d23"/>
+    <element xsi:type="archimate:ValueStream" name="at.METaL:  Business Task Management Language" id="id-1d1e50958d564cf8b7762718e7585d23"/>
     <element xsi:type="archimate:ValueStream" name="t(CIA): Concern-Interest of Action" id="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
     <element xsi:type="archimate:CourseOfAction" name="A: Architecture" id="id-d76da7a7f9754e24a48a17910c7c08d1"/>
     <element xsi:type="archimate:Capability" name="AD: Architecture Description" id="id-2f6e1c45f07e448f99f0934d2b85b560"/>
@@ -64,7 +64,9 @@ https://uk.wikipedia.org/wiki/Адресне_програмування
 Адресне програмування (також адресна мова) — математичний формалізм (формальна мова), що ставить за мету опис деяких комп'ютерних операцій, передусім пов'язаних з адресами. Перша публікація з адресного програмування (приблизно у 1955—1956 роках) належить українським вченим В. Королюку і К. Ющенко. 
 </documentation>
     </element>
-    <element xsi:type="archimate:ValueStream" name="at.metAL:Addressed Management Business Task Language" id="id-b1dea22f1fa744caa0c42e1b2e9ab83d"/>
+    <element xsi:type="archimate:ValueStream" name="at.metAL: Task Adresse Management  Language" id="id-b1dea22f1fa744caa0c42e1b2e9ab83d"/>
+    <element xsi:type="archimate:ValueStream" name="at.MetaL: Mathe Task  Language" id="id-61ed8b8062fe42649333e6583443afd6"/>
+    <element xsi:type="archimate:ValueStream" name="at.aic: AIColl Collaboration  Language" id="id-1005645145814f4e80b3e62f3907d352"/>
   </folder>
   <folder name="Business" id="id-fad8632cdbad40bf8c7c7b96c6c322b3" type="business">
     <folder name="bs.am:Sy-Mn-01" id="id-7d89c258505a4c789e0da41c0e517859">
@@ -1456,16 +1458,16 @@ https://www.accantec.de/portfolio/technische-implementation
           <child xsi:type="archimate:DiagramObject" id="id-aaeecb2b976b4fb4b28589f87a7823f7" textPosition="1" archimateElement="id-95f85e8126c244d5add7c089d28cef3d">
             <bounds x="168" y="72" width="337" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-d955e2e4c05943349d84f4e7077361b5" source="id-aaeecb2b976b4fb4b28589f87a7823f7" target="id-7eda9cf58ada499cac9251b70f2cd016" archimateRelationship="id-c0da2917fb8840f080da4ebf481ee3c7">
-              <bendpoint startX="-204" startY="24" endX="-222" endY="-12"/>
+              <bendpoint startX="-168" startY="24" endX="-180" endY="-12"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-b8a3028da0d64450b2a298956952bc8a" targetConnections="id-c3daed8d5bf64983a81be5ec2491c803" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-1fe05a2665fa46848dbd90303dcd35d9">
-            <bounds x="240" y="156" width="241" height="25"/>
+            <bounds x="216" y="132" width="85" height="73"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-ebd8aa32414845dc9d721e7ddbb89255" source="id-b8a3028da0d64450b2a298956952bc8a" target="id-d81e777b77be418cb8fa80b8333aff9e" archimateRelationship="id-3a386f8c0e4c4c4b8c72de67c902110e">
-              <bendpoint startX="-192" startY="12" endX="-168" endY="-36"/>
+              <bendpoint startX="-78" endX="-156" endY="-48"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-fb9462dc5c8e4683a9b1b782039b0eab" source="id-b8a3028da0d64450b2a298956952bc8a" target="id-7eda9cf58ada499cac9251b70f2cd016" archimateRelationship="id-facaed9bbcff4e24b7a5a999f388c7a4">
-              <bendpoint startX="-156" startY="-12" endX="-150" endY="36"/>
+              <bendpoint startX="-66" endX="-156" endY="48"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-515ff3efd90f49cd8a4b32dc7593b88e" targetConnections="id-84264195786a47c5aadfa3619bb1a995" textAlignment="1" textPosition="1" archimateElement="id-fabf6189de044d8896477afec0ba5290">
@@ -1473,11 +1475,15 @@ https://www.accantec.de/portfolio/technische-implementation
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1d3fc23222984a1e8adc66bfc458e54f" textAlignment="1" textPosition="1" archimateElement="id-7ec413cb97014049be5d8d343a50f192">
             <bounds x="12" y="132" width="133" height="49"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-c3daed8d5bf64983a81be5ec2491c803" source="id-1d3fc23222984a1e8adc66bfc458e54f" target="id-b8a3028da0d64450b2a298956952bc8a" archimateRelationship="id-166db97e407144099290a30cd9d215ce"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c3daed8d5bf64983a81be5ec2491c803" source="id-1d3fc23222984a1e8adc66bfc458e54f" target="id-b8a3028da0d64450b2a298956952bc8a" archimateRelationship="id-166db97e407144099290a30cd9d215ce">
+              <bendpoint startX="102" startY="12" endX="-78"/>
+            </sourceConnection>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-7eda9cf58ada499cac9251b70f2cd016" targetConnections="id-d955e2e4c05943349d84f4e7077361b5 id-c91d44cacbb54d23b8f96ebe5ae75615 id-fb9462dc5c8e4683a9b1b782039b0eab" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-1d1e50958d564cf8b7762718e7585d23">
-            <bounds x="204" y="108" width="301" height="25"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-84264195786a47c5aadfa3619bb1a995" source="id-7eda9cf58ada499cac9251b70f2cd016" target="id-515ff3efd90f49cd8a4b32dc7593b88e" archimateRelationship="id-0e62a277842844efb380cd92d06ca270"/>
+          <child xsi:type="archimate:DiagramObject" id="id-7eda9cf58ada499cac9251b70f2cd016" targetConnections="id-d955e2e4c05943349d84f4e7077361b5 id-c91d44cacbb54d23b8f96ebe5ae75615 id-fb9462dc5c8e4683a9b1b782039b0eab" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1d1e50958d564cf8b7762718e7585d23">
+            <bounds x="192" y="108" width="313" height="25"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-84264195786a47c5aadfa3619bb1a995" source="id-7eda9cf58ada499cac9251b70f2cd016" target="id-515ff3efd90f49cd8a4b32dc7593b88e" archimateRelationship="id-0e62a277842844efb380cd92d06ca270">
+              <bendpoint startX="-192" endX="78" endY="12"/>
+            </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-30546778478940f79f5a4d3604c78bca" textAlignment="1" textPosition="1" archimateElement="id-765f887d818943eea0ab949d3940e69d">
             <bounds x="12" y="180" width="133" height="49"/>
@@ -1486,16 +1492,23 @@ https://www.accantec.de/portfolio/technische-implementation
           <child xsi:type="archimate:DiagramObject" id="id-d81e777b77be418cb8fa80b8333aff9e" targetConnections="id-ebd8aa32414845dc9d721e7ddbb89255 id-66a6a7f927f5409aac65d5d118938237" font="1|Sans|8.0|1|GTK|1|" textPosition="1" archimateElement="id-b1dea22f1fa744caa0c42e1b2e9ab83d">
             <bounds x="168" y="204" width="337" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-c91d44cacbb54d23b8f96ebe5ae75615" source="id-d81e777b77be418cb8fa80b8333aff9e" target="id-7eda9cf58ada499cac9251b70f2cd016" archimateRelationship="id-5fb8229e343e4d7d961d656d4f7102e6">
-              <bendpoint startX="168" startY="-60" endX="150" endY="36"/>
+              <bendpoint startX="168" startY="-60" endX="156" endY="36"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:Note" id="id-0c03737e258f48388bf09428146cc8ad" textPosition="1">
             <bounds x="12" y="12" width="493" height="49"/>
-            <content>Common language (at.METaL), ontology specific language (at.MeTaL) and splitter language (at.metAL)</content>
+            <content>Collaboration between and through  languages.
+Співпраця між мовами та через них.</content>
           </child>
           <child xsi:type="archimate:Note" id="id-6228da430a554208939e84c19ac9107d" font="1|Sans|8.0|0|GTK|1|" fontColor="#babdb6" textAlignment="1" borderType="2">
             <bounds x="24" y="48" width="121" height="25"/>
             <content>©, 2023, Algoritmed</content>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-4f25195d79374c0082b90c162e7b0b94" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-61ed8b8062fe42649333e6583443afd6">
+            <bounds x="312" y="132" width="85" height="73"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-a0ec049fb46c4c68b2451ea54360c82f" font="1|Sans|8.0|1|GTK|1|" textPosition="1" archimateElement="id-1005645145814f4e80b3e62f3907d352">
+            <bounds x="408" y="132" width="85" height="73"/>
           </child>
         </element>
       </folder>
