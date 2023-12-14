@@ -49,7 +49,7 @@ The Clinical Quality Language Specification  defines a representation for the ex
     <element xsi:type="archimate:Resource" name="Model Kind" id="id-25723edd72f84c779d3884deb3bba85b"/>
     <element xsi:type="archimate:Resource" name="Sr: Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
     <element xsi:type="archimate:Resource" name="SAT: Solution Archit-re Template" id="id-26b62c6d536a4204b5a3654ec807286b"/>
-    <element xsi:type="archimate:ValueStream" name="at.METaL:  Business Task Management Language" id="id-1d1e50958d564cf8b7762718e7585d23"/>
+    <element xsi:type="archimate:ValueStream" name="at.METaL: Business Task Management Language" id="id-1d1e50958d564cf8b7762718e7585d23"/>
     <element xsi:type="archimate:ValueStream" name="t(CIA): Concern-Interest of Action" id="id-2bb7060b0a464931ad67f48cf70a8d0e"/>
     <element xsi:type="archimate:CourseOfAction" name="A: Architecture" id="id-d76da7a7f9754e24a48a17910c7c08d1"/>
     <element xsi:type="archimate:Capability" name="AD: Architecture Description" id="id-2f6e1c45f07e448f99f0934d2b85b560"/>
@@ -64,7 +64,7 @@ https://uk.wikipedia.org/wiki/Адресне_програмування
 Адресне програмування (також адресна мова) — математичний формалізм (формальна мова), що ставить за мету опис деяких комп'ютерних операцій, передусім пов'язаних з адресами. Перша публікація з адресного програмування (приблизно у 1955—1956 роках) належить українським вченим В. Королюку і К. Ющенко. 
 </documentation>
     </element>
-    <element xsi:type="archimate:ValueStream" name="at.metAL: Task Adresse Management  Language" id="id-b1dea22f1fa744caa0c42e1b2e9ab83d"/>
+    <element xsi:type="archimate:ValueStream" name="at.metAL: Task Adresse Management Language" id="id-b1dea22f1fa744caa0c42e1b2e9ab83d"/>
     <element xsi:type="archimate:ValueStream" name="at.MetaL: Mathe Task  Language" id="id-61ed8b8062fe42649333e6583443afd6"/>
     <element xsi:type="archimate:ValueStream" name="at.aic: AIColl Collaboration  Language" id="id-1005645145814f4e80b3e62f3907d352"/>
   </folder>
@@ -209,13 +209,14 @@ https://www.accantec.de/portfolio/technische-implementation
     <element xsi:type="archimate:BusinessRole" name="Check" id="id-9b53eea03fc843df8247d665cefa0637"/>
     <element xsi:type="archimate:BusinessProcess" name="fPD.activity" id="id-10b91f9231124ab8a240a2d89ce33ca0"/>
     <element xsi:type="archimate:BusinessFunction" name="fPD.activity" id="id-1499329057ad44d0aa3dad8dc652a6df"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="z" id="id-12ffbafc3fda48049ed13c1710d43752"/>
   </folder>
   <folder name="Application" id="id-9c319eb7bd114d6daab0ed9dec1f30b1" type="application">
     <folder name="an.am:Sy-Mn-01" id="id-639982c8d4774adda9540f4c4d8fb3d7">
       <element xsi:type="archimate:ApplicationComponent" name="ct: Component" id="id-65f0cdbe39f2407580b9a143367dc1c1"/>
       <element xsi:type="archimate:ApplicationFunction" name="Function" id="id-10dfc956b03443c4940256845ed31b24"/>
     </folder>
-    <element xsi:type="archimate:ApplicationCollaboration" name="AiColL" id="id-4f315f40c13c401aa0056e1290547583"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="AiColL:: S: Knowlege" id="id-4f315f40c13c401aa0056e1290547583"/>
     <element xsi:type="archimate:ApplicationProcess" name="Plan" id="id-40a1d1880a31419b8b48e5517d9141ed"/>
     <element xsi:type="archimate:ApplicationFunction" name="I: Information" id="id-0e2d8c721d61448ba4acd3847b0ef204"/>
     <element xsi:type="archimate:DataObject" name="eira:Ontology" id="id-b663f0bc-902c-4b7e-842e-1fd43744646a"/>
@@ -236,6 +237,8 @@ https://www.accantec.de/portfolio/technische-implementation
     <element xsi:type="archimate:ApplicationFunction" name="fAD: fr. ActivityDefinition" id="id-2d065fa330584f4a94cbbf8bd886a291"/>
     <element xsi:type="archimate:ApplicationProcess" name="fPD.activity" id="id-7adcf7c08e674c5f95fa4fb66017479a"/>
     <element xsi:type="archimate:ApplicationInteraction" name="↕ I←i(D,S,t)::[P:DCA],  i : interpretation" id="id-aa99f0c32de44d7e9b69b84ae1f91e96"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="x" id="id-de4a34c651bf48dca66dee92cc583fb4"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="∝" id="id-281bcdbc27054c60a7452283bb774ae9"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-d77682703b77439e9006acca91b02230" type="technology">
     <folder name="tech:am.eira_5.0.0" id="id-3863b64713f3451c936c3de68c8b3d65">
@@ -298,6 +301,7 @@ https://www.accantec.de/portfolio/technische-implementation
     <element xsi:type="archimate:SystemSoftware" name="cis.Oyle: Editor of Ontologies" id="id-e23ccf6f302840b0996fe837083ea8c5"/>
     <element xsi:type="archimate:TechnologyService" name="S: system" id="id-01a57e76c9fe4affb61736481e5382fe"/>
     <element xsi:type="archimate:TechnologyEvent" name="fr.Task" id="id-e6ae9264a5094b468f8d20bd62f431e7"/>
+    <element xsi:type="archimate:TechnologyCollaboration" name="y" id="id-d894eecacd8d41049b405ff7134b839e"/>
   </folder>
   <folder name="Motivation" id="id-418fc8dfd3bd41e1af0b214f866113a7" type="motivation">
     <folder name="m:am.lising.gravity" id="id-185934fc17cb4f35a7902f6029a80897">
@@ -1355,7 +1359,7 @@ https://www.accantec.de/portfolio/technische-implementation
             <bounds x="12" y="60" width="121" height="49"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-1be72f3876054c9ab72dec4a5fa425c3" source="id-89871f1eac1840ecbb85edf99d8a403c" target="id-fe1e4473b0ac43a7bf5efa5407356dc9" archimateRelationship="id-c0da2917fb8840f080da4ebf481ee3c7"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-6d3edd39b1044e6c86e797c79c3fede2" targetConnections="id-e0ec0f8aca194cfa9453169159626549" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1fe05a2665fa46848dbd90303dcd35d9">
+          <child xsi:type="archimate:DiagramObject" id="id-6d3edd39b1044e6c86e797c79c3fede2" targetConnections="id-e0ec0f8aca194cfa9453169159626549" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1fe05a2665fa46848dbd90303dcd35d9">
             <bounds x="156" y="192" width="121" height="49"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-58b818b9a514443d8d675773f73f8684" source="id-6d3edd39b1044e6c86e797c79c3fede2" target="id-df2951c62b974b9bb54ab353ec247435" archimateRelationship="id-3a386f8c0e4c4c4b8c72de67c902110e">
               <bendpoint startX="-60" startY="30" endX="-60" endY="-36"/>
@@ -1371,7 +1375,7 @@ https://www.accantec.de/portfolio/technische-implementation
             <bounds x="12" y="192" width="121" height="49"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-e0ec0f8aca194cfa9453169159626549" source="id-d5ca7fd3df944f6b9e214750607c7597" target="id-6d3edd39b1044e6c86e797c79c3fede2" archimateRelationship="id-166db97e407144099290a30cd9d215ce"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-fe1e4473b0ac43a7bf5efa5407356dc9" targetConnections="id-ad22966a2b284f4393f69d6389b7ab6d id-1be72f3876054c9ab72dec4a5fa425c3 id-7add7a7f4a144241b574404034066b31" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-1d1e50958d564cf8b7762718e7585d23">
+          <child xsi:type="archimate:DiagramObject" id="id-fe1e4473b0ac43a7bf5efa5407356dc9" targetConnections="id-ad22966a2b284f4393f69d6389b7ab6d id-1be72f3876054c9ab72dec4a5fa425c3 id-7add7a7f4a144241b574404034066b31" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" archimateElement="id-1d1e50958d564cf8b7762718e7585d23">
             <bounds x="156" y="120" width="121" height="61"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-03c15ce2344349c9bb5d549064ed221b" source="id-fe1e4473b0ac43a7bf5efa5407356dc9" target="id-adcde0bc905143ee8d6b6058d0889af7" archimateRelationship="id-0e62a277842844efb380cd92d06ca270">
               <bendpoint startX="-96" startY="30" endX="48" endY="36"/>
@@ -1381,7 +1385,7 @@ https://www.accantec.de/portfolio/technische-implementation
             <bounds x="12" y="264" width="121" height="49"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-84ccc744da0c467e872ed48f1705be5c" source="id-c113a7d9d5f94a6595d4648dd08515d1" target="id-df2951c62b974b9bb54ab353ec247435" archimateRelationship="id-13ac52703f024879a0bccf881a022b30"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-df2951c62b974b9bb54ab353ec247435" targetConnections="id-58b818b9a514443d8d675773f73f8684 id-84ccc744da0c467e872ed48f1705be5c" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" archimateElement="id-b1dea22f1fa744caa0c42e1b2e9ab83d">
+          <child xsi:type="archimate:DiagramObject" id="id-df2951c62b974b9bb54ab353ec247435" targetConnections="id-58b818b9a514443d8d675773f73f8684 id-84ccc744da0c467e872ed48f1705be5c" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" archimateElement="id-b1dea22f1fa744caa0c42e1b2e9ab83d">
             <bounds x="156" y="264" width="121" height="61"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-ad22966a2b284f4393f69d6389b7ab6d" source="id-df2951c62b974b9bb54ab353ec247435" target="id-fe1e4473b0ac43a7bf5efa5407356dc9" archimateRelationship="id-5fb8229e343e4d7d961d656d4f7102e6">
               <bendpoint startX="72" startY="-30" endX="72" endY="114"/>
@@ -1418,7 +1422,7 @@ https://www.accantec.de/portfolio/technische-implementation
             <bounds x="540" y="192" width="37" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-333cb6d029a84c07975732701cde34c7" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-4f315f40c13c401aa0056e1290547583">
-            <bounds x="156" y="60" width="121" height="49"/>
+            <bounds x="420" y="156" width="121" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2bf7d34ed77c4ee0b0faf442b9073229" textPosition="1" archimateElement="id-d108542d179d4141afe64efe579d4854">
             <bounds x="420" y="120" width="121" height="37"/>
@@ -1451,7 +1455,10 @@ https://www.accantec.de/portfolio/technische-implementation
             <bounds x="312" y="192" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1e8f92e731b0499da5a793e296dd5e7c" font="1|Sans|7.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-aa99f0c32de44d7e9b69b84ae1f91e96">
-            <bounds x="420" y="228" width="193" height="25"/>
+            <bounds x="408" y="228" width="205" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-a762b89c4ea447b0a7f90332d1723a99" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1005645145814f4e80b3e62f3907d352">
+            <bounds x="156" y="60" width="121" height="49"/>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="01:am.METAL (v.02)" id="id-d71e950aa75b49379d6414942460ec74">
@@ -1509,6 +1516,18 @@ https://www.accantec.de/portfolio/technische-implementation
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a0ec049fb46c4c68b2451ea54360c82f" font="1|Sans|8.0|1|GTK|1|" textPosition="1" archimateElement="id-1005645145814f4e80b3e62f3907d352">
             <bounds x="408" y="132" width="85" height="73"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-9bc609da778740f59834ba86bb8f45b6" textAlignment="4" textPosition="1" archimateElement="id-d894eecacd8d41049b405ff7134b839e" type="1">
+            <bounds x="300" y="180" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-6f6db38149df427bb8f509a968c83019" textAlignment="4" textPosition="1" archimateElement="id-de4a34c651bf48dca66dee92cc583fb4" type="1">
+            <bounds x="204" y="168" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-6a415ac20afb4ce1a945245131521d8a" textAlignment="1" textPosition="1" archimateElement="id-12ffbafc3fda48049ed13c1710d43752" type="1">
+            <bounds x="444" y="96" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-9a22d735460f498886af79ede366cedd" font="1|Sans|14.0|0|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-281bcdbc27054c60a7452283bb774ae9" type="1">
+            <bounds x="480" y="192" width="25" height="25"/>
           </child>
         </element>
       </folder>

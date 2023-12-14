@@ -375,6 +375,7 @@ https://en.wikipedia.org/wiki/Design
     <element xsi:type="archimate:ApplicationCollaboration" name="a" id="id-3326a8a2d28f40b580d669357af22d18"/>
     <element xsi:type="archimate:ApplicationFunction" name="Semantic" id="id-f78cb165343f4bad96f0360d7eda557c"/>
     <element xsi:type="archimate:ApplicationCollaboration" name="AiColL" id="id-4f315f40c13c401aa0056e1290547583"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="∝" id="id-8cb3883af57c49adbb982b9031c26632"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-2092aa681d734c1e9a4ba89d339a8503" type="technology">
     <folder name="ArchiMate-for-FHIR" id="id-a20cc6c386fb442980d4eab739b06f73"/>
@@ -9782,8 +9783,8 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           <child xsi:type="archimate:DiagramObject" id="id-4e619cc0c71d4e64a34b0b44457b41e9" targetConnections="id-940afcee305d4e3b948d86794bbfa217 id-66e7e818ce5c438cb7dc835e1d32d4b3" font="1|Sans|9.0|2|GTK|1|" textPosition="1" archimateElement="id-fd2621b03b99463b98b851c6f4c87fb5">
             <bounds x="216" y="348" width="73" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-71999f0c27044bfbbedada750ef5d261" font="1|Sans|9.0|1|GTK|1|" source="id-4e619cc0c71d4e64a34b0b44457b41e9" target="id-f0e54c71325c432b9fed31e428f332b3" archimateRelationship="id-67ca265e854a417ca56b9e2964c24608">
-              <bendpoint startX="132" startY="18" endX="-18" endY="270"/>
-              <bendpoint startX="192" startY="-54" endX="42" endY="198"/>
+              <bendpoint startX="48" startY="18" endX="-102" endY="270"/>
+              <bendpoint startX="192" startY="-42" endX="42" endY="210"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-0ec7676f48034fa6b40c1b715397ccac" targetConnections="id-a9b486c15ba64ba6bfc4b49c99e9bf04" textPosition="1" archimateElement="id-6daf263f1e894b9e81c941091105a292">
@@ -9800,13 +9801,13 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
             <bounds x="144" y="288" width="145" height="49"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1e14b637408e4aaf9c2261a5e75e1e13" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-13024029ddb6436381856e71828e7b82">
-            <bounds x="360" y="132" width="85" height="61"/>
+            <bounds x="348" y="132" width="85" height="61"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1fdd15703ac04c4093824e1ab9ab7c87" textAlignment="1" textPosition="1" archimateElement="id-8e2b88a09c224d789fa6a09d15bd7a99">
-            <bounds x="300" y="288" width="145" height="49"/>
+            <bounds x="288" y="288" width="145" height="49"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ae1929139f7a4d059d6974d60f59818f" textAlignment="1" textPosition="1" archimateElement="id-588cf66d8f1f45a7b8377336619cf121">
-            <bounds x="12" y="132" width="85" height="61"/>
+            <bounds x="24" y="132" width="85" height="61"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-90c08da6332344869cf3ae361f70f51d" font="1|Sans|9.0|1|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-3d58a32984d6458e9e34e31998b6cb36">
             <bounds x="96" y="348" width="109" height="37"/>
@@ -9823,7 +9824,8 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
               <bendpoint startX="186" startY="-18" endX="-168" endY="-18"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-66e7e818ce5c438cb7dc835e1d32d4b3" font="1|Sans|9.0|1|GTK|1|" source="id-8cdf14dda721475d94a1308319778edc" target="id-4e619cc0c71d4e64a34b0b44457b41e9" archimateRelationship="id-716e961926eb43d59a9fcbfcaf9dfeaf">
-              <bendpoint startX="54" startY="78" endX="-144" endY="-174"/>
+              <bendpoint startX="54" startY="-6" endX="-144" endY="-258"/>
+              <bendpoint startX="126" startY="78" endX="-72" endY="-174"/>
               <bendpoint startX="234" startY="78" endX="36" endY="-174"/>
             </sourceConnection>
           </child>
@@ -9837,6 +9839,18 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           <child xsi:type="archimate:Note" id="id-02f9efeb832e42099666c0a318af43f4" fontColor="#babdb6" textAlignment="1" borderType="2">
             <bounds x="276" y="72" width="156" height="25"/>
             <content>©, 2023, Algoritmed</content>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-8f920cd855874dba84d92227d625b895" textAlignment="4" textPosition="1" archimateElement="id-eaa51ad622a048c2949ed2da348ca95a" type="1">
+            <bounds x="12" y="120" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-e90b6d4898b543beb68fb3f27ecb97a6" textAlignment="4" textPosition="1" archimateElement="id-3a90f524129c4fdaa6dc0aef9aa5b818" type="1">
+            <bounds x="204" y="360" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d8a2689373a541bfb023cbfdbbb4ccf3" textAlignment="1" textPosition="1" archimateElement="id-c978faa639684f4082b9428a7319bb5c" type="1">
+            <bounds x="420" y="120" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d21cc565e13a43cf8987fb8f4b5c40cf" font="1|Sans|14.0|0|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-8cb3883af57c49adbb982b9031c26632" type="1">
+            <bounds x="420" y="324" width="25" height="25"/>
           </child>
         </element>
       </folder>
