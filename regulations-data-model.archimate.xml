@@ -9340,6 +9340,10 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           <child xsi:type="archimate:DiagramObject" id="id-9f3048d4609547be8cc67db9bed4e02f" font="1|Sans|12.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-5a90a48ca1224b7cbf7d2e1f7ebaaac9" type="1">
             <bounds x="708" y="36" width="61" height="145"/>
           </child>
+          <child xsi:type="archimate:Note" id="id-b7128599507e4238a1214a083f1f6f3a" font="1|Sans|8.0|0|GTK|1|" fontColor="#babdb6" textAlignment="1" borderType="2">
+            <bounds x="60" y="386" width="121" height="25"/>
+            <content>©, 2022, Algoritmed</content>
+          </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="3.todo-B2G  — бізнес-модель на мотиваційному рівні" id="id-8c10463a93624174ba42e40d8975c430">
           <child xsi:type="archimate:DiagramObject" id="id-33adf4ce2d3d45b49d5d406954f2e5a9" font="1|Sans|10.0|1|GTK|1|" textPosition="1" archimateElement="id-e461d6dd398a42b3a881d27f8fbab601" type="1">
