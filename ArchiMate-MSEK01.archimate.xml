@@ -235,6 +235,14 @@ The core R language is augmented by a large number of extension packages contain
     <element xsi:type="archimate:BusinessFunction" name="fPD.activity" id="id-1499329057ad44d0aa3dad8dc652a6df"/>
     <element xsi:type="archimate:BusinessCollaboration" name="z" id="id-12ffbafc3fda48049ed13c1710d43752"/>
     <element xsi:type="archimate:BusinessRole" name="Check" id="id-965de619eb47429d8f4528bd43c46593"/>
+    <element xsi:type="archimate:Product" name="SQLite" id="id-4447beab18bf4849aab8d4a0d3fb2ad9">
+      <documentation>https://en.wikipedia.org/wiki/SQLite
+</documentation>
+    </element>
+    <element xsi:type="archimate:Representation" name="Public domain" id="id-a2781255d77d4971a4370d4717782d1b">
+      <documentation>https://en.wikipedia.org/wiki/Public_domain
+</documentation>
+    </element>
   </folder>
   <folder name="Application" id="id-9c319eb7bd114d6daab0ed9dec1f30b1" type="application">
     <folder name="an.am:Sy-Mn-01" id="id-639982c8d4774adda9540f4c4d8fb3d7">
@@ -654,6 +662,9 @@ metrology, concerned with the establishment of units of measurement
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="04:ReIS -- Statechart" id="id-212932a778d641128773546f648a7b33">
+        <child xsi:type="archimate:DiagramObject" id="id-3802eafaf1754a639601cb63873d1b40" textAlignment="1" archimateElement="id-8417bc151ee1465b9b40ab77a1274863">
+          <bounds x="252" y="408" width="97" height="61"/>
+        </child>
         <child xsi:type="archimate:DiagramObject" id="id-502fbb43b3b844e9a78094647e0ff697" textAlignment="1" textPosition="1" archimateElement="id-f6fa512fc2ee4c25b29c353d9d7c1d95">
           <bounds x="12" y="108" width="97" height="25"/>
         </child>
@@ -703,7 +714,7 @@ metrology, concerned with the establishment of units of measurement
           <bounds x="12" y="144" width="73" height="73"/>
         </child>
         <child xsi:type="archimate:Note" id="id-97facbd8ecc04229b30d10d9d78194d8" font="1|Sans|8.0|1|GTK|1|" textAlignment="1">
-          <bounds x="480" y="48" width="205" height="37"/>
+          <bounds x="492" y="48" width="145" height="49"/>
           <content>FSM, NN, AI, UML state machine, Markov chain, MeTaL</content>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-a5f428b1590049508daa2761be4f7519" textPosition="1" archimateElement="id-811da0f088de456abd57a1c77b121082">
@@ -716,7 +727,7 @@ metrology, concerned with the establishment of units of measurement
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-af072c96a82343d1bdf6e2c819eafdb4" textAlignment="1" textPosition="1" archimateElement="id-39035965cc46452b87a5f6770b50e6c3">
-          <bounds x="204" y="324" width="97" height="97"/>
+          <bounds x="204" y="324" width="97" height="85"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-fd6118dffdca4431a0a6c3982a177fe8" source="id-af072c96a82343d1bdf6e2c819eafdb4" target="id-a10ba50c1bbb4fd4852b2948e0e7f6a8" archimateRelationship="id-284a5615d86747d499261b9565fbe56d"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-06a7e62aee5e4002bf70d456423466bf" source="id-af072c96a82343d1bdf6e2c819eafdb4" target="id-64a0552c755340cfad1ae1d60e23d8ea" archimateRelationship="id-8fb4ed80feda4b33bbba1bf6ff6faf3d">
             <bendpoint startX="48" startY="-192" endX="60" endY="12"/>
@@ -725,10 +736,10 @@ metrology, concerned with the establishment of units of measurement
         <child xsi:type="archimate:DiagramObject" id="id-9c4d6b0ece4c4f16a198021deb87eb79" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="94ea8c65-315c-40c5-80d2-5d73baca6039" type="1">
           <bounds x="648" y="324" width="36" height="85"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-54bc37ab43784fc1ba412f662df64c0a" font="1|Sans|9.0|1|GTK|1|" archimateElement="id-1528439f3728473aafcb09381c4e72fd" type="1">
-          <bounds x="648" y="108" width="36" height="25"/>
+        <child xsi:type="archimate:DiagramObject" id="id-54bc37ab43784fc1ba412f662df64c0a" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
+          <bounds x="648" y="48" width="36" height="85"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-6716ea35c7ff42debeef8f343be5e168" font="1|Sans|9.0|1|GTK|1|" textPosition="1" archimateElement="id-1528439f3728473aafcb09381c4e72fd" type="1">
+        <child xsi:type="archimate:DiagramObject" id="id-6716ea35c7ff42debeef8f343be5e168" font="1|Sans|9.0|1|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
           <bounds x="648" y="252" width="36" height="49"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-712bbd938c7a4e40aa2df42f0539ade7" targetConnections="id-920b7345ac594fd1a51ae78d604c8354" archimateElement="id-57da955b71594b06b5135e96f9e8225c" type="1">
@@ -824,7 +835,7 @@ metrology, concerned with the establishment of units of measurement
           <content>Переходи станів в «процесі збору паціентом документів на МСЕК»</content>
         </child>
         <child xsi:type="archimate:Note" id="id-727c2d73fa47417bb416eeb117f7a0f7" font="1|Sans|8.0|0|GTK|1|" fontColor="#babdb6" textAlignment="4" borderType="2">
-          <bounds x="552" y="84" width="121" height="25"/>
+          <bounds x="108" y="24" width="121" height="25"/>
           <content>©, 2023 Algoritmed</content>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-d4b36a76322f4f70925911e7ee9de207" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="2" archimateElement="id-87aa1d11bbae4c6ea18f936d2efe0d5f">
@@ -2577,6 +2588,12 @@ metrology, concerned with the establishment of units of measurement
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-c95b87b4b7ab4a9eb32ed09d00518a77" font="1|Sans|14.0|0|GTK|1|" textAlignment="1" archimateElement="id-19d7ac86caeb4037beb31424e3ef86b3">
           <bounds x="24" y="96" width="25" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e010890675614f6f86d5a1ecc7842d9b" textAlignment="1" textPosition="1" archimateElement="id-4447beab18bf4849aab8d4a0d3fb2ad9">
+          <bounds x="420" y="564" width="73" height="25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-82f5372813a044f0a904e1f1ff9c3112" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" archimateElement="id-a2781255d77d4971a4370d4717782d1b">
+          <bounds x="84" y="564" width="97" height="25"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="on.bm: R&amp;D ↔ Service" id="id-c775a2e1043648c289c2c36ab8cd2084">

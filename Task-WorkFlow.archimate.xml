@@ -142,6 +142,16 @@ https://uk.wikipedia.org/wiki/Адресне_програмування
     <element xsi:type="archimate:ValueStream" name="at.MetaL: Mathe Task  Language" id="id-eb328ec7c3834bd084c8110b0298a2f9"/>
     <element xsi:type="archimate:ValueStream" name="at.aic: AIColl Collaboration  Language" id="id-f713e249a2054aa58ac53a2012e19fc2"/>
     <element xsi:type="archimate:ValueStream" name="CDSS / СППКР" id="id-2cf3de1f881f469aadf1c88d2f828bcf"/>
+    <element xsi:type="archimate:ValueStream" name="at.GPL: General-purpose programming language" id="id-2b3c782da8ba4f2da267316c9d200598">
+      <documentation>Дослідити паралелі  між
+at.aac: Application Addressed Context
+
+та
+https://uk.wikipedia.org/wiki/Адресне_програмування
+
+Адресне програмування (також адресна мова) — математичний формалізм (формальна мова), що ставить за мету опис деяких комп'ютерних операцій, передусім пов'язаних з адресами. Перша публікація з адресного програмування (приблизно у 1955—1956 роках) належить українським вченим В. Королюку і К. Ющенко. 
+</documentation>
+    </element>
   </folder>
   <folder name="Business" id="id-a0e564efae4d465db2656badd804c37e" type="business">
     <element xsi:type="archimate:BusinessInteraction" name="↔ AICol: AI Collaboration" id="id-c51521b2a05541c0b36b7c93e4206788"/>
@@ -861,6 +871,7 @@ In measurement technology and metrology, calibration is the comparison of measur
     <element xsi:type="archimate:AssignmentRelationship" id="id-fa9c786d7aa6452694c6fce415006671" source="id-cbe0b7d71c4441c3bd1cb7e580ab650a" target="id-29544ad43a4a40578de072a96c189c44"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-51a37974430b4409a782e7f3b75026b3" source="id-b62708880d484ffc849b28f5b7e9ce2a" target="id-a9a8f64e841044ab8563dd25b5d40a4c"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-8f9d76ab80b44a24813ceaeaa60ecdfc" source="id-e9381ec7686c47b99ae9cc2e31e6e311" target="id-4a9dd4f93a0d45049f1761fd8c48add5"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-4e21922d3bd34facab8bbf1a8b0cc0b4" source="id-2b3c782da8ba4f2da267316c9d200598" target="id-4a9dd4f93a0d45049f1761fd8c48add5"/>
   </folder>
   <folder name="Views" id="id-c701369cd76042feb099ad096041f248" type="diagrams">
     <folder name="Task-WorkFlow" id="id-e6938e560a1740e491871dfecadb99e2">
@@ -15293,22 +15304,22 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="MCrDDB (v.1.0.1)" id="id-0cb5f9799f464d039288dab1bd45aade">
           <child xsi:type="archimate:DiagramObject" id="id-6946100a45684990b94a5b31973dde03" textAlignment="4" textPosition="1" archimateElement="id-713dd09ccf3f4e70834328ecd0e55029" type="1">
-            <bounds x="264" y="204" width="97" height="25"/>
+            <bounds x="264" y="216" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-b066c78b65f4430d83022b5059820e26" textAlignment="4" textPosition="1" archimateElement="id-9c756e586c2f41b2a2f11af675cd0ced" type="1">
-            <bounds x="48" y="204" width="73" height="25"/>
+            <bounds x="48" y="216" width="73" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-6d3566342bc14aa68eecaf33a5753559" textPosition="1" archimateElement="id-edde0c67142941038c73ca6e76388828" type="1">
-            <bounds x="384" y="204" width="73" height="25"/>
+            <bounds x="384" y="216" width="73" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-e6658e089a754e4f8193908226ed106d" textPosition="1" archimateElement="id-c6b3720b62d84430a0c07ae450c1408b" type="1">
-            <bounds x="144" y="204" width="97" height="25"/>
+            <bounds x="144" y="216" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-18fc34090400487487c767a1bf9654ec" textPosition="1" archimateElement="id-2d5545ed1e654e3b9227586cdce1e893" type="1">
-            <bounds x="48" y="240" width="73" height="25"/>
+            <bounds x="48" y="252" width="73" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2c04d59632154785a8489fc0bf457882" font="1|Sans|9.0|2|GTK|1|" textPosition="1" archimateElement="id-a0756e295fe64f1f84fc97f447c5e292" type="1">
-            <bounds x="144" y="240" width="97" height="25"/>
+            <bounds x="144" y="252" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-62eeebaa919e48adb7adf3c349129a4d" textPosition="1" archimateElement="id-667d96bc1a6a49c29538dd17a591e93a">
             <bounds x="12" y="120" width="109" height="37"/>
@@ -15316,29 +15327,29 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-96578894dcc94aef8c751a8a84650591" textPosition="1" archimateElement="id-d6b142196100481bb3d79e7a45df5175">
             <bounds x="144" y="120" width="97" height="37"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-bb7284c3c0f24fc4af93a79c1a73e743" textPosition="1" archimateElement="id-d7d36cbafc984ba99aa357da4f2c194d">
+          <child xsi:type="archimate:DiagramObject" id="id-bb7284c3c0f24fc4af93a79c1a73e743" archimateElement="id-d7d36cbafc984ba99aa357da4f2c194d">
             <bounds x="384" y="120" width="97" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1517d13679da4d37b311c5bc9880c242" font="1|Sans|9.0|2|GTK|1|" textPosition="1" archimateElement="id-91ef7e1c016045459ac06e4a21680962">
             <bounds x="264" y="120" width="97" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-e0b31272872c4949bfaf766dd51c3a06" font="1|Sans|15.0|0|GTK|1|" textAlignment="1" textPosition="2" archimateElement="id-40a1d1880a31419b8b48e5517d9141ed" type="1">
-            <bounds x="12" y="204" width="25" height="25"/>
+            <bounds x="12" y="216" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-70b57f299b6947288ae0df2afb08880e" textAlignment="1" archimateElement="id-afee0a9397824222b32cf97df57fbb2d" type="1">
-            <bounds x="12" y="240" width="25" height="25"/>
+            <bounds x="12" y="252" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-df8a789c9bf9416d933b3aad650ef8f5" font="1|Sans|12.0|0|GTK|1|" textAlignment="1" archimateElement="id-5c8cc64744894805bef6fefefc14f8e8" type="1">
-            <bounds x="456" y="204" width="25" height="25"/>
+            <bounds x="456" y="216" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-99ac157b75b74fa5a2605ada905a01f5" textPosition="1" archimateElement="94ea8c65-315c-40c5-80d2-5d73baca6039">
-            <bounds x="12" y="168" width="109" height="25"/>
+            <bounds x="12" y="180" width="109" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-66de4f8eedd745569ee0e765ad7c2938" targetConnections="id-43e9a56fea1b4a3fa941c57a494acb87" textPosition="1" archimateElement="id-eb904b56b71e435cb91ed1cc9401a2c7">
-            <bounds x="144" y="168" width="97" height="25"/>
+            <bounds x="144" y="180" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-6c474d3aa4a144e3875385932545c4ec" textPosition="1" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
-            <bounds x="384" y="168" width="97" height="25"/>
+            <bounds x="384" y="180" width="97" height="25"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-883847dd0d4e4e2580331985c6dacd12" source="id-6c474d3aa4a144e3875385932545c4ec" target="id-676944d74c33410ca25b82d4a748d855" archimateRelationship="id-951191446a0a45d387d474a9a6add415">
               <bendpoint startX="-78" startY="12" endX="60" endY="12"/>
             </sourceConnection>
@@ -15347,35 +15358,35 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-676944d74c33410ca25b82d4a748d855" targetConnections="id-883847dd0d4e4e2580331985c6dacd12" textPosition="1" archimateElement="id-fd2621b03b99463b98b851c6f4c87fb5">
-            <bounds x="264" y="168" width="97" height="25"/>
+            <bounds x="264" y="180" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:Note" id="id-9c78cd9adb0a4310a9f7dfba6e280f79" font="1|Sans|8.0|0|GTK|1|" fontColor="#babdb6" textAlignment="1" borderType="2">
-            <bounds x="360" y="264" width="121" height="25"/>
+            <bounds x="360" y="276" width="121" height="25"/>
             <content>©, 2023, Algoritmed</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c36e05c3959e40fd8cd235cfd2cac7d9" textPosition="1" archimateElement="id-ecaf7506db484040bfc2aa40c1b347cf">
             <bounds x="12" y="36" width="469" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-4a60d0f5305e4281b879a34bbe80af3c" font="1|Sans|8.0|0|GTK|1|" textAlignment="4" archimateElement="id-59f42ee1042f4cc0a82dd17985a3794e" type="1">
-            <bounds x="48" y="288" width="193" height="25"/>
+            <bounds x="48" y="300" width="193" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-37990a155b024a4a8fb2cd7c21f824ed" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-d8d355658452425aa6f165d94e050991" type="1">
-            <bounds x="36" y="276" width="85" height="25"/>
+            <bounds x="36" y="288" width="85" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-6b8e8fe04f434a4fa213e6717ab79471" font="1|Sans|8.0|0|GTK|1|" textAlignment="4" archimateElement="id-7cc4b76e044b4ae89ea4f28a65648911" type="1">
-            <bounds x="264" y="288" width="217" height="25"/>
+            <bounds x="264" y="300" width="217" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-35b6ad0e5e28459cba4315f9f02fada0" textAlignment="4" textPosition="1" archimateElement="id-b6a4bb66d8a3422db9752ea5a76ae648" type="1">
-            <bounds x="36" y="252" width="25" height="25"/>
+            <bounds x="36" y="264" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-7472e859c27346deb007890dc5415145" textAlignment="4" textPosition="1" archimateElement="id-cbe0b7d71c4441c3bd1cb7e580ab650a" type="1">
-            <bounds x="36" y="216" width="25" height="25"/>
+            <bounds x="36" y="228" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-82acfc558b6149818d22a8a6d6fa23fd" textAlignment="1" textPosition="2" archimateElement="id-045aec9d578a47b88fe83e726d9c0368" type="1">
-            <bounds x="432" y="192" width="25" height="25"/>
+            <bounds x="432" y="204" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-38a6940c38a2436b93b18c7bcf6100b1" font="1|Sans|14.0|0|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-1e053382f8d6457faf785cbe4f70cb79" type="1">
-            <bounds x="276" y="192" width="25" height="25"/>
+            <bounds x="276" y="204" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:Note" id="id-9de07f04b72840b8b024033b9cafb26a" textPosition="1">
             <bounds x="12" y="12" width="469" height="25"/>
@@ -15387,13 +15398,31 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
 Introduces the iterative design and management.</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2512ba013d3f4ebc8ac7a5fcd1f62577" font="1|Sans|14.0|0|GTK|1|" textAlignment="1" archimateElement="id-19d7ac86caeb4037beb31424e3ef86b3">
-            <bounds x="12" y="276" width="25" height="25"/>
+            <bounds x="12" y="288" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2b407aa0247f4f33ba8a318d79e9117d" textAlignment="1" archimateElement="id-cbe0b7d71c4441c3bd1cb7e580ab650a" type="1">
-            <bounds x="60" y="192" width="25" height="25"/>
+            <bounds x="60" y="204" width="25" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c6f3cf476f80473a9ccf1cf9cd2a007c" textAlignment="1" archimateElement="id-b6a4bb66d8a3422db9752ea5a76ae648" type="1">
-            <bounds x="156" y="192" width="25" height="25"/>
+            <bounds x="156" y="204" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-be13c13ad229469aba639f0f26ec302a" font="1|Sans|8.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-9c152d8f541a48c6ab625ca910c6e6bf" type="1">
+            <bounds x="384" y="144" width="49" height="37"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-0f06ca86828841cc8f3561424d1944b1" font="1|Sans|8.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-dffcaa3c593a4b8d9ac9b535324c660e" type="1">
+            <bounds x="432" y="144" width="49" height="37"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d533276850164b81b8f4326c4546644b" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-30a96166005b4593b2437e71f2703b72" type="1">
+            <bounds x="12" y="156" width="109" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-46f73ea2ae544f51a1eef16feace8911" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-d9a7e133f67041ef9c0d9347be61ea13" type="1">
+            <bounds x="144" y="156" width="97" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-ff26b6ec454f46d5b5a6af89f42a5588" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-a7a225bc8df747cb8554eafe1670f68b" type="1">
+            <bounds x="264" y="156" width="97" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d128f4faf66241028d183cdefee47e1f" font="1|Sans|8.0|0|GTK|1|" textPosition="1" archimateElement="id-9705bc2e1d6b42c98e76b051343c3cdb" type="1">
+            <bounds x="264" y="288" width="97" height="25"/>
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="CIS-Kovalenko (v.1.0.7)" id="id-c1190992d48b441ca1ade1a95bbdd881">
@@ -15632,13 +15661,13 @@ Introduces the iterative design and management.</content>
             <bounds x="96" y="108" width="85" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-3a139f8b085746d5b5de8167dfd23dc6" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-dffcaa3c593a4b8d9ac9b535324c660e" type="1">
-            <bounds x="168" y="108" width="85" height="25"/>
+            <bounds x="168" y="108" width="73" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ac4d0e923bae4aaeb90ed1ab576df4e0" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-30a96166005b4593b2437e71f2703b72" type="1">
-            <bounds x="96" y="84" width="145" height="25"/>
+            <bounds x="96" y="84" width="169" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-7a9b059f71f14ae3bb7b1cca4cb79c71" font="1|Sans|9.0|2|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-d9a7e133f67041ef9c0d9347be61ea13" type="1">
-            <bounds x="96" y="60" width="169" height="25"/>
+            <bounds x="96" y="60" width="193" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-91de9b0b75d04a04ae1d0ad10aef57e2" font="1|Sans|8.0|0|GTK|1|" textPosition="1" archimateElement="id-9705bc2e1d6b42c98e76b051343c3cdb" type="1">
             <bounds x="372" y="168" width="85" height="25"/>
@@ -16572,7 +16601,7 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
           <child xsi:type="archimate:DiagramObject" id="id-246ec8595816417099c24725cbafd317" font="1|Sans|13.0|0|GTK|1|" textPosition="1" archimateElement="id-d0aa8d78945247bf9286b5447a28ea78" type="1">
             <bounds x="84" y="108" width="37" height="37"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-c7426765059546d083cfe10b6100263c" textAlignment="1" archimateElement="id-0e2d8c721d61448ba4acd3847b0ef204">
+          <child xsi:type="archimate:DiagramObject" id="id-c7426765059546d083cfe10b6100263c" textAlignment="1" textPosition="2" archimateElement="id-0e2d8c721d61448ba4acd3847b0ef204">
             <bounds x="132" y="108" width="109" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-c9f56580ace54dd485e58e1fc88003c5" font="1|Sans|13.0|0|GTK|1|" textAlignment="1" textPosition="2" archimateElement="id-25b8584c7bdb400590bdc9fb2c09c892">
@@ -16631,7 +16660,7 @@ AI First-order cycle</content>
           <child xsi:type="archimate:DiagramObject" id="id-c61bd4a1b6c449b0ab8d26434820f1fa" textAlignment="1" textPosition="1" archimateElement="id-40a1d1880a31419b8b48e5517d9141ed" type="1">
             <bounds x="180" y="72" width="49" height="25"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-9f3a204e6272499e81e37897ccb9d673" textAlignment="1" textPosition="2" archimateElement="id-19d7ac86caeb4037beb31424e3ef86b3">
+          <child xsi:type="archimate:DiagramObject" id="id-9f3a204e6272499e81e37897ccb9d673" textAlignment="1" archimateElement="id-19d7ac86caeb4037beb31424e3ef86b3">
             <bounds x="228" y="120" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-fe8c50f2175d474b9c4be970c3d78004" archimateElement="id-afee0a9397824222b32cf97df57fbb2d" type="1">
@@ -16691,25 +16720,25 @@ AI First-order cycle</content>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-19bc2e13f234434590e527ffaeef3d8a" textAlignment="1" textPosition="1" archimateElement="id-c183349e72f5433b9a4587e9bb7ffeb4">
-            <bounds x="324" y="72" width="265" height="25"/>
+            <bounds x="324" y="72" width="145" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-0f81ec8c2f4b448eb3a74f716c9c64fa" source="id-19bc2e13f234434590e527ffaeef3d8a" target="id-67a904574ff9446d8f122464d58c164e" archimateRelationship="id-5688d88217274e768bea03eac4a7a98a">
-              <bendpoint startX="-144" endX="-90" endY="-42"/>
-              <bendpoint startX="-144" startY="24" endX="-90" endY="-18"/>
+              <bendpoint startX="-84" startY="-18" endX="-90" endY="-54"/>
+              <bendpoint startX="-84" startY="30" endX="-90" endY="-6"/>
             </sourceConnection>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-67a904574ff9446d8f122464d58c164e" targetConnections="id-0f81ec8c2f4b448eb3a74f716c9c64fa id-4783e809d36b49fbbdaa9ab98e7767af" font="1|Sans|8.0|1|GTK|1|" textPosition="1" archimateElement="id-4a9dd4f93a0d45049f1761fd8c48add5">
+          <child xsi:type="archimate:DiagramObject" id="id-67a904574ff9446d8f122464d58c164e" targetConnections="id-0f81ec8c2f4b448eb3a74f716c9c64fa id-4783e809d36b49fbbdaa9ab98e7767af id-5ad6f466db08408c89e433ffd7405203" font="1|Sans|8.0|1|GTK|1|" textPosition="1" archimateElement="id-4a9dd4f93a0d45049f1761fd8c48add5">
             <bounds x="324" y="108" width="157" height="37"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-b1aea23a78fa473c99c773e13b005f6c" source="id-67a904574ff9446d8f122464d58c164e" target="id-bb31aeda8faf4c2c926b77ac4fc5b690" archimateRelationship="id-80cf2fda93a5438a80906d31fddfb0f2">
               <bendpoint startX="-90" startY="6" endY="-54"/>
             </sourceConnection>
           </child>
-          <child xsi:type="archimate:Note" id="id-81433de043f241cb80bf5e57ef2221a8" textPosition="1">
+          <child xsi:type="archimate:Note" id="id-81433de043f241cb80bf5e57ef2221a8" textAlignment="1" textPosition="1">
             <bounds x="12" y="12" width="577" height="49"/>
             <content>Collaboration between and through languages of information exchange (LIE).
 Співпраця через та між мовами обміну інформації („брехня“).</content>
           </child>
           <child xsi:type="archimate:Note" id="id-6b11079a002e4f2482f54fea88a35bf0" font="1|Sans|8.0|0|GTK|1|" fontColor="#babdb6" textAlignment="1" borderType="2">
-            <bounds x="444" y="48" width="121" height="25"/>
+            <bounds x="444" y="36" width="121" height="25"/>
             <content>©, 2023, Algoritmed</content>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-18143338bf714363a1be6138d6ae6602" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-eb328ec7c3834bd084c8110b0298a2f9">
@@ -16766,7 +16795,7 @@ AI First-order cycle</content>
             <sourceConnection xsi:type="archimate:Connection" id="id-051550345f5448d7bab6b858951714ff" source="id-414ae5abd2ca4c3199133e443a116952" target="id-27688c1f797947e3bc09be93afa5248a" archimateRelationship="id-41212c2cf35148da92901e8758804ba7"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9cb466f159154168afa49040211ef44a" textAlignment="1" textPosition="1" archimateElement="id-19d7ac86caeb4037beb31424e3ef86b3">
-            <bounds x="492" y="108" width="97" height="37"/>
+            <bounds x="492" y="120" width="97" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-0517119e1f9c4284a57aab5634680aa9" font="1|Sans|14.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1e053382f8d6457faf785cbe4f70cb79" type="1">
             <bounds x="384" y="240" width="25" height="25"/>
@@ -16818,14 +16847,20 @@ AI First-order cycle</content>
           <child xsi:type="archimate:DiagramObject" id="id-a4823c0a247f40d8906662aae9c2fd4c" fillColor="#8ff0a4" textPosition="1" archimateElement="id-fa94c64010584887a33a448b84c84406" type="1">
             <bounds x="24" y="60" width="25" height="25"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-f830cd944c2c41f79ca749a9cd2c00bd" font="1|Sans|8.0|0|GTK|1|" fillColor="#ccccff" textPosition="1" archimateElement="id-43e62ed912c64ab8896e5747e8070e73" type="1">
-            <bounds x="480" y="96" width="25" height="25"/>
-          </child>
           <child xsi:type="archimate:DiagramObject" id="id-6702c03f386f4710b4729cd1fbe6889a" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1b68675bcad54250ae25d473574eef5f" type="1">
             <bounds x="384" y="288" width="113" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-3711b4da1365461689dd1af92aa8a4c0" font="1|Sans|8.0|0|GTK|1|" fillColor="#f9f06b" textPosition="1" archimateElement="id-0b1e7297eeda46da96fce3a297693927" type="1">
             <bounds x="240" y="60" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-52f75ed286214bdc88f067f5ed41fe55" font="1|Sans|8.0|0|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-2b3c782da8ba4f2da267316c9d200598">
+            <bounds x="492" y="60" width="97" height="61"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-5ad6f466db08408c89e433ffd7405203" source="id-52f75ed286214bdc88f067f5ed41fe55" target="id-67a904574ff9446d8f122464d58c164e" archimateRelationship="id-4e21922d3bd34facab8bbf1a8b0cc0b4">
+              <bendpoint startX="-60" startY="-30" endX="78" endY="-66"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-f830cd944c2c41f79ca749a9cd2c00bd" font="1|Sans|8.0|0|GTK|1|" fillColor="#ccccff" textPosition="1" archimateElement="id-43e62ed912c64ab8896e5747e8070e73" type="1">
+            <bounds x="480" y="108" width="25" height="25"/>
           </child>
         </element>
       </folder>
