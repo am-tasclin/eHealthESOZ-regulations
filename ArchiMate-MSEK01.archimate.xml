@@ -737,7 +737,7 @@ metrology, concerned with the establishment of units of measurement
           <bounds x="648" y="324" width="36" height="85"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-54bc37ab43784fc1ba412f662df64c0a" font="1|Sans|9.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
-          <bounds x="648" y="48" width="36" height="85"/>
+          <bounds x="648" y="48" width="37" height="85"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-6716ea35c7ff42debeef8f343be5e168" font="1|Sans|9.0|1|GTK|1|" textAlignment="4" textPosition="2" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
           <bounds x="648" y="252" width="36" height="49"/>
