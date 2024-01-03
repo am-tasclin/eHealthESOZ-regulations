@@ -10312,7 +10312,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
     <folder name="PDCA" id="id-22b9a8229aad432db681ec86a424f35d">
       <element xsi:type="archimate:ArchimateDiagramModel" name="PDCA-Strategy-ISO-11179-42010" id="id-7b215554933343fab3348b0862ad6a36">
         <child xsi:type="archimate:DiagramObject" id="id-f116423a2b37444eb95c67d189e1ce4e" targetConnections="id-43e7b750e94e479289ec23f419b6d4b9 id-58bef154d8b34afc98283870c92cfa09 id-ba56361758604a6784ee4dd6d5b6bb48 id-d38d7732d0b44403b1ce683dff54f394 id-2f7e432e707149b5af633a8802cb315d id-50e246882e7c416fa56646d5cec60afb" textPosition="1" archimateElement="id-811da0f088de456abd57a1c77b121082">
-          <bounds x="24" y="96" width="120" height="48"/>
+          <bounds x="24" y="96" width="120" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-43e7b750e94e479289ec23f419b6d4b9" source="id-f116423a2b37444eb95c67d189e1ce4e" target="id-f116423a2b37444eb95c67d189e1ce4e" archimateRelationship="id-3a71a7b1535c4efca7709eb399d069f8">
             <bendpoint startX="24" startY="-36" endX="24" endY="-36"/>
             <bendpoint startX="-36" startY="-36" endX="-36" endY="-36"/>
@@ -10330,7 +10330,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f9402c7662934173b9d958b431942cb1" targetConnections="id-0160dd73252247d6a4f340d1bff3d77a" textPosition="1" archimateElement="id-42fee1b2493045fba8508b77170916ef">
-          <bounds x="372" y="96" width="133" height="48"/>
+          <bounds x="372" y="96" width="133" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-102a4370364749b09a4ad70e60176c88" source="id-f9402c7662934173b9d958b431942cb1" target="id-2e8b7a6b2d584ddc81c3c9b34898365f" archimateRelationship="id-21349bb6a9404f2093566e3152398895"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-afc8a9c05cc0443cb43058995b806ff8" source="id-f9402c7662934173b9d958b431942cb1" target="id-cd23cb7589d142bcaa7b2ec5f630f98a" archimateRelationship="id-8dfa8a5d4af64166bc629ef3ce49c448"/>
         </child>
@@ -10394,7 +10394,7 @@ ArchiMate elements to build system à la ISO-42010 standard</content>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-faf451e201b743e9bdc5dbaa065ef20f" archimateElement="id-1528439f3728473aafcb09381c4e72fd">
-          <bounds x="264" y="228" width="120" height="27"/>
+          <bounds x="264" y="228" width="121" height="27"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-095bd939d1274869930072b7d3bf127c" source="id-faf451e201b743e9bdc5dbaa065ef20f" target="id-8e133a581b6f4583b0260dc39602ea99" archimateRelationship="id-2d69be4d10e3493a98d27b060854ba54">
             <bendpoint startX="-84" startY="-1" endX="36" endY="-25"/>
           </sourceConnection>

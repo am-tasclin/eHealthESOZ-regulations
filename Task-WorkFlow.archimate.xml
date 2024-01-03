@@ -17254,6 +17254,23 @@ AI First-order cycle</content>
             <bounds x="480" y="108" width="25" height="25"/>
           </child>
         </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="3-In (v.0.0.1)" id="id-56c2e4ab01364741af67999d27bcece8">
+          <child xsi:type="archimate:DiagramObject" id="id-2b4ed96627d14f4885cf41d3f7601c8b" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-e1dca1f36012495693b526662950f5fb">
+            <bounds x="36" y="60" width="121" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-2d9c835683eb49fbaec85479fd9a4f2f" fillColor="#b5ffff" textPosition="1" archimateElement="id-05aae3c764bf46c78428278ed523e4ea" type="1">
+            <bounds x="132" y="96" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-db94e5f5bbfa4fae88e94f4d34ca431b" fillColor="#8ff0a4" textPosition="1" archimateElement="id-cff84a95f5dc4b508d92cd96f44c4514" type="1">
+            <bounds x="36" y="96" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-85fd47bd01694f1f9005c95b71046aaa" font="1|Sans|8.0|0|GTK|1|" fillColor="#f9f06b" textPosition="1" archimateElement="id-2e5f3368e98b4c1b9c80777c6302116b" type="1">
+            <bounds x="84" y="96" width="25" height="25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-1edfb7b375dc4f1c9561d9d7b48027a1" textAlignment="1" textPosition="1" archimateElement="id-3efdad1820c3454a89fe193fe6f6299e">
+            <bounds x="36" y="132" width="121" height="25"/>
+          </child>
+        </element>
       </folder>
     </folder>
     <folder name="FHIR::ArchiMate (am:v.1.0.1)" id="id-2e1a78d19278403393b4b1abb9cca5e8">
