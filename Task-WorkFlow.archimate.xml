@@ -145,7 +145,7 @@ https://uk.wikipedia.org/wiki/Адресне_програмування
     </element>
     <element xsi:type="archimate:ValueStream" name="at.metAL: Task Adresse Management Language" id="id-4a9dd4f93a0d45049f1761fd8c48add5"/>
     <element xsi:type="archimate:ValueStream" name="at.MetaL: Mathe Task  Language" id="id-eb328ec7c3834bd084c8110b0298a2f9"/>
-    <element xsi:type="archimate:ValueStream" name="at.aic: AIColl Collaboration  Language" id="id-f713e249a2054aa58ac53a2012e19fc2"/>
+    <element xsi:type="archimate:ValueStream" name="at.aic: AI Collaboration  Language - AIColl" id="id-f713e249a2054aa58ac53a2012e19fc2"/>
     <element xsi:type="archimate:ValueStream" name="CDSS / СППКР" id="id-2cf3de1f881f469aadf1c88d2f828bcf"/>
     <element xsi:type="archimate:ValueStream" name="at.GPL: General-purpose programming language" id="id-2b3c782da8ba4f2da267316c9d200598">
       <documentation>Дослідити паралелі  між
@@ -17139,10 +17139,10 @@ ArchiMate-Strategy, PDCA, ISO-11179 Framework Metadata registries (MDR)</content
             <bounds x="12" y="132" width="108" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-d300ba9344f345d3930ab08817fe7f66" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-f3df86199a6e444d89090b32313a3a58">
-            <bounds x="144" y="72" width="108" height="37"/>
+            <bounds x="144" y="72" width="109" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-f751a51f03a8496490fe1fb1a9460e3d" font="1|Sans|7.0|1|GTK|1|" textAlignment="1" textPosition="1" archimateElement="id-a7d549cf00f14b65b67d27f9d1d14223">
-            <bounds x="144" y="132" width="108" height="37"/>
+            <bounds x="144" y="132" width="109" height="37"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a1334e8e71d34c718f1030ef3a8cff9c" targetConnections="id-832f94e4cc69446699bc4959bd51c3bd" textAlignment="1" archimateElement="id-b790a86975134f4890f8044d754cca7d">
             <bounds x="288" y="72" width="109" height="37"/>
