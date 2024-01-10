@@ -18,7 +18,7 @@
       <element xsi:type="archimate:Capability" name="AD: Architecture Description" id="id-2f6e1c45f07e448f99f0934d2b85b560"/>
       <element xsi:type="archimate:Capability" name="Architecture View Component" id="id-bd26dc74ab9248ca93e08eff79eefcdb"/>
       <element xsi:type="archimate:CourseOfAction" name="aw: Architecture View" id="id-9427387353f44541863c4ad8d8210ee5"/>
-      <element xsi:type="archimate:ValueStream" name="at: architecture Viewpoint" id="id-95f85e8126c244d5add7c089d28cef3d"/>
+      <element xsi:type="archimate:ValueStream" name="avt: architecture Viewpoint" id="id-95f85e8126c244d5add7c089d28cef3d"/>
       <element xsi:type="archimate:ValueStream" name="Concern" id="id-b6db91842d934fa8a9e8b689416a952a"/>
       <element xsi:type="archimate:Resource" name="Model Kind" id="id-25723edd72f84c779d3884deb3bba85b"/>
       <element xsi:type="archimate:Resource" name="Sr: Stakeholder" id="id-072b8f41bf9b4421a9bd094bc46df2b4"/>
