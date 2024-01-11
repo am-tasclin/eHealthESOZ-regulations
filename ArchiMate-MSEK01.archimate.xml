@@ -2806,10 +2806,10 @@ metrology, concerned with the establishment of units of measurement
           <child xsi:type="archimate:DiagramObject" id="id-5dcc29d7b8a14d83869f608c52c96941" textPosition="1" archimateElement="id-92c54a0ca0d94f42858d2cfe6e9a774c" type="1">
             <bounds x="60" y="120" width="25" height="25"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-c28e56c2002e4f56957091a9c2c4e1ce" font="1|Sans|8.0|1|GTK|1|" textAlignment="4" archimateElement="id-8cb6122a309f4e5582b068146a39db55">
+          <child xsi:type="archimate:DiagramObject" id="id-c28e56c2002e4f56957091a9c2c4e1ce" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" archimateElement="id-8cb6122a309f4e5582b068146a39db55">
             <bounds x="72" y="300" width="145" height="20"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-440110b3b2d94dc6aabf42891081a561" font="1|Sans|8.0|1|GTK|1|" textAlignment="4" archimateElement="id-3cbab7173e5e499cae01031a4a1b0cb9">
+          <child xsi:type="archimate:DiagramObject" id="id-440110b3b2d94dc6aabf42891081a561" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" archimateElement="id-3cbab7173e5e499cae01031a4a1b0cb9">
             <bounds x="72" y="228" width="144" height="19"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-f1a1e586f4614d819caba02fa837d518" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" archimateElement="id-42d09961ef9d477fb3936093dfd437c6">
@@ -2867,7 +2867,7 @@ metrology, concerned with the establishment of units of measurement
             <bounds x="12" y="48" width="25" height="325"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9980df65f8f4416fac3b2de20306182e" font="1|Sans|8.0|1|GTK|1|" textAlignment="1" archimateElement="id-5686e81ee120400fa8ffa066559f8f8d" type="1">
-            <bounds x="84" y="384" width="133" height="25"/>
+            <bounds x="72" y="384" width="145" height="25"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ebe73e1e160c404583b206f1107ef6a1" archimateElement="id-9730145ce519418694ed5b725864e9ca">
             <bounds x="24" y="396" width="15" height="15"/>
