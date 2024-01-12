@@ -70,6 +70,7 @@ The Clinical Quality Language Specification  defines a representation for the ex
     <element xsi:type="archimate:ValueStream" name="at.aac: Application Addressed Context" id="id-765f887d818943eea0ab949d3940e69d">
       <documentation>Дослідити паралелі  між
 at.aac: Application Addressed Context
+https://en.wikipedia.org/wiki/General-purpose_programming_language
 
 та
 https://uk.wikipedia.org/wiki/Адресне_програмування
@@ -87,6 +88,8 @@ https://uk.wikipedia.org/wiki/Адресне_програмування
     <element xsi:type="archimate:ValueStream" name="at.GPL: General-purpose programming language" id="id-9e4e5c3e160c4078b38fc662183a30e6">
       <documentation>Дослідити паралелі  між
 at.aac: Application Addressed Context
+
+https://en.wikipedia.org/wiki/General-purpose_programming_language
 
 та
 https://uk.wikipedia.org/wiki/Адресне_програмування
@@ -416,7 +419,13 @@ The core R language is augmented by a large number of extension packages contain
     <element xsi:type="archimate:Grouping" name="↕Conceptual branch" id="id-1ba11c18a1c84c5a82e7152ab0ee1c69"/>
     <element xsi:type="archimate:Junction" name="Junction" id="id-d1c2e224156745bfb3292c59ce461a04"/>
     <element xsi:type="archimate:Grouping" name="at.IA: another Intelligent Agent" id="id-f8b9d6f43a9f4f28a74a24a217b48762"/>
-    <element xsi:type="archimate:Grouping" name="at.NLP: Natural language processing" id="id-e353e6deffc84d9487f49d7e4515f5c1"/>
+    <element xsi:type="archimate:Grouping" name="at.NLP: Natural language processing" id="id-e353e6deffc84d9487f49d7e4515f5c1">
+      <documentation>
+https://en.wikipedia.org/wiki/Natural_language_processing
+
+https://en.wikipedia.org/wiki/Formal_language
+</documentation>
+    </element>
     <element xsi:type="archimate:Grouping" name="at.Ie: Intelligence" id="id-450225c04d0349edb164a78631c5b725"/>
     <element xsi:type="archimate:Grouping" name="at.IK: Information &amp; Knowledge" id="id-5e63e893d25d4d2ab9c07f3883167381"/>
     <element xsi:type="archimate:Grouping" name="SEQUEL: Structured English Query Language" id="id-a573df1504fe4f9c88e83ad3980167c7">
